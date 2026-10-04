@@ -1,5 +1,5 @@
 # AAI MANAGER (ELECTRICAL) — SOURCE COVERAGE REPORT
-*Audited on: 2026-10-04 23:45:16*
+*Audited on: 2026-10-05 04:51:34*
 
 This report details the exact archival sources searched, papers retrieved, questions extracted, and validation status across all primary examination authorities.
 
@@ -16,7 +16,7 @@ This report details the exact archival sources searched, papers retrieved, quest
 | **State AE/JE & Other PSUs** | 2017–2022 | 6 Papers | 6 Papers | 22 | 22 | 0 | 0 | Ingest additional UPPCL AE, APTRANSCO, and KPTCL papers. |
 | **Statutory Codes & MEP Standards** | NBC 2016, CEA 2020, IS-Codes | 10 Standards | 10 Standards | 29 | 29 | 0 | 0 | Expand ASHRAE 90.1, NFPA 72, and ICAO Annex 14 Volume 1. |
 | **SSC JE & RRB JE** | 2018–2021 | 4 Papers | 4 Papers | 7 | 7 | 0 | 0 | Ingest additional speed-based electrical formula questions. |
-| **TOTALS** | **2007–2024** | **64 Papers/Codes** | **64 Papers/Codes** | **321** | **321** | **0** | **271** | **Repository 100% verified and deduplicated.** |
+| **TOTALS** | **2007–2024** | **64 Papers/Codes** | **64 Papers/Codes** | **355** | **355** | **0** | **271** | **Repository 100% verified and deduplicated.** |
 
 ---
 

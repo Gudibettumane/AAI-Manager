@@ -156,6 +156,88 @@ def insert_question(q_data):
     conn.close()
     return {"status": status, "question_id": q_data['question_id']}
 
+def insert_questions_batch(q_list):
+    init_db()
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    
+    # Load all existing hashes for O(1) deduplication
+    cursor.execute("SELECT text_hash, question_id, duplicate_group FROM questions")
+    existing_hashes = {row[0]: (row[1], row[2]) for row in cursor.fetchall()}
+    
+    added = 0
+    dupes = 0
+    
+    for q_data in q_list:
+        text_hash = compute_hash(q_data['question_text'])
+        if text_hash in existing_hashes:
+            dupes += 1
+            continue
+            
+        status = q_data.get('verification_status', 'APPROVED')
+        if q_data['question_type'] == 'MCQ':
+            if not (q_data.get('option_A') and q_data.get('option_B') and q_data.get('option_C') and q_data.get('option_D')):
+                status = 'UNVERIFIED'
+            if q_data['verified_answer'] not in ['A', 'B', 'C', 'D', '(A)', '(B)', '(C)', '(D)']:
+                status = 'UNVERIFIED'
+        
+        if not q_data.get('solution') or len(q_data['solution'].strip()) < 10:
+            status = 'UNVERIFIED'
+
+        ans = q_data['verified_answer'].strip().upper().replace('(', '').replace(')', '').strip()
+        q_data['verified_answer'] = ans
+
+        off_ans = q_data.get('official_answer', ans).strip().upper().replace('(', '').replace(')', '').strip()
+        q_data['official_answer'] = off_ans
+
+        cursor.execute("""
+            INSERT OR REPLACE INTO questions (
+                question_id, source, exam, year, paper, question_number, question_type,
+                question_text, option_A, option_B, option_C, option_D,
+                official_answer, verified_answer, solution,
+                subject, topic, subtopic, concept, formula,
+                original_difficulty, AAI_relevance,
+                source_url, source_reference, source_confidence,
+                verification_status, duplicate_group, text_hash
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            q_data['question_id'],
+            q_data['source'],
+            q_data['exam'],
+            q_data.get('year', None),
+            q_data.get('paper', 'Main'),
+            str(q_data.get('question_number', '1')),
+            q_data.get('question_type', 'MCQ'),
+            q_data['question_text'].strip(),
+            q_data.get('option_A', '').strip(),
+            q_data.get('option_B', '').strip(),
+            q_data.get('option_C', '').strip(),
+            q_data.get('option_D', '').strip(),
+            q_data['official_answer'],
+            q_data['verified_answer'],
+            q_data['solution'].strip(),
+            q_data['subject'],
+            q_data['topic'],
+            q_data.get('subtopic', q_data['topic']),
+            q_data.get('concept', ''),
+            q_data.get('formula', ''),
+            q_data.get('original_difficulty', 'Moderate'),
+            q_data.get('AAI_relevance', 'Direct Core'),
+            q_data.get('source_url', ''),
+            q_data['source_reference'],
+            q_data.get('source_confidence', 'High - Standard Reference'),
+            status,
+            q_data.get('duplicate_group', q_data['question_id']),
+            text_hash
+        ))
+        existing_hashes[text_hash] = (q_data['question_id'], q_data.get('duplicate_group', q_data['question_id']))
+        added += 1
+
+    conn.commit()
+    conn.close()
+    return {"added": added, "duplicates": dupes}
+
+
 def export_jsonl():
     init_db()
     conn = sqlite3.connect(DB_PATH)

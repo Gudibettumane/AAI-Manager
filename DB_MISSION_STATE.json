@@ -1,17 +1,17 @@
 {
   "mission": "BUILD THE AAI ELECTRICAL QUESTION DATABASE",
-  "timestamp": "2026-10-04T23:44:06.102432",
-  "stage": "PHASE_5_MEP_CODES_INGESTED",
+  "timestamp": "2026-10-05T04:51:29.637611",
+  "stage": "PHASE_1_GATE_EE_ARCHIVE_BATCH_5",
   "database_file": "D:\\AAI Manager\\database\\question_database.db",
   "jsonl_file": "D:\\AAI Manager\\database\\questions.jsonl",
   "stats": {
-    "total": 321,
-    "approved": 321,
+    "total": 355,
+    "approved": 355,
     "unverified": 0,
     "rejected": 0,
     "by_source": {
       "AAI": 47,
-      "GATE": 98,
+      "GATE": 132,
       "MEP_CODES": 29,
       "PSU": 25,
       "PSU_EXAM": 22,
@@ -21,27 +21,27 @@
     },
     "by_subject": {
       "Airport Substation, DG & UPS": 17,
-      "Analog & Digital Electronics": 18,
-      "Circuit Theory": 27,
+      "Analog & Digital Electronics": 20,
+      "Circuit Theory": 34,
       "Communication & Fiber Optics": 15,
       "Contract Management & Safety Codes": 18,
-      "Control Systems": 18,
-      "Electrical Machines": 28,
+      "Control Systems": 21,
+      "Electrical Machines": 34,
       "Fire Safety, Lifts & BMS": 17,
       "General Non-Technical": 15,
       "HVAC & Refrigeration": 17,
-      "Measurements & Instrumentation": 20,
-      "Microprocessors & Microcomputers": 17,
-      "Power Electronics & Drives": 17,
-      "Power Systems": 26,
+      "Measurements & Instrumentation": 23,
+      "Microprocessors & Microcomputers": 18,
+      "Power Electronics & Drives": 21,
+      "Power Systems": 32,
       "Pumps & Fluid Mechanics": 17,
-      "Signals & Systems": 18,
+      "Signals & Systems": 20,
       "Utilization & Illumination": 16
     },
     "by_difficulty": {
       "Difficult": 10,
-      "Easy": 159,
-      "Moderate": 152
+      "Easy": 183,
+      "Moderate": 162
     }
   }
 }
