@@ -1,0 +1,47 @@
+{
+  "mission": "BUILD THE AAI ELECTRICAL QUESTION DATABASE",
+  "timestamp": "2026-10-04T23:44:06.102432",
+  "stage": "PHASE_5_MEP_CODES_INGESTED",
+  "database_file": "D:\\AAI Manager\\database\\question_database.db",
+  "jsonl_file": "D:\\AAI Manager\\database\\questions.jsonl",
+  "stats": {
+    "total": 321,
+    "approved": 321,
+    "unverified": 0,
+    "rejected": 0,
+    "by_source": {
+      "AAI": 47,
+      "GATE": 98,
+      "MEP_CODES": 29,
+      "PSU": 25,
+      "PSU_EXAM": 22,
+      "RRB_JE": 1,
+      "SSC_JE": 6,
+      "UPSC_ESE": 93
+    },
+    "by_subject": {
+      "Airport Substation, DG & UPS": 17,
+      "Analog & Digital Electronics": 18,
+      "Circuit Theory": 27,
+      "Communication & Fiber Optics": 15,
+      "Contract Management & Safety Codes": 18,
+      "Control Systems": 18,
+      "Electrical Machines": 28,
+      "Fire Safety, Lifts & BMS": 17,
+      "General Non-Technical": 15,
+      "HVAC & Refrigeration": 17,
+      "Measurements & Instrumentation": 20,
+      "Microprocessors & Microcomputers": 17,
+      "Power Electronics & Drives": 17,
+      "Power Systems": 26,
+      "Pumps & Fluid Mechanics": 17,
+      "Signals & Systems": 18,
+      "Utilization & Illumination": 16
+    },
+    "by_difficulty": {
+      "Difficult": 10,
+      "Easy": 159,
+      "Moderate": 152
+    }
+  }
+}
