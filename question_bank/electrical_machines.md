@@ -100,3 +100,48 @@
 **Concept/Formula:**
 - $P = \frac{E_f V}{X_s} \sin \delta$.
 - Maximum power occurs when $\delta = 90^\circ$: $P_{max} = \frac{E_f V}{X_s} = \frac{1.2 \times 1.0}{1.0} = 1.2\text{ pu}$.
+
+---
+
+### Q-MCH-008 `[NTPC-EE / ESE-EE-2019]` 🟡 Moderate
+**Topic:** Transformer Open-Circuit & Short-Circuit Tests
+**Question:** The open-circuit (OC) test on a transformer is conducted at rated voltage, usually on the low-voltage (LV) winding, to determine:
+- (A) Full-load copper loss and equivalent resistance
+- (B) Core loss and magnetizing branch parameters ($R_c, X_m$)
+- (C) Equivalent leakage reactance only
+- (D) Winding temperature rise
+**Answer:** (B)
+**Concept/Formula:**
+- OC test is done at rated voltage and rated frequency to find core (iron) losses ($P_i = P_h + P_e$) and no-load shunt parameters ($R_c, X_m$). LV side is chosen for convenience and safety because rated LV voltage is easier to supply and no-load current is sufficiently large to read accurately.
+- SC test is done at reduced voltage (5-10% rated) and rated current on HV side to determine series equivalent parameters ($R_{eq}, X_{eq}$) and full-load copper loss ($P_{cu,fl}$).
+
+---
+
+### Q-MCH-009 `[GATE-EE-2018]` 🟠 Difficult
+**Topic:** 3-Phase Induction Motor — Rotor Power Relations
+**Question:** A 3-phase, $415\text{ V},\ 50\text{ Hz}$, 4-pole induction motor develops an electromagnetic torque of $200\text{ Nm}$ while operating at a slip of $4\%$. The rotor ohmic (copper) loss in watts is:
+- (A) $1256.6\text{ W}$
+- (B) $628.3\text{ W}$
+- (C) $314.2\text{ W}$
+- (D) $2513.2\text{ W}$
+**Answer:** (A)
+**Concept/Formula:**
+- Synchronous speed $\omega_s = \frac{2\pi N_s}{60} = \frac{2\pi \times 1500}{60} = 50\pi \approx 157.08\text{ rad/s}$.
+- Air-gap power $P_g = T_e \times \omega_s = 200 \times 157.08 = 31415.9\text{ W}$.
+- Rotor copper loss $P_{cu} = s \times P_g = 0.04 \times 31415.9 = 1256.6\text{ W}$.
+- Shortcut: $P_{cu} = s \times T_e \times \frac{4\pi f}{P} = 0.04 \times 200 \times \frac{4\pi \times 50}{4} = 8 \times 50\pi = 400\pi \approx 1256.64\text{ W}$.
+
+---
+
+### Q-MCH-010 `[BHEL-EE / ESE-EE-2021]` 🟡 Moderate
+**Topic:** Synchronous Machine — Voltage Regulation Methods
+**Question:** Among the following methods used to determine the voltage regulation of a synchronous alternator, which method is known as the **optimistic method** (yields lower than actual regulation) and which is the **pessimistic method** (yields higher than actual regulation)?
+- (A) Optimistic: EMF method; Pessimistic: MMF method
+- (B) Optimistic: MMF method; Pessimistic: EMF method
+- (C) Optimistic: Potier method; Pessimistic: MMF method
+- (D) Optimistic: EMF method; Pessimistic: Potier method
+**Answer:** (B)
+**Concept/Formula:**
+- **EMF (Synchronous Impedance) Method:** Treats saturation as negligible and assumes $X_s$ is constant (unsaturated value), yielding larger voltage drop and HIGHER regulation $\implies$ **Pessimistic method**.
+- **MMF (Ampere-Turn) Method:** Considers saturation and adds field MMFs linearly, yielding LOWER regulation $\implies$ **Optimistic method**.
+- **Potier (Zero Power Factor / ZPF) Method:** Accurately separates armature leakage reactance and armature reaction $\implies$ **Most accurate method**.

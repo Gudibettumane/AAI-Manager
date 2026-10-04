@@ -110,3 +110,46 @@
 **Concept/Formula:**
 - Reciprocity condition: $AD - BC = 1$.
 - Symmetry condition: $A = D$.
+
+---
+
+### Q-CKT-009 `[GATE-EE-2015]` 🟡 Moderate
+**Topic:** Star-Delta Transformation
+**Question:** Three identical resistors each of resistance $R$ are connected in Delta across a balanced 3-phase supply. If this Delta network is replaced by an equivalent Star network, the resistance of each Star branch must be:
+- (A) $3R$
+- (B) $R / 3$
+- (C) $R / \sqrt{3}$
+- (D) $\sqrt{3} R$
+**Answer:** (B)
+**Concept/Formula:** $R_Y = \frac{R_\Delta \times R_\Delta}{R_\Delta + R_\Delta + R_\Delta} = \frac{R^2}{3R} = \frac{R}{3}$.
+
+---
+
+### Q-CKT-010 `[PGCIL-EE-2021 / ESE-EE]` 🟡 Moderate
+**Topic:** AC Circuits — Active & Reactive Power
+**Question:** An AC voltage $v(t) = 100 \sqrt{2} \sin(100\pi t)\text{ V}$ is applied across an impedance $Z = (6 + j8)\ \Omega$. The active power ($P$) and reactive power ($Q$) supplied to the circuit are:
+- (A) $P = 600\text{ W},\ Q = 800\text{ VAR}$
+- (B) $P = 800\text{ W},\ Q = 600\text{ VAR}$
+- (C) $P = 1200\text{ W},\ Q = 1600\text{ VAR}$
+- (D) $P = 60\text{ W},\ Q = 80\text{ VAR}$
+**Answer:** (A)
+**Concept/Formula:**
+- $V_{rms} = 100\text{ V}$.
+- Magnitude $|Z| = \sqrt{6^2 + 8^2} = 10\ \Omega$.
+- Current $I_{rms} = \frac{V_{rms}}{|Z|} = \frac{100}{10} = 10\text{ A}$.
+- Active power $P = I^2 R = 10^2 \times 6 = 600\text{ W}$.
+- Reactive power $Q = I^2 X = 10^2 \times 8 = 800\text{ VAR}$.
+
+---
+
+### Q-CKT-011 `[ISRO-EE-2020]` 🟠 Difficult
+**Topic:** Parallel Resonance
+**Question:** A practical parallel resonant circuit consists of a coil with resistance $R$ and inductance $L$ in parallel with a lossless capacitor $C$. The dynamic impedance $Z_d$ of the circuit at resonance is given by:
+- (A) $\sqrt{\frac{L}{C}}$
+- (B) $\frac{L}{CR}$
+- (C) $\frac{C}{LR}$
+- (D) $\frac{R}{\omega L}$
+**Answer:** (B)
+**Concept/Formula:**
+- Dynamic resistance/impedance at anti-resonance: $Z_d = \frac{L}{CR}$.
+- Note that unlike series resonance where impedance is minimum ($Z = R$), in parallel resonance impedance is maximum ($Z_d = \frac{L}{CR}$) and current is minimum.

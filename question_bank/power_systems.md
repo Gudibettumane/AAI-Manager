@@ -83,3 +83,48 @@
 - $\text{RRRV} = \frac{d v_r}{dt} = V_m \omega_n \sin(\omega_n t)$.
 - Maximum RRRV occurs when $\sin(\omega_n t) = 1 \implies \text{RRRV}_{max} = V_m \omega_n = \frac{V_m}{\sqrt{LC}}$.
 - Peak restriking voltage is $2 V_m$, occurring at $t = \frac{\pi}{\omega_n}$.
+
+---
+
+### Q-PWR-007 `[PGCIL-EE-2020 / GATE-EE]` 🟡 Moderate
+**Topic:** Distance Protection — Relay Characteristics
+**Question:** For the protection of very long, high-voltage transmission lines where power swings and severe line loading can cause false tripping, which distance relay is preferred?
+- (A) Simple Impedance relay
+- (B) Reactance relay
+- (C) Mho relay (Admittance relay)
+- (D) Plain overcurrent relay
+**Answer:** (C)
+**Concept/Formula:**
+- **Mho Relay:** Inherently directional; has the smallest operating area in the R-X plane, making it least affected by power swings. Preferred for **long transmission lines**.
+- **Reactance Relay:** Operating characteristic is a horizontal line; unaffected by arc resistance. Preferred for **short transmission lines**.
+- **Impedance Relay:** Circular characteristic centered at origin; moderately affected by arc resistance and power swings. Preferred for **medium transmission lines**.
+
+---
+
+### Q-PWR-008 `[GATE-EE-2019]` 🟠 Difficult
+**Topic:** Power System Stability — Equal Area Criterion
+**Question:** An alternator is connected to an infinite bus through a double-circuit transmission line. A 3-phase fault occurs at the middle of one of the circuits and is cleared by opening the faulted circuit. The rotor angle $\delta$ increases up to a maximum angle $\delta_{max}$. According to the Equal Area Criterion, for transient stability:
+- (A) Accelerating area must be strictly greater than decelerating area
+- (B) Accelerating area must be equal to or less than the maximum possible decelerating area ($A_{acc} \le A_{dec}$)
+- (C) Fault clearing angle $\delta_c$ must be exactly $90^\circ$
+- (D) Initial power angle $\delta_0$ must equal $\delta_{max}$
+**Answer:** (B)
+**Concept/Formula:**
+- During the fault, mechanical input $P_m >$ electrical output $P_e$, accumulating accelerating kinetic energy ($A_{acc} = \int_{\delta_0}^{\delta_c} (P_m - P_{e,fault}) d\delta$).
+- Post-fault, $P_e > P_m$, absorbing kinetic energy ($A_{dec} = \int_{\delta_c}^{\delta_{max}} (P_{e,post} - P_m) d\delta$).
+- For stability, $A_{acc} \le A_{dec,max}$. The critical clearing angle $\delta_{cr}$ occurs when $A_{acc} = A_{dec,max}$.
+
+---
+
+### Q-PWR-009 `[ESE-EE-2021]` 🟢 Easy
+**Topic:** Corona Discharge & Bundle Conductors
+**Question:** In extra-high-voltage (EHV) transmission lines, bundle conductors are used primarily to:
+- (A) Decrease the critical disruptive voltage and increase mechanical tension
+- (B) Increase the effective conductor radius, thereby reducing surface voltage gradient and minimizing corona loss
+- (C) Increase the line series inductance and decrease shunt capacitance
+- (D) Eliminate the need for grounding wires
+**Answer:** (B)
+**Concept/Formula:**
+- Bundling increases the Geometric Mean Radius (GMR) of the conductor bundle without increasing actual copper/aluminum cross-section.
+- Higher GMR $\implies$ Lower surface electric field ($E = \frac{V}{r \ln(D/r)}$) $\implies$ Increases critical disruptive voltage ($V_d$) $\implies$ Drastically reduces corona discharge, audible noise, and radio interference.
+- Also decreases series inductance and increases shunt capacitance, raising Surge Impedance Loading (SIL).
