@@ -9,8 +9,8 @@
   "baseline_diagnostic_status": "PENDING_USER_SUBMISSION",
   "remote_git_synced": false,
   "question_database": {
-    "total_questions": 321,
-    "total_approved": 321,
+    "total_questions": 426,
+    "total_approved": 426,
     "total_unverified": 0,
     "total_rejected": 0,
     "db_engine": "SQLite3 + JSONL",
