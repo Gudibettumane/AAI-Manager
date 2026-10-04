@@ -133,3 +133,126 @@ The engineer presented a **STRINGENT** set of safety guidelines for the 33 kV su
 - (D) Precise
 **Answer:** (B)
 **Concept:** "Stringent" means strict, precise, and exacting. Its direct antonym is "Lenient" (tolerant, permissive, relaxed). "Rigorous" and "Severe" are synonyms.
+
+---
+
+### Q-NTC-009 `[AAI-CBT-General-Awareness]` 🟢 Easy
+**Topic:** General Awareness — Civil Aviation Organizations
+**Question:** The headquarters of the International Civil Aviation Organization (ICAO), a specialized agency of the United Nations that sets international air navigation standards, is situated in:
+- (A) Geneva, Switzerland
+- (B) Montreal, Canada
+- (C) Paris, France
+- (D) Washington D.C., USA
+**Answer:** (B)
+**Concept/Formula:**
+- **ICAO (International Civil Aviation Organization):** Headquartered in **Montreal, Quebec, Canada**.
+- In India, civil aviation safety and standards are regulated by the **Directorate General of Civil Aviation (DGCA)**, while aviation security is overseen by the **Bureau of Civil Aviation Security (BCAS)**.
+- **Airports Authority of India (AAI)** was established on 1st April 1995 under the Airports Authority of India Act, 1994.
+
+---
+
+### Q-NTC-010 `[AAI-CBT-Quant]` 🟡 Moderate
+**Topic:** Quantitative Aptitude — Speed, Distance & Wind Vectors
+**Question:** An aircraft flies a distance of $1200\text{ km}$ from Airport A to Airport B in $2\text{ hours}$ when flying with a direct tailwind (downwind). On the return journey from B to A against the same headwind (upwind), it takes $2\text{ hours and } 30\text{ minutes}$ ($2.5\text{ hours}$). What is the speed of the aircraft in still air?
+- (A) $540\text{ km/h}$
+- (B) $480\text{ km/h}$
+- (C) $600\text{ km/h}$
+- (D) $500\text{ km/h}$
+**Answer:** (A)
+**Concept/Formula:**
+- Let aircraft still air speed $= V_a$ and wind speed $= V_w$.
+- Downwind speed: $V_a + V_w = \frac{1200}{2} = 600\text{ km/h}$.
+- Upwind speed: $V_a - V_w = \frac{1200}{2.5} = 480\text{ km/h}$.
+- Adding both equations:
+  $$2 V_a = 600 + 480 = 1080 \implies V_a = \frac{1080}{2} = 540\text{ km/h}$$
+- Wind speed $V_w = 600 - 540 = 60\text{ km/h}$.
+
+---
+
+### Q-NTC-011 `[AAI-CBT-Reasoning]` 🟢 Easy
+**Topic:** Reasoning Ability — Syllogisms
+**Question:** Statements:
+1. All transformers are electrical machines.
+2. Some electrical machines are induction motors.
+Conclusions:
+I. Some transformers are induction motors.
+II. Some electrical machines are transformers.
+Which of the following is correct?
+- (A) Only Conclusion I follows
+- (B) Only Conclusion II follows
+- (C) Both Conclusions I and II follow
+- (D) Neither Conclusion I nor II follows
+**Answer:** (B)
+**Concept/Formula:**
+- Statement 1: "All transformers (A) are electrical machines (B)" $\implies A \subseteq B$.
+- The converse of "All A are B" is "Some B are A" $\implies$ "Some electrical machines are transformers" (Conclusion II is valid).
+- There is no direct intersection established between transformers and induction motors $\implies$ Conclusion I does not necessarily follow.
+
+---
+
+### Q-NTC-012 `[AAI-CBT-English]` 🟢 Easy
+**Topic:** General English — Error Spotting (Subject-Verb Agreement)
+**Question:** Identify the segment of the sentence that contains a grammatical error:
+*(A) The Senior Manager,* / *(B) along with his team of site electrical engineers,* / *(C) were inspecting the HT switchgear room.* / *(D) No error.*
+- (A) Part A
+- (B) Part B
+- (C) Part C
+- (D) Part D
+**Answer:** (C)
+**Concept/Formula:**
+- When two nouns are joined by phrases like *"along with"*, *"as well as"*, *"together with"*, or *"accompanied by"*, the verb must agree with the **first subject**.
+- Here, the first subject is *"The Senior Manager"* (singular) $\implies$ the auxiliary verb must be singular (**"was inspecting"**, not "were inspecting").
+
+---
+
+### Q-NTC-013 `[AAI-CBT-Quant]` 🟡 Moderate
+**Topic:** Quantitative Aptitude — Percentage Profit & Loss / Invoicing
+**Question:** A contractor purchases electrical conduit pipes at a discount of $20\%$ on the marked price. He spends $10\%$ of the purchase price on freight and transport to the airport site. If he sells the lot to a client at a profit of $25\%$ on his total cost, what is the ratio of his selling price to the original marked price?
+- (A) $1.10 : 1$ ($110\%$)
+- (B) $1.00 : 1$ ($100\%$)
+- (C) $0.88 : 1$ ($88\%$)
+- (D) $1.25 : 1$ ($125\%$)
+**Answer:** (A)
+**Concept/Formula:**
+- Let Marked Price (MP) $= 100$.
+- Purchase Price (after $20\%$ discount) $= 100 \times 0.80 = 80$.
+- Freight cost $= 10\% \text{ of } 80 = 8$.
+- Total Cost Price (CP) $= 80 + 8 = 88$.
+- Selling Price (at $25\%$ profit) $= 88 \times 1.25 = 88 + 22 = 110$.
+- Ratio of SP to MP $= \frac{110}{100} = 1.10 : 1$ (Selling price is $110\%$ of Marked Price).
+
+---
+
+### Q-NTC-014 `[AAI-CBT-Reasoning]` 🟢 Easy
+**Topic:** Reasoning Ability — Number Series Completion
+**Question:** Find the missing number in the following sequence:
+$7,\ 14,\ 42,\ 168,\ 840,\ ?$
+- (A) $4200$
+- (B) $5040$
+- (C) $3360$
+- (D) $2520$
+**Answer:** (B)
+**Concept/Formula:**
+- The multiplying factor increments by $+1$ at each step:
+  - $7 \times 2 = 14$
+  - $14 \times 3 = 42$
+  - $42 \times 4 = 168$
+  - $168 \times 5 = 840$
+  - Next term $= 840 \times 6 = 5040$.
+
+---
+
+### Q-NTC-015 `[AAI-CBT-General-Awareness]` 🟢 Easy
+**Topic:** General Awareness — Indian Constitution & Statutory Offices
+**Question:** Under which Article of the Constitution of India is the Comptroller and Auditor General (CAG) of India appointed to audit all receipts and expenditure of the Government of India and public sector undertakings like AAI?
+- (A) Article 76
+- (B) Article 148
+- (C) Article 280
+- (D) Article 324
+**Answer:** (B)
+**Concept/Formula:**
+- **Article 148:** Comptroller and Auditor General (CAG) of India.
+- **Article 76:** Attorney General for India.
+- **Article 280:** Finance Commission.
+- **Article 324:** Election Commission of India.
+

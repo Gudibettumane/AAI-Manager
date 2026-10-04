@@ -87,3 +87,121 @@
 **Concept/Formula:**
 - Because of the gradual converging and diverging cones, flow separation and eddy formation are minimized in a venturimeter, resulting in very low energy loss $\implies C_d \approx 0.95\text{–}0.98$.
 - In contrast, an orifice meter has an abrupt constriction and vena contracta, giving a much lower $C_d \approx 0.60\text{–}0.65$.
+
+---
+
+### Q-PMP-007 `[ESE-ME/CE-2018]` 🟢 Easy
+**Topic:** Centrifugal Pumps — Series vs Parallel Operation
+**Question:** Two identical centrifugal pumps each capable of delivering discharge $Q$ against a head $H$ are connected:
+1. In **Series**: Resulting in total head $H_{series}$ and discharge $Q_{series}$
+2. In **Parallel**: Resulting in total head $H_{parallel}$ and discharge $Q_{parallel}$
+The characteristics of these connections are:
+- (A) Series: $2H, Q$; Parallel: $H, 2Q$
+- (B) Series: $H, 2Q$; Parallel: $2H, Q$
+- (C) Series: $2H, 2Q$; Parallel: $H, Q$
+- (D) Series: $\sqrt{2}H, Q$; Parallel: $H, \sqrt{2}Q$
+**Answer:** (A)
+**Concept/Formula:**
+- In Series: Fluid passes through impellers sequentially $\implies$ Heads add up ($H_{total} \approx 2H$) at same flow rate $Q$.
+- In Parallel: Both pumps discharge into a common header $\implies$ Flow rates add up ($Q_{total} \approx 2Q$) at same head $H$.
+
+---
+
+### Q-PMP-008 `[SSC-JE-2020]` 🟢 Easy
+**Topic:** Centrifugal Pump Operation — Priming
+**Question:** "Priming" of a centrifugal pump is necessary before starting because:
+- (A) The pump will rotate in the reverse direction if air is present
+- (B) If the pump casing and suction pipe contain air, the head developed in terms of liquid column is negligible ($\Delta P = \rho_{air} g H \approx 0$) due to the extremely low density of air, preventing suction of water
+- (C) To lubricate the impeller bearings
+- (D) To balance electrical voltage
+**Answer:** (B)
+**Concept/Formula:** Head developed by an impeller $H = \frac{u_2^2 - u_1^2}{2g}$ depends on impeller velocity, but pressure rise $\Delta P = \rho g H$. Since $\rho_{air} \approx \frac{1}{800}\text{th}$ of $\rho_{water}$, the suction vacuum created by an unprimed pump is nearly zero, failing to draw liquid up the suction pipe.
+
+---
+
+### Q-PMP-009 `[GATE-ME-2019]` 🟡 Moderate
+**Topic:** Centrifugal Pump Impellers — Vane Curvature
+**Question:** Centrifugal pumps for water supply almost exclusively use impellers with:
+- (A) Backward-curved vanes (blade outlet angle $\beta_2 < 90^\circ$)
+- (B) Forward-curved vanes ($\beta_2 > 90^\circ$)
+- (C) Radial vanes ($\beta_2 = 90^\circ$)
+- (D) Helical screw vanes
+**Answer:** (A)
+**Concept/Formula:**
+- **Backward-curved vanes ($\beta_2 < 90^\circ$):** Produce a dropping head-discharge curve ($H-Q$) and a self-limiting power characteristic, which prevents motor overload if flow surges. They also offer higher hydraulic efficiency and lower kinetic energy at the impeller outlet.
+- Forward-curved vanes are used in low-pressure blower fans (squirrel cage fans) where high outlet velocity is desired in a compact casing.
+
+---
+
+### Q-PMP-010 `[ESE-CE-2019]` 🟡 Moderate
+**Topic:** Open Channel Flow — Hydraulic Jump
+**Question:** A hydraulic jump in an open channel is an example of:
+- (A) Steady, uniform flow
+- (B) Rapidly Varied Flow (RVF) where flow transitions from supercritical ($Fr > 1$) to subcritical ($Fr < 1$) with significant kinetic energy dissipation
+- (C) Gradually Varied Flow (GVF) with zero energy loss
+- (D) Laminar creeping flow
+**Answer:** (B)
+**Concept/Formula:** A hydraulic jump occurs when high-velocity supercritical flow ($Fr_1 > 1$) abruptly decelerates into tranquil subcritical flow ($Fr_2 < 1$). It is characterized by severe surface turbulence, air entrainment, and major conversion of kinetic energy into heat.
+
+---
+
+### Q-PMP-011 `[GATE-CE-2017]` 🟢 Easy
+**Topic:** Open Channel Flow — Froude Number
+**Question:** In open channel flow, the Froude number ($Fr$) represents the ratio of:
+- (A) Inertia force to Gravity force ($Fr = \frac{V}{\sqrt{g D_h}}$)
+- (B) Inertia force to Viscous force
+- (C) Inertia force to Surface tension
+- (D) Pressure force to Inertia force
+**Answer:** (A)
+**Concept/Formula:**
+- Critical flow: $Fr = 1$.
+- Subcritical (tranquil) flow: $Fr < 1$ (gravity dominates; surface disturbances can travel upstream).
+- Supercritical (rapid/shooting) flow: $Fr > 1$ (inertia dominates; disturbances only travel downstream).
+
+---
+
+### Q-PMP-012 `[ESE-CE/ME-2020]` 🟡 Moderate
+**Topic:** Pipe Minor Losses — Sudden Expansion Loss
+**Question:** The head loss due to a sudden enlargement of a pipe from cross-sectional area $A_1$ (velocity $V_1$) to area $A_2$ (velocity $V_2$) is given by:
+- (A) $\frac{V_1^2 - V_2^2}{2g}$
+- (B) $\frac{(V_1 - V_2)^2}{2g}$
+- (C) $0.5 \frac{V_2^2}{2g}$
+- (D) $\frac{V_1^2 + V_2^2}{2g}$
+**Answer:** (B)
+**Concept/Formula:** Borda-Carnot equation for sudden expansion: $h_L = \frac{(V_1 - V_2)^2}{2g}$. For sudden contraction: $h_c \approx 0.5 \frac{V_2^2}{2g}$.
+
+---
+
+### Q-PMP-013 `[State-AE-2021]` 🟢 Easy
+**Topic:** Pipe Flow — Water Hammer & Surge Protection
+**Question:** In long airport water pumping mains, "Water Hammer" caused by sudden pump stoppage or rapid valve closure is mitigated by installing:
+- (A) Orifice plates
+- (B) Surge tanks or Air Vessels (hydropneumatic expansion tanks) near the pump discharge
+- (C) Small diameter pipes
+- (D) Gate valves
+**Answer:** (B)
+**Concept/Formula:** Rapid closure converts kinetic energy of flowing water into an intense acoustic pressure surge ($P_{surge} = \rho c \Delta V$). Air vessels provide a compressible air cushion that absorbs the pressure shockwave, protecting pipes and check valves from catastrophic burst.
+
+---
+
+### Q-PMP-014 `[CPWD-MEP-2020]` 🟢 Easy
+**Topic:** Flow Velocity Measurement — Pitot Tube
+**Question:** A Pitot tube aligned with the fluid flow direction measures:
+- (A) Static pressure only
+- (B) Total (Stagnation) pressure ($P_{stag} = P_{static} + \frac{1}{2}\rho V^2$)
+- (C) Dynamic pressure directly without static pressure
+- (D) Mass flow rate directly
+**Answer:** (B)
+**Concept/Formula:** When fluid enters the impact hole, its velocity drops to zero ($V = 0$ at stagnation point). The stagnation pressure equals static pressure plus dynamic pressure ($P_0 = P + \frac{1}{2}\rho V^2$). When combined with static holes in a Pitot-Static tube, flow velocity is calculated as $V = \sqrt{\frac{2(P_0 - P)}{\rho}}$.
+
+---
+
+### Q-PMP-015 `[AAI-Airport-Water]` 🟢 Easy
+**Topic:** Airport Drainage & Sewage Pumping — Non-Clog Submersible Pumps
+**Question:** For sewage and storm-water drainage sumps in airport apron areas and terminal basements, the pump impellers are of **Non-Clog (Vortex / Single-Vane)** type because:
+- (A) They create maximum possible pressure head
+- (B) They provide large clear passages that allow solids, rags, and fibrous debris to pass through without clogging the pump
+- (C) They operate at supersonic speeds
+- (D) They do not use electric motors
+**Answer:** (B)
+**Concept/Formula:** Closed multi-vane impellers clog easily on sewage solids. Vortex (recessed) and single-channel non-clog impellers create a swirling vortex in the casing, passing solid spheres (typically $50\text{–}100\text{ mm}$ diameter) directly from suction to discharge without wedging between blades.

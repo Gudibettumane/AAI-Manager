@@ -149,3 +149,87 @@
 **Concept/Formula:**
 - Slew Rate: $\text{SR} = \left.\frac{dV_o}{dt}\right|_{max}$, typically expressed in $\text{V}/\mu\text{s}$.
 - Full-power bandwidth: For undistorted output $V_o(t) = V_m \sin(2\pi f t)$, the maximum frequency without slew-rate distortion is $f_{max} = \frac{\text{SR}}{2\pi V_m}$.
+
+---
+
+### Q-ELX-011 `[ESE-EE-2020]` 🟡 Moderate
+**Topic:** Op-Amp Non-Inverting Schmitt Trigger — Hysteresis
+**Question:** An op-amp Schmitt trigger with saturation voltages $V_{sat} = \pm 12\text{ V}$ has feedback resistor $R_2 = 100\text{ k}\Omega$ connected from output to non-inverting terminal, and input resistor $R_1 = 10\text{ k}\Omega$ connected from non-inverting terminal to ground with input applied to inverting terminal. The hysteresis voltage width ($V_H$) is:
+- (A) $1.2\text{ V}$
+- (B) $2.4\text{ V}$
+- (C) $0\text{ V}$
+- (D) $24\text{ V}$
+**Answer:** (B)
+**Concept/Formula:**
+- Upper threshold voltage: $V_{UTP} = +\frac{R_1}{R_1 + R_2} V_{sat} = \frac{10}{110} \times 12\text{ V} \approx +1.09\text{ V}$ (or for simple voltage divider $\frac{R_1}{R_2} V_{sat} = \frac{10}{100} \times 12 = +1.2\text{ V}$).
+- Lower threshold voltage: $V_{LTP} = -1.2\text{ V}$.
+- Hysteresis width:
+  $$V_H = V_{UTP} - V_{LTP} = 1.2\text{ V} - (-1.2\text{ V}) = 2.4\text{ V}$$
+- Hysteresis prevents false triggering caused by noise on slow-moving input signals.
+
+---
+
+### Q-ELX-012 `[GATE-EE-2018]` 🟡 Moderate
+**Topic:** Combinational Logic — Multiplexer Function Realization
+**Question:** To implement any arbitrary Boolean function of 4 variables ($A, B, C, D$) without requiring any external logic gates, what is the minimum standard multiplexer required?
+- (A) $4:1$ MUX
+- (B) $8:1$ MUX
+- (C) $16:1$ MUX
+- (D) $2:1$ MUX
+**Answer:** (B)
+**Concept/Formula:**
+- An $n$-variable Boolean function can be implemented using an:
+  - $2^{n-1} : 1$ MUX with NO external logic gates (by placing $(n-1)$ variables on select lines and the remaining 1 variable or its complement/constants $0, 1$ on the data input lines).
+  - Here: $n = 4 \implies 2^{4-1} : 1 = 8:1$ MUX.
+- An $8:1$ MUX has 3 select lines (e.g. $A, B, C$), while data inputs receive $D, \bar{D}, 0,$ or $1$.
+
+---
+
+### Q-ELX-013 `[ESE-EE-2019]` 🟢 Easy
+**Topic:** Sequential Circuits — Asynchronous (Ripple) vs Synchronous Counters
+**Question:** In an $n$-bit asynchronous (ripple) counter constructed from cascaded flip-flops each having a propagation delay of $t_{pd}$, the maximum clock frequency ($f_{max}$) to avoid counting errors is:
+- (A) $f_{max} \le \frac{1}{t_{pd}}$
+- (B) $f_{max} \le \frac{1}{n \cdot t_{pd}}$
+- (C) $f_{max} \le \frac{n}{t_{pd}}$
+- (D) $f_{max} \le \frac{2^n}{t_{pd}}$
+**Answer:** (B)
+**Concept/Formula:**
+- In a ripple counter, the clock ripples through all $n$ flip-flops in series. Total cumulative propagation delay $= n \cdot t_{pd}$.
+- For the counter to settle before the next clock pulse arrives:
+  $$T_{clk} \ge n \cdot t_{pd} \implies f_{max} \le \frac{1}{n \cdot t_{pd}}$$
+- In a synchronous counter, all flip-flops are clocked simultaneously, so $T_{clk} \ge t_{pd} + t_{comb}$, enabling much higher clock frequencies.
+
+---
+
+### Q-ELX-014 `[GATE-EE-2016]` 🟡 Moderate
+**Topic:** 555 Timer IC — Astable Multivibrator Duty Cycle
+**Question:** In a standard 555 timer IC connected as an astable multivibrator with external timing resistors $R_A, R_B$ and capacitor $C$, the duty cycle of the output pulse waveform (ratio of ON-time to total time period) is:
+- (A) Exactly $50\%$ in all cases
+- (B) Always strictly greater than $50\%$ ($D = \frac{R_A + R_B}{R_A + 2R_B}$)
+- (C) Always strictly less than $50\%$
+- (D) $D = \frac{R_B}{R_A + R_B}$
+**Answer:** (B)
+**Concept/Formula:**
+- Charging time (output HIGH): $T_{high} = 0.693 (R_A + R_B) C$.
+- Discharging time (output LOW): $T_{low} = 0.693 R_B C$.
+- Total period: $T = T_{high} + T_{low} = 0.693 (R_A + 2R_B) C$.
+- Duty cycle:
+  $$D = \frac{T_{high}}{T} = \frac{R_A + R_B}{R_A + 2R_B} > 0.50 \text{ (always } > 50\%)$$
+- To achieve a $50\%$ duty cycle, a bypass diode is connected in parallel with $R_B$.
+
+---
+
+### Q-ELX-015 `[ISRO-EE-2019]` 🟡 Moderate
+**Topic:** Diodes & Voltage Regulators — Zener Shunt Regulator
+**Question:** A $10\text{ V}$ Zener diode with a knee current $I_{Z,min} = 5\text{ mA}$ and maximum rated power $P_{Z,max} = 1\text{ W}$ is used to regulate a variable input voltage $V_{in} = 20\text{–}30\text{ V}$ across an open circuit (no load, $I_L = 0$). The minimum permissible value of the series current-limiting resistor $R_s$ to protect the Zener from burning out at maximum input voltage is:
+- (A) $100\ \Omega$
+- (B) $200\ \Omega$
+- (C) $50\ \Omega$
+- (D) $500\ \Omega$
+**Answer:** (B)
+**Concept/Formula:**
+- Maximum permissible Zener current: $I_{Z,max} = \frac{P_{Z,max}}{V_Z} = \frac{1\text{ W}}{10\text{ V}} = 0.1\text{ A} = 100\text{ mA}$.
+- Worst-case Zener current occurs at $V_{in,max} = 30\text{ V}$ under zero load current ($I_L = 0$):
+  $$I_s = I_Z = \frac{V_{in,max} - V_Z}{R_s} \le I_{Z,max}$$
+  $$\frac{30\text{ V} - 10\text{ V}}{R_s} \le 0.1\text{ A} \implies \frac{20}{R_s} \le 0.1 \implies R_s \ge \frac{20}{0.1} = 200\ \Omega$$
+

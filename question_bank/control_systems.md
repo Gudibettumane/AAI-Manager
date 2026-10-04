@@ -158,3 +158,88 @@
 **Concept/Formula:**
 - **Forward path:** A path from an input node to an output node that passes through no node more than once.
 - **Mason's Gain Formula:** $T = \frac{\sum P_k \Delta_k}{\Delta}$, where $P_k$ is the gain of the $k$-th forward path.
+
+---
+
+### Q-CTL-011 `[GATE-EE-2019]` 🟡 Moderate
+**Topic:** State-Space Analysis — Kalman's Controllability Test
+**Question:** A continuous-time LTI system is described by the state equation:
+$$\dot{x} = \begin{bmatrix} 1 & 0 \\ 0 & -2 \end{bmatrix} x + \begin{bmatrix} 1 \\ 0 \end{bmatrix} u$$
+The system is:
+- (A) Controllable and stable
+- (B) Uncontrollable and unstable
+- (C) Completely controllable but unstable
+- (D) Completely observable and stable
+**Answer:** (B)
+**Concept/Formula:**
+- Controllability matrix: $Q_c = [B \quad AB]$.
+  $$AB = \begin{bmatrix} 1 & 0 \\ 0 & -2 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$
+  $$Q_c = \begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix} \implies \det(Q_c) = 0 \implies \text{Rank}(Q_c) = 1 < 2 \text{ (Uncontrollable)}$$
+- System eigenvalues (poles) are roots of $\det(sI - A) = 0 \implies s_1 = +1$ (RHP, unstable) and $s_2 = -2$.
+- Because eigenvalue $+1$ lies in the RHP, the system is **Unstable**.
+
+---
+
+### Q-CTL-012 `[ESE-EE-2021]` 🟡 Moderate
+**Topic:** Root Locus — Breakaway Points
+**Question:** For a unity feedback system with open-loop transfer function $G(s) = \frac{K}{s(s + 4)}$, the root locus breakaway point on the real axis occurs at:
+- (A) $s = -2$
+- (B) $s = -4$
+- (C) $s = 0$
+- (D) $s = -1$
+**Answer:** (A)
+**Concept/Formula:**
+- Characteristic equation: $1 + G(s) = 0 \implies s^2 + 4s + K = 0 \implies K = -s^2 - 4s$.
+- Differentiating with respect to $s$:
+  $$\frac{dK}{ds} = -2s - 4 = 0 \implies 2s = -4 \implies s = -2$$
+- Since $s = -2$ lies on the real axis between poles $s = 0$ and $s = -4$ where root locus exists, $s = -2$ is a valid breakaway point.
+
+---
+
+### Q-CTL-013 `[GATE-EE-2015]` 🟢 Easy
+**Topic:** Frequency Domain — Initial Slope of Bode Magnitude Plot
+**Question:** If the initial low-frequency asymptotic slope of the Bode magnitude plot of a transfer function is $-40\text{ dB/decade}$, the system has:
+- (A) No poles at the origin (Type 0)
+- (B) One pole at the origin (Type 1)
+- (C) Two poles at the origin (Type 2)
+- (D) Two zeros at the origin
+**Answer:** (C)
+**Concept/Formula:**
+- An initial slope of $0\text{ dB/decade}$ indicates a **Type 0** system.
+- An initial slope of $-20\text{ dB/decade}$ indicates a **Type 1** system (one integrator $\frac{1}{s}$).
+- An initial slope of $-40\text{ dB/decade}$ indicates a **Type 2** system (two integrators $\frac{1}{s^2}$).
+- Generally, initial slope $= -20N\text{ dB/decade}$, where $N$ is the system Type.
+
+---
+
+### Q-CTL-014 `[ESE-EE-2020]` 🟡 Moderate
+**Topic:** Controller Design — Ziegler-Nichols Frequency Response Tuning
+**Question:** In the Ziegler-Nichols continuous cycling method for tuning a PID controller, the ultimate gain is found to be $K_u = 10$ and the ultimate period of sustained oscillations is $T_u = 4\text{ seconds}$. The tuned controller parameters ($K_p$, integral time $T_i$, and derivative time $T_d$) are:
+- (A) $K_p = 6.0,\ T_i = 2.0\text{ s},\ T_d = 0.5\text{ s}$
+- (B) $K_p = 5.0,\ T_i = 4.0\text{ s},\ T_d = 1.0\text{ s}$
+- (C) $K_p = 4.5,\ T_i = 1.5\text{ s},\ T_d = 0.375\text{ s}$
+- (D) $K_p = 10.0,\ T_i = 0.5\text{ s},\ T_d = 0.125\text{ s}$
+**Answer:** (A)
+**Concept/Formula:**
+- Classical Ziegler-Nichols tuning formulas for a PID controller:
+  - $K_p = 0.6 \cdot K_u = 0.6 \times 10 = 6.0$
+  - $T_i = 0.5 \cdot T_u = 0.5 \times 4\text{ s} = 2.0\text{ s}$
+  - $T_d = 0.125 \cdot T_u = \frac{4}{8}\text{ s} = 0.5\text{ s}$
+
+---
+
+### Q-CTL-015 `[ISRO-EE-2018]` 🟡 Moderate
+**Topic:** Nyquist Criterion & Polar Plots
+**Question:** The polar plot of an open-loop transfer function $G(s) = \frac{1}{(1 + sT_1)(1 + sT_2)}$ as $\omega$ increases from $0$ to $\infty$ starts at:
+- (A) Magnitude $1$, phase $0^\circ$ and terminates at origin $(0, 0)$ with phase $-180^\circ$
+- (B) Origin $(0,0)$ and terminates at infinity
+- (C) Magnitude $\infty$, phase $-90^\circ$
+- (D) Magnitude $0.5$, phase $-45^\circ$
+**Answer:** (A)
+**Concept/Formula:**
+- Magnitude: $|G(j\omega)| = \frac{1}{\sqrt{1 + \omega^2 T_1^2}\sqrt{1 + \omega^2 T_2^2}}$.
+- Phase: $\angle G(j\omega) = -\tan^{-1}(\omega T_1) - \tan^{-1}(\omega T_2)$.
+- At $\omega = 0$: $|G| = 1,\ \angle G = 0^\circ$ (Point $(+1, 0)$ on positive real axis).
+- At $\omega \to \infty$: $|G| \to 0,\ \angle G \to -180^\circ$ (Enters the origin along the negative real axis).
+- Entire plot lies within the fourth and third quadrants of the complex plane.
+
