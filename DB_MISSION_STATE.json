@@ -1,47 +1,47 @@
 {
   "mission": "BUILD THE AAI ELECTRICAL QUESTION DATABASE",
-  "timestamp": "2026-10-05T04:56:22.716846",
-  "stage": "RUNNING",
+  "timestamp": "2026-10-05T05:01:21.880995",
+  "stage": "COMPLETED",
   "database_file": "D:\\AAI Manager\\database\\question_database.db",
   "jsonl_file": "D:\\AAI Manager\\database\\questions.jsonl",
   "stats": {
-    "total": 426,
-    "approved": 426,
+    "total": 500,
+    "approved": 500,
     "unverified": 0,
     "rejected": 0,
     "by_source": {
-      "AAI": 47,
-      "GATE": 203,
-      "MEP_CODES": 29,
-      "PSU": 25,
-      "PSU_EXAM": 22,
-      "RRB_JE": 1,
-      "SSC_JE": 6,
-      "UPSC_ESE": 93
+      "AAI": 55,
+      "GATE": 238,
+      "MEP_CODES": 35,
+      "PSU": 30,
+      "PSU_EXAM": 24,
+      "RRB_JE": 2,
+      "SSC_JE": 9,
+      "UPSC_ESE": 107
     },
     "by_subject": {
-      "Airport Substation, DG & UPS": 17,
-      "Analog & Digital Electronics": 27,
-      "Circuit Theory": 47,
+      "Airport Substation, DG & UPS": 21,
+      "Analog & Digital Electronics": 31,
+      "Circuit Theory": 53,
       "Communication & Fiber Optics": 16,
-      "Contract Management & Safety Codes": 18,
-      "Control Systems": 29,
-      "Electrical Machines": 47,
-      "Fire Safety, Lifts & BMS": 17,
-      "General Non-Technical": 15,
-      "HVAC & Refrigeration": 17,
-      "Measurements & Instrumentation": 31,
-      "Microprocessors & Microcomputers": 22,
-      "Power Electronics & Drives": 26,
-      "Power Systems": 43,
-      "Pumps & Fluid Mechanics": 17,
-      "Signals & Systems": 21,
-      "Utilization & Illumination": 16
+      "Contract Management & Safety Codes": 23,
+      "Control Systems": 32,
+      "Electrical Machines": 60,
+      "Fire Safety, Lifts & BMS": 20,
+      "General Non-Technical": 16,
+      "HVAC & Refrigeration": 18,
+      "Measurements & Instrumentation": 37,
+      "Microprocessors & Microcomputers": 23,
+      "Power Electronics & Drives": 31,
+      "Power Systems": 57,
+      "Pumps & Fluid Mechanics": 18,
+      "Signals & Systems": 22,
+      "Utilization & Illumination": 22
     },
     "by_difficulty": {
       "Difficult": 10,
-      "Easy": 249,
-      "Moderate": 167
+      "Easy": 322,
+      "Moderate": 168
     }
   }
 }
