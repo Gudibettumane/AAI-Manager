@@ -150,3 +150,82 @@
 - Wien bridge balance condition: $f = \frac{1}{2\pi \sqrt{R_1 R_2 C_1 C_2}}$.
 - If $R_1 = R_2 = R$ and $C_1 = C_2 = C$, then $f = \frac{1}{2\pi R C}$.
 - Extensively used as a frequency-determining network in audio frequency oscillators and distortion analyzers.
+
+---
+
+### Q-MSM-011 `[AAI-EE-Official / ESE-EE]` 🟢 Easy
+**Topic:** Insulation Megger — Guard Terminal
+**Question:** In an Insulation Megger used for testing high-voltage underground cables, the purpose of the **Guard Terminal (G)** is:
+- (A) To connect the tester to earth ground
+- (B) To bypass surface leakage currents around the measuring coil so that only bulk volume insulation resistance is measured
+- (C) To supply power to the internal hand-crank generator
+- (D) To measure conductor continuity
+**Answer:** (B)
+**Concept/Formula:** Cable ends often have dirty, damp surfaces allowing surface leakage currents. By wrapping a bare wire around the cable insulation surface and connecting it to the Megger's Guard terminal, surface leakage current flows directly back to the generator, completely bypassing the deflecting current coil.
+
+---
+
+### Q-MSM-012 `[AAI-EE-Official / IS:3043]` 🟡 Moderate
+**Topic:** Earth Megger / Earth Tester — Fall of Potential Method
+**Question:** When measuring the resistance of an earth electrode using an Earth Megger by the Fall of Potential method, if the current spike (C) is placed at a distance $D$ from the earth electrode under test (E), the potential spike (P) should ideally be placed at a distance of:
+- (A) $0.25 D$
+- (B) $0.50 D$
+- (C) $0.618 D$ (61.8% of $D$)
+- (D) $0.90 D$
+**Answer:** (C)
+**Concept/Formula:**
+- The theoretical "true earth resistance" is measured in the flat plateau of the potential distribution curve where resistance areas of the earth electrode and current spike do not overlap.
+- For hemispherical earth resistance areas, the flat zero-slope point occurs at mathematically **$61.8\%$ ($0.618 D$)** along the straight line from $E$ to $C$.
+
+---
+
+### Q-MSM-013 `[AAI-EE-Official / GATE-EE]` 🟢 Easy
+**Topic:** Kelvin’s Double Bridge — Low Resistance
+**Question:** Kelvin’s Double Bridge is uniquely capable of measuring very low resistances ($< 0.1\ \Omega$) with high precision because:
+- (A) It uses a very high DC test voltage
+- (B) Its second set of ratio arms eliminates the effect of lead resistance and contact resistance between standard and unknown resistors
+- (C) It uses AC excitation to eliminate thermoelectric EMFs
+- (D) It operates as a bridge rectifier
+**Answer:** (B)
+**Concept/Formula:**
+- Kelvin double bridge balance equation:
+  $$X = \frac{P}{Q} S + \frac{q r}{p + q + r} \left(\frac{P}{Q} - \frac{p}{q}\right)$$
+- When the two sets of ratio arms are precisely matched such that $\frac{P}{Q} = \frac{p}{q}$, the second term vanishes completely, making the measurement **totally independent of the lead resistance $r$**!
+
+---
+
+### Q-MSM-014 `[AAI-EE-Official / ESE-EE]` 🟡 Moderate
+**Topic:** Quadrant Electrometer — Electrostatic Voltage Measurement
+**Question:** A Quadrant Electrometer operates on the principle of electrostatic attraction between charged conductors. When used in the "heterostatic" connection (needle maintained at a constant high auxiliary potential $V_1$), the deflection $\theta$ is:
+- (A) Directly proportional to the measured voltage $V$ ($\theta \propto V$)
+- (B) Proportional to the square of measured voltage ($\theta \propto V^2$)
+- (C) Inversely proportional to measured voltage
+- (D) Independent of measured voltage
+**Answer:** (A)
+**Concept/Formula:**
+- In idiostatic connection (needle connected to one pair of quadrants): $\theta \propto V^2$ (useful for AC/DC RMS measurement).
+- In heterostatic connection (needle connected to external high voltage source $V_1 \gg V$): Deflection is **linear**: $\theta \propto (V_1 - V/2)V \approx V_1 V \implies \theta \propto V$. Scale is linear and sensitivity is greatly increased.
+
+---
+
+### Q-MSM-015 `[AAI-EE-Official / State-AE]` 🟢 Easy
+**Topic:** Rotating Substandard (RSS)
+**Question:** A "Rotating Substandard" (RSS) is a specialized electrical measuring instrument used by testing laboratories and utilities for:
+- (A) Measuring high ground fault currents
+- (B) On-site calibration and error testing of consumer induction and electronic energy meters
+- (C) Synchronizing two alternators
+- (D) Measuring step and touch voltages
+**Answer:** (B)
+**Concept/Formula:** A Rotating Substandard is a precision, calibrated energy meter with an expanded, high-resolution pointer dial (or digital pulse output). The meter under test and the substandard have their current coils connected in series and pressure coils in parallel. By comparing the revolutions (or pulses) of the two meters over a test period, the percentage registration error is determined directly.
+
+---
+
+### Q-MSM-016 `[AAI-EE-Official / DISCOM]` 🟢 Easy
+**Topic:** TOD (Time of Day) Meter
+**Question:** A Time of Day (TOD) energy meter installed for industrial and commercial consumers (such as airports) measures and records:
+- (A) Real and reactive energy consumption segregated into different tariff time slots (Peak hours, Normal hours, Off-peak hours)
+- (B) Only peak instantaneous current during lightning strikes
+- (C) The exact time taken by a transformer to heat up
+- (D) Solar radiation hours per day
+**Answer:** (A)
+**Concept/Formula:** TOD tariff structures encourage demand-side management. The TOD meter contains a real-time clock (RTC) and registers kWh / kVAh energy and maximum demand separately across tariff slabs (e.g., Morning peak, Evening peak, Night off-peak), enabling power utilities to charge higher tariff rates during peak grid hours.
