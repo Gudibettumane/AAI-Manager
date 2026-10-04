@@ -1,0 +1,22 @@
+{
+  "exam_target": "AAI Manager (Engg.-Electrical) CBT",
+  "advertisement_no": "12/2026/CHQ/DR-CBT",
+  "exam_date": "2026-10-21",
+  "days_remaining": 17,
+  "current_session": 1,
+  "current_phase": "SYSTEM_VALIDATION_AND_DIAGNOSTIC",
+  "current_active_topic": "CKT-01",
+  "baseline_diagnostic_status": "PENDING_USER_SUBMISSION",
+  "remote_git_synced": false,
+  "stats": {
+    "total_questions_attempted": 0,
+    "correct_answers": 0,
+    "accuracy_percentage": 0.0,
+    "total_formulas_registered": 0,
+    "total_errors_logged": 0,
+    "mastered_topics_count": 0
+  },
+  "revision_queue": [],
+  "retest_queue": [],
+  "formula_penalty_box": []
+}
