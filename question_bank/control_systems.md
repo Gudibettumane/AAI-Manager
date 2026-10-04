@@ -63,3 +63,98 @@
 **Concept/Formula:**
 - Derivative control adds a zero in the left half plane: increases damping ($\zeta$), reduces overshoot ($M_p$), increases stability margin, and speeds up response.
 - Integral control (PI) increases system type by 1 and eliminates steady-state error, but reduces stability and damping.
+
+---
+
+### Q-CTL-005 `[GATE-EE-2018]` 🟡 Moderate
+**Topic:** Root Locus — Asymptotes & Angle of Departure
+**Question:** An open-loop transfer function is given by $G(s)H(s) = \frac{K}{s(s + 2)(s + 4)}$. The asymptotes of the root loci meet on the real axis at a centroid ($\sigma_A$) equal to:
+- (A) $-2.0$
+- (B) $-3.0$
+- (C) $-1.5$
+- (D) $-6.0$
+**Answer:** (A)
+**Concept/Formula:**
+- Centroid of asymptotes: $\sigma_A = \frac{\sum \text{Real parts of Poles} - \sum \text{Real parts of Zeros}}{P - Z}$.
+- Poles: $s = 0, -2, -4 \implies \sum P = 0 - 2 - 4 = -6$.
+- Zeros: None $\implies \sum Z = 0$.
+- $P = 3,\ Z = 0 \implies P - Z = 3$.
+- $\sigma_A = \frac{-6 - 0}{3} = -2.0$.
+- Angles of asymptotes: $\theta_A = \frac{(2q + 1)180^\circ}{3} = 60^\circ, 180^\circ, 300^\circ$.
+
+---
+
+### Q-CTL-006 `[ESE-EE-2021]` 🟡 Moderate
+**Topic:** Bode Plot — Gain Margin & Phase Margin
+**Question:** In a Bode diagram, if the Phase Margin (PM) is $+40^\circ$ and the Gain Margin (GM) is $+12\text{ dB}$, the closed-loop system is:
+- (A) Marginally stable
+- (B) Unstable
+- (C) Stable
+- (D) Conditionally stable
+**Answer:** (C)
+**Concept/Formula:**
+- For a minimum-phase system, if BOTH Gain Margin and Phase Margin are strictly positive ($\text{GM} > 0\text{ dB}$ and $\text{PM} > 0^\circ$), the closed-loop system is guaranteed to be **Stable**.
+- If $\text{GM} = 0\text{ dB}$ and $\text{PM} = 0^\circ \implies$ Marginally stable.
+- If either $\text{GM} < 0\text{ dB}$ or $\text{PM} < 0^\circ \implies$ Unstable.
+
+---
+
+### Q-CTL-007 `[GATE-EE-2016]` 🟠 Difficult
+**Topic:** Nyquist Stability Criterion
+**Question:** The open-loop transfer function of a unity feedback system has 1 pole in the right-half of the s-plane ($P = 1$). For the closed-loop system to be stable, the Nyquist plot of $G(s)H(s)$ must encircle the critical point $(-1 + j0)$:
+- (A) Once in clockwise direction
+- (B) Once in counter-clockwise direction
+- (C) Twice in counter-clockwise direction
+- (D) Zero times (must not encircle)
+**Answer:** (B)
+**Concept/Formula:**
+- Nyquist stability formula: $N = P - Z$, where:
+  - $N$ = Number of counter-clockwise (CCW) encirclements of $(-1 + j0)$.
+  - $P$ = Number of open-loop poles in RHS of s-plane.
+  - $Z$ = Number of closed-loop poles in RHS of s-plane.
+- For closed-loop stability, we require $Z = 0 \implies N = P - 0 = P$.
+- Since $P = 1$, we must have $N = 1$ (exactly ONE counter-clockwise encirclement).
+
+---
+
+### Q-CTL-008 `[ISRO-EE-2019]` 🟢 Easy
+**Topic:** Phase Lead vs Phase Lag Compensators
+**Question:** A phase-lead compensator has a transfer function $G_c(s) = \frac{s + 2}{s + 10}$. The maximum phase lead ($\phi_m$) occurs at frequency $\omega_m$ equal to:
+- (A) $2\text{ rad/s}$
+- (B) $4.47\text{ rad/s}$
+- (C) $6.0\text{ rad/s}$
+- (D) $10\text{ rad/s}$
+**Answer:** (B)
+**Concept/Formula:**
+- For compensator $G_c(s) = \frac{s + z}{s + p}$:
+- Maximum phase frequency $\omega_m = \sqrt{z \cdot p} = \sqrt{2 \times 10} = \sqrt{20} \approx 4.47\text{ rad/s}$.
+- Note: Since pole $p = 10$ is farther to the left than zero $z = 2$ ($z < p$), it is a **Lead Compensator**.
+
+---
+
+### Q-CTL-009 `[GATE-EE-2020]` 🟡 Moderate
+**Topic:** State-Space Representation — Resolvent Matrix & State Transition
+**Question:** The state matrix of a continuous-time system is $A = \begin{bmatrix} 0 & 1 \\ -2 & -3 \end{bmatrix}$. The eigenvalues of $A$ (system poles) are:
+- (A) $-1$ and $-2$
+- (B) $+1$ and $+2$
+- (C) $0$ and $-3$
+- (D) $-1$ and $+2$
+**Answer:** (A)
+**Concept/Formula:**
+- Characteristic equation: $\det(sI - A) = 0$.
+- $\det \begin{bmatrix} s & -1 \\ 2 & s + 3 \end{bmatrix} = s(s + 3) - (-2) = s^2 + 3s + 2 = (s + 1)(s + 2) = 0$.
+- Eigenvalues: $s_1 = -1,\ s_2 = -2$.
+
+---
+
+### Q-CTL-010 `[ESE-EE-2019]` 🟢 Easy
+**Topic:** Block Diagram Reduction & Mason's Rule
+**Question:** In a signal flow graph, the gain of a path that passes through each node not more than once is termed as:
+- (A) Loop gain
+- (B) Forward path gain
+- (C) Non-touching loop gain
+- (D) Feedback gain
+**Answer:** (B)
+**Concept/Formula:**
+- **Forward path:** A path from an input node to an output node that passes through no node more than once.
+- **Mason's Gain Formula:** $T = \frac{\sum P_k \Delta_k}{\Delta}$, where $P_k$ is the gain of the $k$-th forward path.

@@ -89,3 +89,63 @@
 **Concept/Formula:**
 - Output $Y = \bar{A}\bar{B} I_0 + \bar{A}B I_1 + A\bar{B} I_2 + AB I_3$.
 - Substituting: $Y = 0 + \bar{A}B(1) + A\bar{B}(1) + 0 = \bar{A}B + A\bar{B} = A \oplus B$ (XOR gate).
+
+---
+
+### Q-ELX-007 `[ESE-EE-2019]` 🟡 Moderate
+**Topic:** BJT Biasing — Stability Factor & Operating Point
+**Question:** In a common-emitter (CE) BJT amplifier, the purpose of including an emitter resistor $R_E$ bypassed by a capacitor $C_E$ is:
+- (A) To increase the voltage gain at DC
+- (B) To provide DC negative feedback for operating point (Q-point) stabilization against temperature variations, while preserving AC voltage gain
+- (C) To decrease the input impedance of the amplifier
+- (D) To eliminate the need for collector resistor $R_C$
+**Answer:** (B)
+**Concept/Formula:**
+- $R_E$ provides negative feedback for DC stability: If temperature rises $\implies I_C$ increases $\implies V_E = I_E R_E$ rises $\implies V_{BE} = V_B - V_E$ decreases $\implies I_B$ drops, pulling $I_C$ back down.
+- Bypass capacitor $C_E$ shorts $R_E$ at AC signal frequencies, preventing AC negative feedback and preserving high AC voltage gain.
+
+---
+
+### Q-ELX-008 `[GATE-EE-2017]` 🟢 Easy
+**Topic:** Digital Electronics — Flip-Flop Conversion & Truth Tables
+**Question:** A J-K flip-flop can be converted into a Toggle (T) flip-flop by:
+- (A) Connecting $J$ to the clock and $K$ to ground
+- (B) Connecting inputs $J$ and $K$ together ($J = K = T$)
+- (C) Connecting $J = 1$ and $K = 0$
+- (D) Inverting input $K$ and connecting to $J$
+**Answer:** (B)
+**Concept/Formula:**
+- For JK flip-flop:
+  - If $J = K = 0 \implies$ No change ($Q_{next} = Q$).
+  - If $J = K = 1 \implies$ Toggle state ($Q_{next} = \bar{Q}$).
+- Therefore, connecting $J$ and $K$ together creates a T flip-flop: $T = 0 \implies$ Hold; $T = 1 \implies$ Toggle.
+- Connecting $K = \bar{J}$ converts JK into a **D flip-flop**.
+
+---
+
+### Q-ELX-009 `[ISRO-EE-2021]` 🟡 Moderate
+**Topic:** Analog-to-Digital Converters (ADC) — Speed vs Resolution
+**Question:** Among the following types of Analog-to-Digital Converters (ADCs), which has the **fastest conversion time** (requiring only 1 clock cycle) and which has the **highest resolution and noise rejection**?
+- (A) Fastest: Successive Approximation; Highest resolution: Flash ADC
+- (B) Fastest: Flash ADC; Highest resolution: Dual-Slope Integrating ADC
+- (C) Fastest: Dual-Slope ADC; Highest resolution: Counter-ramp ADC
+- (D) Fastest: Flash ADC; Highest resolution: Successive Approximation ADC
+**Answer:** (B)
+**Concept/Formula:**
+- **Flash (Parallel Comparator) ADC:** Fastest possible conversion (1 clock cycle), uses $2^n - 1$ comparators for $n$ bits, but expensive for high bits.
+- **Dual-Slope ADC:** Slowest conversion ($2^{n+1}$ clock cycles), but provides the highest resolution, excellent accuracy, and superior power-frequency noise rejection.
+- **Successive Approximation Register (SAR) ADC:** Moderate speed ($n$ clock cycles for $n$ bits), widely used in microcontrollers and DSPs.
+
+---
+
+### Q-ELX-010 `[GATE-EE-2015]` 🟢 Easy
+**Topic:** Op-Amp Circuits — Slew Rate
+**Question:** The slew rate of an operational amplifier is defined as:
+- (A) The ratio of open-loop gain to closed-loop gain
+- (B) The maximum rate of change of output voltage per unit time ($\left.\frac{dV_{out}}{dt}\right|_{max}$)
+- (C) The input offset voltage drift with temperature
+- (D) The frequency at which open-loop gain drops to $0\text{ dB}$
+**Answer:** (B)
+**Concept/Formula:**
+- Slew Rate: $\text{SR} = \left.\frac{dV_o}{dt}\right|_{max}$, typically expressed in $\text{V}/\mu\text{s}$.
+- Full-power bandwidth: For undistorted output $V_o(t) = V_m \sin(2\pi f t)$, the maximum frequency without slew-rate distortion is $f_{max} = \frac{\text{SR}}{2\pi V_m}$.

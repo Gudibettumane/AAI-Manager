@@ -145,3 +145,156 @@
 - **EMF (Synchronous Impedance) Method:** Treats saturation as negligible and assumes $X_s$ is constant (unsaturated value), yielding larger voltage drop and HIGHER regulation $\implies$ **Pessimistic method**.
 - **MMF (Ampere-Turn) Method:** Considers saturation and adds field MMFs linearly, yielding LOWER regulation $\implies$ **Optimistic method**.
 - **Potier (Zero Power Factor / ZPF) Method:** Accurately separates armature leakage reactance and armature reaction $\implies$ **Most accurate method**.
+
+---
+
+### Q-MCH-011 `[GATE-EE-2015]` 🟡 Moderate
+**Topic:** Transformer All-Day Efficiency
+**Question:** Distribution transformers are designed to have:
+- (A) Maximum efficiency at 100% full load
+- (B) Maximum efficiency at around 50% to 70% of full load
+- (C) Core losses greater than full-load copper losses
+- (D) Low leakage reactance and high magnetizing current
+**Answer:** (B)
+**Concept/Formula:**
+- Distribution transformers remain energized 24 hours a day, but supply residential/commercial loads that average only about 50% to 70% of rated capacity.
+- To maximize **all-day efficiency** ($\frac{\text{Output in kWh}}{\text{Input in kWh}}$), core losses (incurred 24 hours) are made very small relative to copper losses, so maximum efficiency occurs around 50–70% load ($x = \sqrt{P_i / P_{cu,fl}} \approx 0.5 \text{ to } 0.7$).
+- In contrast, **power transformers** operate near 100% full load continuously and are designed for maximum efficiency at or near full load.
+
+---
+
+### Q-MCH-012 `[ESE-EE-2018]` 🟡 Moderate
+**Topic:** 3-Phase Transformer Vector Groups
+**Question:** In a 3-phase, Delta-Star (Dy11) connected transformer, the secondary line voltage:
+- (A) Lags the primary line voltage by $30^\circ$
+- (B) Leads the primary line voltage by $30^\circ$
+- (C) Is in phase with the primary line voltage
+- (D) Leads the primary line voltage by $180^\circ$
+**Answer:** (B)
+**Concept/Formula:**
+- Clock convention: Primary line voltage is at 12 o'clock ($0^\circ$).
+- Dy11: The secondary line voltage is at 11 o'clock.
+- In a clock face, each hour represents $30^\circ$. 11 o'clock is $30^\circ$ counter-clockwise (ahead / leading) relative to 12 o'clock.
+- Therefore, secondary voltage **leads** primary by $+30^\circ$.
+- For Dy1: Secondary is at 1 o'clock $\implies$ **lags** primary by $30^\circ$ ($-30^\circ$).
+
+---
+
+### Q-MCH-013 `[ISRO-EE-2019]` 🟢 Easy
+**Topic:** DC Generator — Armature Reaction
+**Question:** In a DC generator, the effect of armature reaction under load is:
+- (A) Demagnetizing and cross-magnetizing
+- (B) Magnetizing only
+- (C) Demagnetizing only
+- (D) Cross-magnetizing only without any demagnetizing effect
+**Answer:** (A)
+**Concept/Formula:**
+- Armature reaction causes distortion of the main magnetic field (cross-magnetization), shifting the Magnetic Neutral Axis (MNA) in the direction of rotation.
+- Due to magnetic saturation of the pole tips, the reduction in flux under the weakened pole tip is greater than the increase under the strengthened tip, resulting in a net decrease in total flux (demagnetizing effect).
+
+---
+
+### Q-MCH-014 `[GATE-EE-2021]` 🟡 Moderate
+**Topic:** DC Motor Starters & Back EMF
+**Question:** A $240\text{ V}$ DC shunt motor has an armature resistance of $0.4\ \Omega$. If connected directly to the supply at standstill ($N = 0$) without a starter, the initial armature starting current will be:
+- (A) $60\text{ A}$
+- (B) $240\text{ A}$
+- (C) $600\text{ A}$
+- (D) $24\text{ A}$
+**Answer:** (C)
+**Concept/Formula:**
+- At starting, $N = 0 \implies$ Back EMF $E_b = 0$.
+- Starting current $I_{a,start} = \frac{V - E_b}{R_a} = \frac{240 - 0}{0.4} = 600\text{ A}$!
+- This is 10 to 15 times rated current, which would destroy the commutator and burn the winding. Hence, a starter (3-point or 4-point) is essential to insert temporary series resistance.
+
+---
+
+### Q-MCH-015 `[ESE-EE-2017]` 🟢 Easy
+**Topic:** Induction Motor Cogging & Crawling
+**Question:** "Crawling" in a 3-phase squirrel cage induction motor is caused primarily by:
+- (A) High slip under full load
+- (B) Space harmonics produced by stator winding distribution (primarily 7th harmonic)
+- (C) Time harmonics present in the supply voltage
+- (D) Unequal air gap between stator and rotor
+**Answer:** (B)
+**Concept/Formula:**
+- Stator winding distributes space harmonics of orders $n = 6k \pm 1$.
+- The **7th space harmonic** rotates in the forward direction at synchronous speed $N_{s7} = N_s / 7$. It creates a small forward torque dip that causes the motor to run steadily at a fraction (about $\frac{1}{7}\text{th}$) of normal speed $\implies$ **Crawling**.
+- The 5th harmonic rotates backwards ($N_{s5} = -N_s/5$) and provides braking torque.
+- **Cogging (magnetic locking)** occurs when the number of stator slots equals or is an integral multiple of rotor slots.
+
+---
+
+### Q-MCH-016 `[GATE-EE-2014]` 🟡 Moderate
+**Topic:** 3-Phase Induction Motor — Starting vs Maximum Torque
+**Question:** A 3-phase induction motor has a starting torque equal to the full-load torque ($T_{st} = T_{fl}$) and a maximum torque equal to twice the full-load torque ($T_{max} = 2 T_{fl}$). The slip at maximum torque $s_{mT}$ is:
+- (A) $0.268$
+- (B) $0.500$
+- (C) $0.150$
+- (D) $0.050$
+**Answer:** (A)
+**Concept/Formula:**
+- $\frac{T_{st}}{T_{max}} = \frac{2 s_{mT}}{s_{mT}^2 + 1}$.
+- Given $T_{st} = T_{fl}$ and $T_{max} = 2 T_{fl} \implies \frac{T_{st}}{T_{max}} = \frac{1}{2} = 0.5$.
+- $\frac{2 s_{mT}}{s_{mT}^2 + 1} = 0.5 \implies s_{mT}^2 + 1 = 4 s_{mT} \implies s_{mT}^2 - 4 s_{mT} + 1 = 0$.
+- Solving quadratic equation: $s_{mT} = \frac{4 \pm \sqrt{16 - 4}}{2} = \frac{4 \pm \sqrt{12}}{2} = 2 - \sqrt{3} \approx 2 - 1.732 = 0.268$.
+- (The root $2 + \sqrt{3} = 3.732 > 1$ is unphysical for motor operation).
+
+---
+
+### Q-MCH-017 `[ESE-EE-2020]` 🟡 Moderate
+**Topic:** Synchronous Machine — Salient Pole Theory
+**Question:** In a salient-pole synchronous machine, the direct-axis synchronous reactance ($X_d$) and quadrature-axis synchronous reactance ($X_q$) satisfy the relation:
+- (A) $X_d < X_q$
+- (B) $X_d = X_q$
+- (C) $X_d > X_q$
+- (D) $X_q = 0$
+**Answer:** (C)
+**Concept/Formula:**
+- Direct axis (d-axis) coincides with the magnetic pole axis where the air gap is minimum $\implies$ reluctance is minimum $\implies$ permeance and inductance are maximum $\implies X_d$ is large.
+- Quadrature axis (q-axis) lies between the poles where the air gap is maximum $\implies$ reluctance is maximum $\implies$ inductance is small $\implies X_q$ is smaller.
+- Therefore: $X_d > X_q$ (typically $X_q \approx 0.6 \text{ to } 0.7 X_d$).
+
+---
+
+### Q-MCH-018 `[PGCIL-EE-2021]` 🟢 Easy
+**Topic:** Synchronous Machine — Hunting & Damper Windings
+**Question:** Damper windings in a 3-phase synchronous alternator serve the purpose of:
+- (A) Increasing the generated EMF
+- (B) Suppressing hunting oscillations during sudden load changes
+- (C) Improving the excitation voltage
+- (D) Reducing core losses in the rotor poles
+**Answer:** (B)
+**Concept/Formula:**
+- During steady-state synchronous operation, rotor and stator field rotate at the same speed $\implies$ no relative motion $\implies$ zero induced current in damper bars.
+- When load changes suddenly, the rotor oscillates around its equilibrium load angle ($\delta$) $\implies$ relative motion induces currents in damper bars, creating an induction torque that damps out the oscillation $\implies$ **Eliminates Hunting**.
+- In synchronous motors, damper windings also provide starting torque as a squirrel cage induction motor!
+
+---
+
+### Q-MCH-019 `[GATE-EE-2017]` 🟢 Easy
+**Topic:** Single-Phase Motors — Applications
+**Question:** Which of the following single-phase motors is universally used in domestic vacuum cleaners, food mixers, and portable hand drilling machines?
+- (A) Shaded-pole motor
+- (B) Capacitor-start capacitor-run motor
+- (C) AC Universal motor (Series motor)
+- (D) Split-phase induction motor
+**Answer:** (C)
+**Concept/Formula:**
+- Universal motor is a series-wound motor that operates on both AC and DC.
+- Features: High starting torque, extremely high operating speeds (up to 15,000–25,000 rpm), high power-to-weight ratio.
+- Widely used in mixers, blenders, vacuum cleaners, and power drills.
+
+---
+
+### Q-MCH-020 `[ESE-EE-2019]` 🟢 Easy
+**Topic:** Stepper Motors
+**Question:** A stepper motor has a step angle of $1.8^\circ$. The number of steps required for the rotor to make 5 complete revolutions is:
+- (A) 200
+- (B) 1000
+- (C) 500
+- (D) 360
+**Answer:** (B)
+**Concept/Formula:**
+- Steps per revolution = $\frac{360^\circ}{\text{Step angle}} = \frac{360^\circ}{1.8^\circ} = 200\text{ steps/rev}$.
+- For 5 complete revolutions: Total steps = $5 \times 200 = 1000\text{ steps}$.

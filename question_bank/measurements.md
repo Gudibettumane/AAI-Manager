@@ -73,3 +73,80 @@
 - Phase difference $\phi = 0^\circ$ or $360^\circ$: Straight line with positive slope (1st and 3rd quadrants).
 - $\phi = 90^\circ$ or $270^\circ$: Circle (if equal amplitudes) or Ellipse with major/minor axes along the coordinate axes.
 - $\phi = 180^\circ$: Straight line with negative slope (2nd and 4th quadrants).
+
+---
+
+### Q-MSM-006 `[GATE-EE-2018]` 🟡 Moderate
+**Topic:** Induction Type Energy Meter — Creeping & Braking
+**Question:** "Creeping" in a single-phase induction energy meter refers to the slow, continuous rotation of the disc under:
+- (A) Full load at zero power factor
+- (B) No-load when voltage is applied across the pressure coil
+- (C) Heavy overloads with lagging power factor
+- (D) Complete de-energization of both coils
+**Answer:** (B)
+**Concept/Formula:**
+- Creeping is the rotation of the disc when ONLY voltage is applied to the pressure coil and NO current flows through the current coil ($I = 0$).
+- Causes: Overcompensation for friction (excess friction-compensating torque), excessive supply voltage, stray magnetic fields, vibrations.
+- Prevention: Drilling two diametrically opposite holes in the aluminum disc.
+
+---
+
+### Q-MSM-007 `[ESE-EE-2021]` 🟡 Moderate
+**Topic:** Current Transformers (CT) — Ratio & Phase Angle Error
+**Question:** In a Current Transformer (CT), the phase angle error $\theta$ is primarily caused by:
+- (A) Secondary winding copper loss
+- (B) The core loss component of the exciting current ($I_c$)
+- (C) The magnetizing component of the exciting current ($I_m$)
+- (D) The primary leakage reactance
+**Answer:** (B)
+**Concept/Formula:**
+- Phase angle error $\theta \approx \frac{I_m \cos \delta - I_c \sin \delta}{n I_s} \text{ rad}$. For a purely resistive secondary burden ($\delta = 0$), $\theta \approx \frac{I_m}{n I_s}$. But when considering ratio error:
+  - Ratio error is governed mainly by the magnetizing current $I_m$ (for lagging burden) and core loss current $I_c$.
+  - Phase angle error is governed mainly by $I_m$ and $I_c$. In inductive burden, the core loss component $I_c$ directly shifts the phase relationship.
+- **Crucial Rule:** The secondary of an energized CT must **NEVER be open-circuited**, because all primary current becomes magnetizing current, producing dangerous high voltage across secondary terminals and severe core saturation/heating.
+
+---
+
+### Q-MSM-008 `[GATE-EE-2019]` 🟢 Easy
+**Topic:** Transducers — LVDT
+**Question:** A Linear Variable Differential Transformer (LVDT) is an inductive transducer used for the measurement of:
+- (A) Temperature
+- (B) Linear displacement
+- (C) Rotational acceleration
+- (D) Light intensity
+**Answer:** (B)
+**Concept/Formula:**
+- LVDT converts linear mechanical displacement of a magnetic core into a differential AC voltage ($V_{out} = V_{s1} - V_{s2}$).
+- At null position: $V_{s1} = V_{s2} \implies V_{out} = 0$.
+- High linearity, wide dynamic range, and frictionless operation.
+
+---
+
+### Q-MSM-009 `[ESE-EE-2020]` 🟡 Moderate
+**Topic:** Digital Voltmeter (DVM) — Dual-Slope Integration
+**Question:** A Dual-Slope Integrating Digital Voltmeter is preferred over ramp-type DVMs because:
+- (A) It has the fastest conversion speed
+- (B) Its conversion accuracy is independent of both clock frequency and integrator resistance/capacitance values ($R$ and $C$)
+- (C) It requires no reference voltage
+- (D) It directly measures frequency instead of voltage
+**Answer:** (B)
+**Concept/Formula:**
+- In dual-slope DVM: $V_{in} \cdot T_1 = V_{ref} \cdot T_2 \implies T_2 = T_1 \frac{V_{in}}{V_{ref}}$.
+- Count $N = T_2 \cdot f_{clk} = (N_1 \frac{1}{f_{clk}}) \frac{V_{in}}{V_{ref}} f_{clk} = N_1 \frac{V_{in}}{V_{ref}}$.
+- The final count is completely independent of integrator values $R, C$ and clock frequency $f_{clk}$!
+- Excellent noise rejection (especially $50\text{ Hz}$ power line noise if $T_1$ is set to multiples of $20\text{ ms}$).
+
+---
+
+### Q-MSM-010 `[ISRO-EE-2020]` 🟢 Easy
+**Topic:** AC Bridges — Wien Bridge
+**Question:** A Wien bridge is uniquely used for the accurate measurement of:
+- (A) Very high resistance ($> 100\text{ M}\Omega$)
+- (B) Audio frequency
+- (C) Self-inductance of low-Q coils
+- (D) Mutual inductance
+**Answer:** (B)
+**Concept/Formula:**
+- Wien bridge balance condition: $f = \frac{1}{2\pi \sqrt{R_1 R_2 C_1 C_2}}$.
+- If $R_1 = R_2 = R$ and $C_1 = C_2 = C$, then $f = \frac{1}{2\pi R C}$.
+- Extensively used as a frequency-determining network in audio frequency oscillators and distortion analyzers.

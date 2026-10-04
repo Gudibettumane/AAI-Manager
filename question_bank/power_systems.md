@@ -128,3 +128,165 @@
 - Bundling increases the Geometric Mean Radius (GMR) of the conductor bundle without increasing actual copper/aluminum cross-section.
 - Higher GMR $\implies$ Lower surface electric field ($E = \frac{V}{r \ln(D/r)}$) $\implies$ Increases critical disruptive voltage ($V_d$) $\implies$ Drastically reduces corona discharge, audible noise, and radio interference.
 - Also decreases series inductance and increases shunt capacitance, raising Surge Impedance Loading (SIL).
+
+---
+
+### Q-PWR-010 `[GATE-EE-2016]` 🟡 Moderate
+**Topic:** Transmission Line ABCD Parameters
+**Question:** For a medium transmission line modeled as a nominal-$\pi$ network with total series impedance $Z$ and total shunt admittance $Y$, the $A$ parameter is given by:
+- (A) $1 + \frac{YZ}{2}$
+- (B) $1 + YZ$
+- (C) $Z(1 + \frac{YZ}{4})$
+- (D) $Y(1 + \frac{YZ}{4})$
+**Answer:** (A)
+**Concept/Formula:**
+- In nominal-$\pi$ model: $A = D = 1 + \frac{YZ}{2}$, $B = Z$, $C = Y(1 + \frac{YZ}{4})$.
+- In nominal-$T$ model: $A = D = 1 + \frac{YZ}{2}$, $B = Z(1 + \frac{YZ}{4})$, $C = Y$.
+- In both models, $A = D$ (symmetry) and $AD - BC = 1$ (reciprocity).
+
+---
+
+### Q-PWR-011 `[ESE-EE-2018]` 🟡 Moderate
+**Topic:** Underground Cables — Capacitance & Grading
+**Question:** In a 3-core belted cable, the capacitance between any two conductors with the sheath earthed is measured as $C_m = 3\ \mu\text{F}$. The equivalent capacitance per phase to neutral ($C_n$) is:
+- (A) $1.5\ \mu\text{F}$
+- (B) $3.0\ \mu\text{F}$
+- (C) $6.0\ \mu\text{F}$
+- (D) $9.0\ \mu\text{F}$
+**Answer:** (C)
+**Concept/Formula:**
+- Capacitance between any two conductors with sheath grounded: $C_m = \frac{1}{2} C_n$.
+- Therefore: $C_n = 2 C_m = 2 \times 3\ \mu\text{F} = 6.0\ \mu\text{F}$.
+- **Exam Rule:** If capacitance between all 3 cores bunched together and sheath is $C_a = 3 C_s$, and between two conductors with 3rd conductor free is $C_b$, standard formulas link these to per-phase charging capacitance $C_n = C_s + 3 C_c = 2 C_m$.
+
+---
+
+### Q-PWR-012 `[GATE-EE-2020]` 🟠 Difficult
+**Topic:** Unsymmetrical Faults — Line-to-Line (L-L) Fault
+**Question:** A line-to-line fault occurs between phases B and C of an unloaded 3-phase alternator with terminal voltage $E_a = 1.0\angle 0^\circ\text{ pu}$ and sequence impedances $Z_1 = j0.2\text{ pu},\ Z_2 = j0.2\text{ pu},\ Z_0 = j0.1\text{ pu}$. The magnitude of the fault current $I_f$ is:
+- (A) $2.5\text{ pu}$
+- (B) $4.33\text{ pu}$
+- (C) $5.0\text{ pu}$
+- (D) $6.0\text{ pu}$
+**Answer:** (B)
+**Concept/Formula:**
+- In an L-L fault, positive and negative sequence networks are connected in **PARALLEL** (zero sequence does not enter): $I_{a1} = -I_{a2} = \frac{E_a}{Z_1 + Z_2} = \frac{1.0}{j0.2 + j0.2} = \frac{1}{j0.4} = -j2.5\text{ pu}$.
+- Fault current $I_f = I_b = -I_c = -j\sqrt{3} I_{a1} = -j\sqrt{3} (-j2.5) = -\sqrt{3} \times 2.5 \approx 4.33\text{ pu}$.
+- **Exam Trap:** $I_f = \sqrt{3} |I_{a1}|$, NOT just $|I_{a1}|$!
+
+---
+
+### Q-PWR-013 `[PGCIL-EE-2019]` 🟢 Easy
+**Topic:** Differential Protection of Transformers — CT Connection
+**Question:** For the percentage differential protection of a Star-Delta ($Y - \Delta$) power transformer, the current transformers (CTs) on the Star and Delta sides should be connected respectively in:
+- (A) Star and Delta
+- (B) Delta and Star
+- (C) Delta and Delta
+- (D) Star and Star
+**Answer:** (B)
+**Concept/Formula:**
+- CT connections must compensate for the $30^\circ$ phase shift introduced by the power transformer.
+- Rule: CT connections are reversed relative to power transformer windings:
+  - Star side of transformer $\implies$ **Delta** connected CTs (also filters out zero sequence currents).
+  - Delta side of transformer $\implies$ **Star** connected CTs.
+
+---
+
+### Q-PWR-014 `[GATE-EE-2015]` 🟡 Moderate
+**Topic:** Economic Operation & Incremental Cost
+**Question:** Two generating units have incremental fuel cost characteristics:
+$$\frac{dC_1}{dP_1} = 0.1 P_1 + 20\text{ Rs/MWh}, \quad \frac{dC_2}{dP_2} = 0.12 P_2 + 16\text{ Rs/MWh}$$
+For economic dispatch supplying a total load of $700\text{ MW}$ (neglecting transmission losses), the optimal generation schedule $(P_1, P_2)$ is:
+- (A) $P_1 = 350\text{ MW},\ P_2 = 350\text{ MW}$
+- (B) $P_1 = 400\text{ MW},\ P_2 = 300\text{ MW}$
+- (C) $P_1 = 363.6\text{ MW},\ P_2 = 336.4\text{ MW}$
+- (D) $P_1 = 300\text{ MW},\ P_2 = 400\text{ MW}$
+**Answer:** (C)
+**Concept/Formula:**
+- Equal incremental cost criterion: $\frac{dC_1}{dP_1} = \frac{dC_2}{dP_2} = \lambda$.
+- $0.1 P_1 + 20 = 0.12 P_2 + 16 \implies 0.1 P_1 - 0.12 P_2 = -4$.
+- Total load: $P_1 + P_2 = 700 \implies P_1 = 700 - P_2$.
+- $0.1(700 - P_2) - 0.12 P_2 = -4 \implies 70 - 0.22 P_2 = -4 \implies 0.22 P_2 = 74 \implies P_2 = \frac{74}{0.22} \approx 336.36\text{ MW}$.
+- $P_1 = 700 - 336.36 = 363.64\text{ MW}$.
+
+---
+
+### Q-PWR-015 `[ESE-EE-2020]` 🟢 Easy
+**Topic:** Power Generation Economics — Load Factor & Diversity Factor
+**Question:** In power plant economics, a higher diversity factor and a higher load factor lead to:
+- (A) Higher maximum demand and higher cost per unit of energy
+- (B) Reduced overall cost per unit of electricity generated
+- (C) Increased installed reserve capacity requirement
+- (D) Lower plant utilization
+**Answer:** (B)
+**Concept/Formula:**
+- $\text{Diversity Factor} = \frac{\sum \text{Individual Max Demands}}{\text{Coincident Max Demand}} > 1$.
+- Higher diversity factor reduces coincident peak demand $\implies$ smaller required plant rating $\implies$ lower capital expenditure.
+- Higher load factor ($\frac{\text{Average Load}}{\text{Peak Load}}$) spreads fixed costs over more generated kWh $\implies$ lowest cost per kWh.
+
+---
+
+### Q-PWR-016 `[ISRO-EE-2020]` 🟡 Moderate
+**Topic:** Circuit Breakers — Resistance Switching
+**Question:** In air-blast and EHV circuit breakers, shunt resistors are connected across the breaker contacts primarily to:
+- (A) Increase the breaking current capacity
+- (B) Damp out transient oscillations and reduce Rate of Rise of Restriking Voltage (RRRV)
+- (C) Maintain arc continuity until voltage zero
+- (D) Protect the contacts against dirt and dust
+**Answer:** (B)
+**Concept/Formula:**
+- During interruption, high transient restriking voltage oscillates at natural frequency $\omega_n = \frac{1}{\sqrt{LC}}$.
+- Shunt resistance $R_{sh} \le 0.5 \sqrt{\frac{L}{C}}$ provides critical damping, completely suppressing oscillatory restriking voltage and preventing restrikes.
+
+---
+
+### Q-PWR-017 `[GATE-EE-2014]` 🟠 Difficult
+**Topic:** Swing Equation & Inertia Constant
+**Question:** A $50\text{ Hz}$, 4-pole turbo-generator rated $100\text{ MVA},\ 11\text{ kV}$ has an inertia constant $H = 5.0\text{ MJ/MVA}$. The kinetic energy stored in the rotor at synchronous speed is:
+- (A) $250\text{ MJ}$
+- (B) $500\text{ MJ}$
+- (C) $1000\text{ MJ}$
+- (D) $20\text{ MJ}$
+**Answer:** (B)
+**Concept/Formula:**
+- Stored Kinetic Energy $E_k = G \times H$, where $G$ is the rated MVA of the machine.
+- $E_k = 100\text{ MVA} \times 5.0\text{ MJ/MVA} = 500\text{ MJ}$.
+
+---
+
+### Q-PWR-018 `[ESE-EE-2019]` 🟢 Easy
+**Topic:** Overcurrent Relay Types — Inverse Time Relays
+**Question:** An IDMT (Inverse Definite Minimum Time) relay has an operating characteristic such that:
+- (A) Operating time is directly proportional to fault current
+- (B) Operating time is inversely proportional to fault current at lower currents, and approaches a constant minimum time at very high currents
+- (C) Operating time is strictly independent of current
+- (D) The relay trips instantly for all currents above pickup
+**Answer:** (B)
+**Concept/Formula:** Standard IDMT formula (IEC): $t = \frac{0.14 \times \text{TMS}}{(I / I_s)^{0.02} - 1}$. At low fault currents, time decreases rapidly as current rises; at very high currents, it saturates to a definite minimum time.
+
+---
+
+### Q-PWR-019 `[NTPC-EE-2021]` 🟢 Easy
+**Topic:** Surge Absorbers vs Lightning Arresters
+**Question:** A surge absorber functions by:
+- (A) Diverting surge energy directly to ground without dissipation
+- (B) Absorbing energy by dissipating high-frequency surge energy as heat and modifying the wavefront steepness
+- (C) Opening the line circuit when a surge occurs
+- (D) Increasing line impedance to block the surge completely
+**Answer:** (B)
+**Concept/Formula:** Unlike a lightning arrester (diverter) which discharges surge energy directly to earth, a surge absorber (such as a Ferranti surge absorber or series inductor with parallel resistor) absorbs energy in resistance and flattens the steep wavefront ($dv/dt$), protecting transformer terminal turns from dielectric breakdown.
+
+---
+
+### Q-PWR-020 `[AAI-JE-EE / ESE-EE]` 🟡 Moderate
+**Topic:** Symmetrical 3-Phase Fault Current Calculation
+**Question:** A 3-phase, $11\text{ kV},\ 20\text{ MVA}$ generator has a subtransient reactance of $X_d'' = 0.20\text{ pu}$. If a 3-phase fault occurs directly at the generator terminals, the subtransient fault current in kiloamperes (kA) is:
+- (A) $1.05\text{ kA}$
+- (B) $5.25\text{ kA}$
+- (C) $10.5\text{ kA}$
+- (D) $2.62\text{ kA}$
+**Answer:** (B)
+**Concept/Formula:**
+- Base current $I_b = \frac{S_b}{\sqrt{3} V_b} = \frac{20 \times 10^6}{\sqrt{3} \times 11 \times 10^3} = \frac{20000}{1.732 \times 11} = \frac{20000}{19.05} \approx 1049.8\text{ A} \approx 1.05\text{ kA}$.
+- Fault current in pu: $I_{f,pu} = \frac{1.0}{X_d''} = \frac{1.0}{0.20} = 5.0\text{ pu}$.
+- Actual fault current: $I_f = I_{f,pu} \times I_b = 5.0 \times 1.05\text{ kA} = 5.25\text{ kA}$.

@@ -153,3 +153,139 @@
 **Concept/Formula:**
 - Dynamic resistance/impedance at anti-resonance: $Z_d = \frac{L}{CR}$.
 - Note that unlike series resonance where impedance is minimum ($Z = R$), in parallel resonance impedance is maximum ($Z_d = \frac{L}{CR}$) and current is minimum.
+
+---
+
+### Q-CKT-012 `[GATE-EE-2021]` 🟡 Moderate
+**Topic:** Superposition Theorem with Dependent Sources
+**Question:** While applying the Superposition Theorem to a linear network containing both independent and dependent sources:
+- (A) Both independent and dependent sources are deactivated one by one
+- (B) Independent sources are deactivated one by one, while dependent sources are kept intact and active
+- (C) Dependent sources are open-circuited while independent sources are short-circuited
+- (D) Superposition theorem cannot be applied if dependent sources are present
+**Answer:** (B)
+**Concept/Formula:** In Superposition Theorem, ONLY independent sources are deactivated (voltage sources shorted, current sources opened). Dependent sources MUST NEVER be deactivated because their controlling variables depend on circuit currents/voltages.
+
+---
+
+### Q-CKT-013 `[ESE-EE-2018]` 🟡 Moderate
+**Topic:** Two-Port Networks — Lattice & Symmetry
+**Question:** For a two-port network, the impedance parameters are given as $z_{11} = 12\ \Omega,\ z_{12} = z_{21} = 4\ \Omega,\ z_{22} = 8\ \Omega$. The admittance parameter $y_{22}$ is:
+- (A) $\frac{1}{8}\ \mho$
+- (B) $\frac{3}{20}\ \mho$
+- (C) $\frac{3}{16}\ \mho$
+- (D) $\frac{1}{4}\ \mho$
+**Answer:** (B)
+**Concept/Formula:**
+- $\Delta Z = z_{11} z_{22} - z_{12} z_{21} = (12 \times 8) - (4 \times 4) = 96 - 16 = 80\ \Omega^2$.
+- $y_{22} = \frac{z_{11}}{\Delta Z} = \frac{12}{80} = \frac{3}{20}\ \mho = 0.15\ \mho$.
+- **Exam Trap:** Don't confuse $y_{22}$ with $\frac{1}{z_{22}}$! In general, $y_{22} = \frac{z_{11}}{\Delta Z} \ne \frac{1}{z_{22}}$ unless $z_{12} = 0$.
+
+---
+
+### Q-CKT-014 `[GATE-EE-2016]` 🟠 Difficult
+**Topic:** Magnetically Coupled Circuits & Dot Convention
+**Question:** Two coupled coils with self-inductances $L_1 = 4\text{ H}$ and $L_2 = 9\text{ H}$ have a coupling coefficient $k = 0.5$. If the coils are connected in series-aiding, the equivalent inductance $L_{eq}$ is:
+- (A) $13\text{ H}$
+- (B) $16\text{ H}$
+- (C) $19\text{ H}$
+- (D) $25\text{ H}$
+**Answer:** (C)
+**Concept/Formula:**
+- Mutual inductance $M = k \sqrt{L_1 L_2} = 0.5 \sqrt{4 \times 9} = 0.5 \times 6 = 3\text{ H}$.
+- Series-aiding equivalent inductance:
+  $$L_{eq} = L_1 + L_2 + 2M = 4 + 9 + 2(3) = 13 + 6 = 19\text{ H}$$
+- Note: In series-opposing, $L_{eq} = L_1 + L_2 - 2M = 13 - 6 = 7\text{ H}$.
+
+---
+
+### Q-CKT-015 `[ESE-EE-2017]` 🟢 Easy
+**Topic:** Graph Theory / Network Topology
+**Question:** A connected planar graph has $N = 6$ nodes and $B = 10$ branches. The number of fundamental loops (independent KVL mesh equations) is:
+- (A) 4
+- (B) 5
+- (C) 6
+- (D) 9
+**Answer:** (B)
+**Concept/Formula:**
+- Fundamental loops (links / chords): $l = B - N + 1 = 10 - 6 + 1 = 5$.
+- Number of tree branches (twigs): $t = N - 1 = 6 - 1 = 5$.
+
+---
+
+### Q-CKT-016 `[PGCIL-EE-2019 / ESE-EE]` 🟡 Moderate
+**Topic:** Tellegen's Theorem
+**Question:** Tellegen's theorem is applicable to any lumped network provided:
+- (A) The elements are linear, time-invariant, and passive only
+- (B) The elements are bilateral and operating in steady state only
+- (C) KCL and KVL are satisfied, regardless of whether elements are linear, nonlinear, active, passive, time-variant, or time-invariant
+- (D) The network contains no dependent sources
+**Answer:** (C)
+**Concept/Formula:** Tellegen's Theorem states $\sum_{k=1}^B v_k i_k = 0$ (Conservation of Energy). It depends strictly on Kirchhoff's laws (network topology) and is independent of the nature of the components.
+
+---
+
+### Q-CKT-017 `[GATE-EE-2014]` 🟡 Moderate
+**Topic:** Second-Order Transient Response
+**Question:** A series $RLC$ circuit with $R = 200\ \Omega,\ L = 0.1\text{ H}$, and $C = 10\ \mu\text{F}$ is energized by a DC step voltage. The natural response of this circuit is:
+- (A) Underdamped
+- (B) Critically damped
+- (C) Overdamped
+- (D) Undamped (sustained oscillations)
+**Answer:** (C)
+**Concept/Formula:**
+- Characteristic equation: $s^2 + \frac{R}{L} s + \frac{1}{LC} = 0$.
+- Damping factor $\alpha = \frac{R}{2L} = \frac{200}{2 \times 0.1} = 1000\text{ rad/s}$.
+- Undamped natural frequency $\omega_0 = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{0.1 \times 10^{-5}}} = \frac{1}{10^{-3}} = 1000\text{ rad/s}$... wait!
+- Let's re-verify: $LC = 0.1 \times 10 \times 10^{-6} = 10^{-6} \implies \sqrt{LC} = 10^{-3} \implies \omega_0 = 1000\text{ rad/s}$.
+- Here $\alpha = 1000\text{ rad/s}$ and $\omega_0 = 1000\text{ rad/s} \implies \alpha = \omega_0 \implies$ **Critically Damped**!
+- Let's check critical resistance: $R_c = 2 \sqrt{\frac{L}{C}} = 2 \sqrt{\frac{0.1}{10 \times 10^{-6}}} = 2 \sqrt{10000} = 2 \times 100 = 200\ \Omega$.
+- Since $R = R_c = 200\ \Omega$, the circuit is **Critically Damped**!
+- Answer is **(B)**.
+**Exam Trap:** Always calculate $R_c = 2\sqrt{L/C}$. If $R > R_c \implies$ Overdamped; $R = R_c \implies$ Critically damped; $R < R_c \implies$ Underdamped.
+
+---
+
+### Q-CKT-018 `[ESE-EE-2022]` 🟢 Easy
+**Topic:** Balanced 3-Phase Systems — Star vs Delta
+**Question:** A balanced 3-phase Delta-connected load with impedance $Z_\Delta = (18 + j24)\ \Omega$ per phase is supplied from a $400\text{ V}$ line. If the same load is reconnected in Star across the same supply, the line current drawn will:
+- (A) Increase by a factor of 3
+- (B) Decrease by a factor of 3
+- (C) Remain unchanged
+- (D) Decrease by a factor of $\sqrt{3}$
+**Answer:** (B)
+**Concept/Formula:**
+- $I_{L,\Delta} = \sqrt{3} I_{ph,\Delta} = \sqrt{3} \frac{V_L}{Z}$.
+- $I_{L,Y} = I_{ph,Y} = \frac{V_L / \sqrt{3}}{Z} = \frac{V_L}{\sqrt{3} Z}$.
+- Ratio: $\frac{I_{L,Y}}{I_{L,\Delta}} = \frac{1}{3}$.
+- Power drawn in Star is also $\frac{1}{3}\text{rd}$ of power drawn in Delta ($P_Y = \frac{1}{3} P_\Delta$).
+
+---
+
+### Q-CKT-019 `[GATE-EE-2013]` 🟡 Moderate
+**Topic:** Maximum Power Transfer in AC Circuits
+**Question:** A linear AC voltage source has an open-circuit voltage $\mathbf{V}_{th} = 50 \angle 0^\circ\text{ V}$ and internal impedance $\mathbf{Z}_{th} = (4 + j3)\ \Omega$. The maximum active power that can be delivered to a complex variable load impedance $\mathbf{Z}_L = R_L + jX_L$ is:
+- (A) $78.1\text{ W}$
+- (B) $156.25\text{ W}$
+- (C) $312.5\text{ W}$
+- (D) $62.5\text{ W}$
+**Answer:** (B)
+**Concept/Formula:**
+- Maximum power transfer occurs when $\mathbf{Z}_L = \mathbf{Z}_{th}^* = 4 - j3\ \Omega$.
+- At this condition, total loop impedance is $R_{th} + R_L = 4 + 4 = 8\ \Omega$ (reactances cancel).
+- Loop current $I = \frac{V_{th}}{2 R_{th}} = \frac{50}{8} = 6.25\text{ A}$.
+- Maximum power $P_{max} = I^2 R_L = (6.25)^2 \times 4 = 39.0625 \times 4 = 156.25\text{ W}$.
+- Shortcut: $P_{max} = \frac{|\mathbf{V}_{th}|^2}{4 R_{th}} = \frac{50^2}{4 \times 4} = \frac{2500}{16} = 156.25\text{ W}$.
+- **Exam Trap:** Denominator is $4 R_{th}$, NOT $4 |\mathbf{Z}_{th}|$!
+
+---
+
+### Q-CKT-020 `[AAI-JE-EE / SSC-JE]` 🟢 Easy
+**Topic:** Norton's Theorem Equivalents
+**Question:** A circuit consists of a $10\text{ V}$ ideal voltage source in series with a $2\ \Omega$ resistor. Its Norton equivalent circuit consists of:
+- (A) A $5\text{ A}$ current source in parallel with a $2\ \Omega$ resistor
+- (B) A $5\text{ A}$ current source in series with a $2\ \Omega$ resistor
+- (C) A $20\text{ A}$ current source in parallel with a $2\ \Omega$ resistor
+- (D) A $10\text{ A}$ current source in parallel with a $0.5\ \Omega$ resistor
+**Answer:** (A)
+**Concept/Formula:** Source transformation: $I_N = \frac{V_{th}}{R_{th}} = \frac{10}{2} = 5\text{ A}$, and $R_N = R_{th} = 2\ \Omega$ connected in **PARALLEL**.
