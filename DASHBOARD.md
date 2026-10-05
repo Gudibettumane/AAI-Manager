@@ -4,12 +4,13 @@
 **Target Exam Date:** 21st October 2026  
 **Days Remaining:** **17 Days**  
 **Preparation Mode:** Intensive High-Yield Battle Sprint (Teach → Test → Evaluate → Master)  
-**Target Score:** ≥ 100+ / 120 Marks (No Negative Marking)
+**Target Score:** ≥ 100+ / 120 Marks (No Negative Marking)  
+**Current Active Topic:** **`CKT-01`: Circuit components, Network graphs, KCL, KVL**
 
 ---
 
 ## 0. Authoritative Question Database & Syllabus Depth
-- **Total Verified Questions in Bank:** **908 Questions** (100% verified, step-by-step mathematical solutions)
+- **Total Verified Questions in Bank:** **908 Questions** (100% verified with step-by-step mathematical solutions)
 - **Canonical Syllabus Coverage:** **131 / 131 Topics (100.0% Verified Depth ≥ 5 Qs/Topic)**
 - **Limited Coverage Topics (1–4 Qs):** **0 Topics (0.0%)**
 - **Zero-Coverage Topics (0 Qs):** **0 Topics (0.0%)**
@@ -25,10 +26,11 @@
 
 ## 1. Overall Training Progress
 - **Total Syllabus Modules:** 15 Technical Sections + 11 Airport MEP/Facility Sections + Part-A
-- **Mastered Topics (Level 4-5):** 0
-- **In-Progress Topics (Level 2-3):** 0
-- **Untested / Unstarted (Level 0-1):** 26 Technical Sections
-- **Formula Mastery:** 0%
+- **Mastered Topics (Level 4-5):** 0 / 131
+- **In-Progress Topics (Level 2-3):** 0 / 131
+- **Current Active Study Block:** **Day 0–1: Circuit Theory (`CKT-01` to `CKT-07`)**
+- **Formula Penalty Box:** 0 active
+- **Retest Queue:** 0 pending
 - **Cumulative Questions Attempted:** 0
 - **Overall Accuracy:** 0.0%
 
@@ -36,37 +38,35 @@
 
 ## 2. Subject Breakdown (Target: Level 5 / Exam Ready)
 
-| Section | Subject Title | Total Subtopics | Avg Mastery (0-5) | Status |
-|---|---|---|---|---|
-| **1** | Circuit Theory | 7 | 0.0 / 5.0 | Day 0-1 Sprint |
-| **2** | Signals & Systems | 6 | 0.0 / 5.0 | Scheduled Day 1 |
-| **3** | Instrumentation (Megger, TOD, RSS) | 5 | 0.0 / 5.0 | Scheduled Day 8 |
-| **4** | Electrical Machines (Transformers, Alternators, Synch Motors) | 14 | 0.0 / 5.0 | Scheduled Day 2-4 |
-| **5** | Single-Phase Motors (Shaded Pole, etc.) | 3 | 0.0 / 5.0 | Scheduled Day 3 |
-| **6** | Transmission & Distribution (Lines, Cables, Faults) | 15 | 0.0 / 5.0 | Scheduled Day 5-6 |
-| **7** | Power System Protection (Relays, Breakers, Numeric) | 4 | 0.0 / 5.0 | Scheduled Day 7 |
-| **8** | Microprocessors & Microcomputers (8085/8086, 8255) | 6 | 0.0 / 5.0 | Scheduled Day 10 |
-| **9** | Analog & Digital Electronics (Op-Amps, 555, Gates, ADC) | 8 | 0.0 / 5.0 | Scheduled Day 9 |
-| **10** | Power Electronics & Drives (Choppers, Inverters, VFD) | 5 | 0.0 / 5.0 | Scheduled Day 10 |
-| **11** | Fiber Optic Systems & Multiplexing (TDM/FDM, NA) | 4 | 0.0 / 5.0 | Scheduled Day 11 |
-| **12** | Digital Communication (PCM, ASK/PSK, OSI 7-Layer) | 6 | 0.0 / 5.0 | Scheduled Day 11 |
-| **13** | HVAC & Air-Conditioning (Chillers, VRV, PAC, AHU) | 5 | 0.0 / 5.0 | Scheduled Day 12 |
-| **14** | Pumps, Hydraulics & Fluid Mechanics | 7 | 0.0 / 5.0 | Scheduled Day 12 |
-| **15** | Renewable Energy (Solar Plants & Guidelines) | 2 | 0.0 / 5.0 | Scheduled Day 13 |
-| **ADD** | Contract Management, Substation, DG/UPS, Lifts, Fire, BMS | 11 | 0.0 / 5.0 | Scheduled Day 13 |
-| **NTC** | Part-A Non-Technical (English, Aptitude, Reasoning, Aviation GK) | 4 | 0.0 / 5.0 | Parallel Sprint |
+| Section | Subject Title | Canonical Subtopics | Available Qs in DB | Avg Mastery (0-5) | Status | Scheduled Day |
+|---|---|---|---|---|---|---|
+| **1** | Circuit Theory | 7 (`CKT-01` to `CKT-07`) | 144 | 0.0 / 5.0 | 🎯 ACTIVE BLOCK | Day 0–1 |
+| **2** | Signals & Systems | 6 (`SIG-01` to `SIG-06`) | 42 | 0.0 / 5.0 | Scheduled | Day 1 |
+| **3** | Instrumentation (Megger, TOD, RSS) | 5 (`INS-01` to `INS-05`) | 41 | 0.0 / 5.0 | Scheduled | Day 8 |
+| **4** | Electrical Machines (Transformers, Alternators, Synch) | 14 (`MCH-01` to `MCH-14`) | 129 | 0.0 / 5.0 | Scheduled | Day 2–4 |
+| **5** | Single-Phase Motors (Shaded Pole, etc.) | 3 (`SPM-01` to `SPM-03`) | 21 | 0.0 / 5.0 | Scheduled | Day 3 |
+| **6** | Transmission & Distribution (Lines, Cables, Faults) | 15 (`TND-01` to `TND-15`) | 114 | 0.0 / 5.0 | Scheduled | Day 5–7 |
+| **7** | Power System Protection (Numeric, Relays, CBs) | 4 (`PRT-01` to `PRT-04`) | 27 | 0.0 / 5.0 | Scheduled | Day 7 |
+| **8** | Microprocessors & Peripheral Devices (8085/8086, 8255) | 6 (`MPU-01` to `MPU-06`) | 47 | 0.0 / 5.0 | Scheduled | Day 10 |
+| **9** | Analog & Digital Electronics (Op-Amps, Gates, ADC/DAC) | 8 (`ADE-01` to `ADE-08`) | 56 | 0.0 / 5.0 | Scheduled | Day 9 |
+| **10** | Power Electronics & Drives (Choppers, Inverters, VFD) | 5 (`PED-01` to `PED-05`) | 41 | 0.0 / 5.0 | Scheduled | Day 10 |
+| **11** | Fiber Optics & Multiplexing (TDM/FDM, Lasers) | 4 (`FIB-01` to `FIB-04`) | 28 | 0.0 / 5.0 | Scheduled | Day 11 |
+| **12** | Digital Communication (PCM, ASK/PSK, OSI) | 6 (`DCM-01` to `DCM-06`) | 42 | 0.0 / 5.0 | Scheduled | Day 11 |
+| **13** | HVAC & Air Conditioning (Chillers, PAC, VRV, AHU) | 5 (`HVC-01` to `HVC-05`) | 39 | 0.0 / 5.0 | Scheduled | Day 12 |
+| **14** | Pumps, Hydraulics & Fluid Mechanics | 7 (`PUM-01` to `PUM-07`) | 43 | 0.0 / 5.0 | Scheduled | Day 12 |
+| **15** | Renewable Energy (Solar PV Plants & Guidelines) | 2 (`REN-01`, `REN-02`) | 14 | 0.0 / 5.0 | Scheduled | Day 13 |
+| **MEP** | Airport Facility Systems (Substation, DG, Lifts, Fire, BMS) | 30 (`CON`, `SUB`, `DGU`, `LIF`, `BMS`, etc.) | 86 | 0.0 / 5.0 | Scheduled | Day 2, 4, 8, 13 |
+| **NTC** | Part-A Non-Technical (Reasoning, Aptitude, English, Aviation) | 4 (`ENG-01`, `APT-01`, `RSN-01`, `AVN-01`) | 20 | 0.0 / 5.0 | Parallel Sprint | Daily |
 
 ---
 
-## 3. Question Performance & Error Rate
-- **Total Questions Attempted:** 0
-- **Correct:** 0
-- **Incorrect:** 0
-- **Accuracy Rate:** N/A
-- **Error Rate:** N/A
+## 3. High-Yield Weakness & Retest Radar
+- **Active Retests Pending:** 0
+- **Penalty Box Formulas (3-Strike Rule):** 0
+- **Concepts Requiring Remediation:** None (Preparation kicking off)
 
 ---
 
-## 4. Current Target
-- **Current Step:** Diagnostic Evaluation (15 Questions) to baseline your technical level.
-- **Next Step:** Evaluate Diagnostic → Classify Errors → Launch Day 0: **Circuit Theory (KCL/KVL, Nodal/Mesh, Network Theorems)**.
+## 4. Current Action
+- **Phase:** `ACTIVE_STUDY_BLOCK`
+- **Immediate Task:** Launch **Day 0–1 Topic `CKT-01` (Circuit Laws, Network Graphs, KCL/KVL)** diagnostic drilling block.
