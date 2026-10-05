@@ -89,12 +89,12 @@ Recalculated mathematically from the underlying SQLite database and JSONL export
 | **SQLite vs JSONL Parity** | **0 diffs** | **100% In Sync** | Byte-for-byte and field-for-field synchronization across all 28 schema attributes. |
 | **Exact SHA-256 Hash Collisions** | **0** | **100% Unique** | Cryptographic hash computed over normalized alphanumeric characters. |
 | **Exact Normalized Text Collisions** | **0** | **100% Unique** | Case, whitespace, and symbol normalized text comparison. |
-| **Semantic Near-Duplicates (Jaccard ≥ 0.85)** | **1** | **Flagged & Retained** | `GATE_EE_2020_Q32` vs `UPSC_ESE_Q-PEL-002` (similarity: 0.865). Flagged with `duplicate_group`. |
-| **Missing Question Text** | **0** | **100% Complete** | All 500 records possess complete problem statements. |
-| **Missing Options (A/B/C/D)** | **0** | **100% Complete** | All 500 records have 4 distinct, non-empty options. |
-| **Missing or Invalid Answer Keys** | **0** | **100% Complete** | All 500 records have valid keys strictly in {{'A', 'B', 'C', 'D'}}. |
-| **Missing / Weak Solutions (< 30 chars)** | **0** | **100% Complete** | All 500 records contain step-by-step mathematical / conceptual solutions. |
-| **Missing Subject / Syllabus Mapping** | **0** | **100% Complete** | All 500 records mapped to designated engineering subject areas. |
+| **Semantic Near-Duplicates (Jaccard ≥ 0.85)** | **2 Pairs** | **Flagged & Retained** | `GATE_EE_2020_Q32` vs `UPSC_ESE_Q-PEL-002` (0.865), and `GATE_EE_2016_S1_Q38` vs `GATE_EE_2022_Q45_PRT` (0.875). Preserved with provenance. |
+| **Missing Question Text** | **0** | **100% Complete** | All {total_q} records possess complete problem statements. |
+| **Missing Options (A/B/C/D)** | **0** | **100% Complete** | All {total_q} records have 4 distinct, non-empty options. |
+| **Missing or Invalid Answer Keys** | **0** | **100% Complete** | All {total_q} records have valid keys strictly in {{'A', 'B', 'C', 'D'}}. |
+| **Missing / Weak Solutions (< 30 chars)** | **0** | **100% Complete** | All {total_q} records contain step-by-step mathematical / conceptual solutions. |
+| **Missing Subject / Syllabus Mapping** | **0** | **100% Complete** | All {total_q} records mapped to designated engineering subject areas. |
 
 ### Provenance Classification Breakdown:
 

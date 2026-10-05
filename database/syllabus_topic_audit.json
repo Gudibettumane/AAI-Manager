@@ -1,12 +1,12 @@
 {
   "total_canonical_topics": 131,
   "total_questions_in_db": 500,
-  "mapped_questions_count": 468,
+  "mapped_questions_count": 518,
   "uncertain_relevance_count": 32,
   "unmapped_questions_count": 0,
-  "verified_coverage_topics_count": 35,
-  "limited_coverage_topics_count": 55,
-  "zero_coverage_topics_count": 41,
+  "verified_coverage_topics_count": 38,
+  "limited_coverage_topics_count": 58,
+  "zero_coverage_topics_count": 35,
   "verified_topics": {
     "CKT-01": {
       "topic_id": "CKT-01",
@@ -77,7 +77,7 @@
       "topic_id": "SIG-03",
       "topic_name": "Linear time-invariant (LTI) and causal systems, Convolution",
       "subject": "Signals and Systems",
-      "question_count": 11,
+      "question_count": 14,
       "sample_question_ids": [
         "UPSC_ESE_Q-SIG-002",
         "GATE_Q-SIG-004",
@@ -168,7 +168,7 @@
       "topic_id": "MCH-06",
       "topic_name": "3-Phase Induction Motors: Methods of speed control and starting",
       "subject": "Electrical Machines",
-      "question_count": 12,
+      "question_count": 13,
       "sample_question_ids": [
         "GATE_Q-MCH-003",
         "PSU_Q-MCH-013",
@@ -181,7 +181,7 @@
       "topic_id": "TND-01",
       "topic_name": "Line constants: Inductance and Capacitance calculations (GMD, GMR)",
       "subject": "Transmission & Distribution",
-      "question_count": 10,
+      "question_count": 13,
       "sample_question_ids": [
         "UPSC_ESE_Q-PWR-011",
         "PGCIL_EE_2021_Q12",
@@ -194,7 +194,7 @@
       "topic_id": "TND-02",
       "topic_name": "Overhead Lines: Short, Medium (Nominal T and $\\pi$), Long lines, ABCD constants",
       "subject": "Transmission & Distribution",
-      "question_count": 24,
+      "question_count": 30,
       "sample_question_ids": [
         "AAI_Q-PWR-001",
         "UPSC_ESE_Q-PWR-002",
@@ -207,7 +207,7 @@
       "topic_id": "TND-09",
       "topic_name": "Fault Calculations: Symmetrical 3-phase fault calculations",
       "subject": "Transmission & Distribution",
-      "question_count": 7,
+      "question_count": 8,
       "sample_question_ids": [
         "UPSC_ESE_Q-PWR-004",
         "GATE_Q-PWR-008",
@@ -216,11 +216,37 @@
         "GATE_EE_2017_Q38"
       ]
     },
+    "TND-10": {
+      "topic_id": "TND-10",
+      "topic_name": "Symmetrical Components: Positive, negative, zero sequence networks",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-PWR-003",
+        "GATE_EE_2008_Q33",
+        "GATE_EE_2024_Q38_TND",
+        "GATE_EE_2020_Q33_TND",
+        "GATE_EE_2017_S1_Q38_TND"
+      ]
+    },
+    "TND-15": {
+      "topic_id": "TND-15",
+      "topic_name": "Circuit Breakers: Air-blast, oil, minimum oil, vacuum, SF6, and DC breakers",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-PWR-006",
+        "PSU_Q-PWR-016",
+        "GATE_EE_2013_Q38",
+        "STATE_AE_UPPCL_2021_Q21",
+        "GATE_EE_2020_Q44_PRT"
+      ]
+    },
     "PRT-01": {
       "topic_id": "PRT-01",
       "topic_name": "Principles of overcurrent, differential, and distance protection",
       "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 8,
+      "question_count": 14,
       "sample_question_ids": [
         "AAI_Q-PWR-005",
         "GATE_Q-PWR-007",
@@ -233,7 +259,7 @@
       "topic_id": "MPU-02",
       "topic_name": "Instruction set, addressing modes, assembly programming",
       "subject": "Microprocessors & Microcomputers",
-      "question_count": 13,
+      "question_count": 16,
       "sample_question_ids": [
         "UPSC_ESE_Q-MPU-002",
         "UPSC_ESE_Q-MPU-007",
@@ -259,7 +285,7 @@
       "topic_id": "ELX-03",
       "topic_name": "Operational Amplifiers: Characteristics, virtual ground, linear/non-linear ckts",
       "subject": "Analog and Digital Electronics",
-      "question_count": 10,
+      "question_count": 13,
       "sample_question_ids": [
         "GATE_Q-ELX-001",
         "UPSC_ESE_Q-ELX-002",
@@ -294,6 +320,19 @@
         "GATE_EE_2014_S1_Q12"
       ]
     },
+    "PEL-01": {
+      "topic_id": "PEL-01",
+      "topic_name": "Power Semiconductor Diodes, BJT, Thyristors, TRIACs, GTOs, MOSFETs, IGBTs",
+      "subject": "Power Electronics and Drives",
+      "question_count": 8,
+      "sample_question_ids": [
+        "AAI_Q-PEL-001",
+        "UPSC_ESE_Q-PEL-006",
+        "GATE_Q-PEL-015",
+        "GATE_EE_2010_Q44",
+        "GATE_EE_2023_Q44_PEL"
+      ]
+    },
     "PEL-03": {
       "topic_id": "PEL-03",
       "topic_name": "Phase controlled rectifiers: Bridge converters (fully & half controlled)",
@@ -324,7 +363,7 @@
       "topic_id": "FIB-03",
       "topic_name": "Optical fibers: Numerical aperture (NA), V-number, single/multimode fibers",
       "subject": "Fiber Optic Systems & Multiplexing",
-      "question_count": 5,
+      "question_count": 6,
       "sample_question_ids": [
         "GATE_Q-DCF-005",
         "GATE_Q-DCF-007",
@@ -642,6 +681,54 @@
         "AAI_Q-MCH-006"
       ]
     },
+    "SPM-01": {
+      "topic_id": "SPM-01",
+      "topic_name": "Single-Phase Induction Motors: Double revolving field theory, types",
+      "subject": "Single Phase Induction Motors",
+      "question_count": 2,
+      "sample_question_ids": [
+        "GATE_EE_2020_Q23_SPM",
+        "GATE_EE_2018_Q41_SPM"
+      ]
+    },
+    "SPM-02": {
+      "topic_id": "SPM-02",
+      "topic_name": "Starting methods & characteristics (Split-phase, capacitor-start, run)",
+      "subject": "Single Phase Induction Motors",
+      "question_count": 3,
+      "sample_question_ids": [
+        "GATE_EE_2016_S1_Q22_SPM",
+        "GATE_EE_2015_S2_Q19_SPM",
+        "GATE_EE_2019_Q08_SPM"
+      ]
+    },
+    "SPM-03": {
+      "topic_id": "SPM-03",
+      "topic_name": "Shaded Pole Induction Motor (Construction, low starting torque, applications)",
+      "subject": "Single Phase Induction Motors",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2014_S2_Q18_SPM"
+      ]
+    },
+    "TND-03": {
+      "topic_id": "TND-03",
+      "topic_name": "Mechanical Design: Sag-Tension calculations, ice & wind loading",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2016_S2_Q33_TND"
+      ]
+    },
+    "TND-04": {
+      "topic_id": "TND-04",
+      "topic_name": "Tuned Power Lines",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2015_S2_Q14_TND"
+      ]
+    },
     "TND-05": {
       "topic_id": "TND-05",
       "topic_name": "Overhead Line Insulators: Types, potential distribution, string efficiency",
@@ -655,31 +742,11 @@
       "topic_id": "TND-07",
       "topic_name": "Underground Cables: Insulation, grading (capacitance & intersheath), testing",
       "subject": "Transmission & Distribution",
-      "question_count": 1,
+      "question_count": 3,
       "sample_question_ids": [
-        "GATE_EE_2012_Q33"
-      ]
-    },
-    "TND-10": {
-      "topic_id": "TND-10",
-      "topic_name": "Symmetrical Components: Positive, negative, zero sequence networks",
-      "subject": "Transmission & Distribution",
-      "question_count": 2,
-      "sample_question_ids": [
-        "GATE_Q-PWR-003",
-        "GATE_EE_2008_Q33"
-      ]
-    },
-    "TND-15": {
-      "topic_id": "TND-15",
-      "topic_name": "Circuit Breakers: Air-blast, oil, minimum oil, vacuum, SF6, and DC breakers",
-      "subject": "Transmission & Distribution",
-      "question_count": 4,
-      "sample_question_ids": [
-        "GATE_Q-PWR-006",
-        "PSU_Q-PWR-016",
-        "GATE_EE_2013_Q38",
-        "STATE_AE_UPPCL_2021_Q21"
+        "GATE_EE_2012_Q33",
+        "GATE_EE_2020_Q26_TND",
+        "GATE_EE_2016_S1_Q14_TND"
       ]
     },
     "MPU-01": {
@@ -696,11 +763,12 @@
       "topic_id": "MPU-06",
       "topic_name": "Programmable Peripheral Devices (8255 PPI, 8254/8253 Timer, 8259 PIC)",
       "subject": "Microprocessors & Microcomputers",
-      "question_count": 3,
+      "question_count": 4,
       "sample_question_ids": [
         "GATE_Q-MPU-003",
         "PSU_Q-MPU-005",
-        "PSU_Q-MPU-014"
+        "PSU_Q-MPU-014",
+        "GATE_EE_2022_Q40_MPU"
       ]
     },
     "ELX-01": {
@@ -715,14 +783,26 @@
         "GATE_EE_2004_Q12"
       ]
     },
+    "ELX-02": {
+      "topic_id": "ELX-02",
+      "topic_name": "Amplifiers: Frequency response, Oscillators, Feedback amplifiers",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 3,
+      "sample_question_ids": [
+        "GATE_EE_2024_Q19_ELX",
+        "GATE_EE_2022_Q37_ELX",
+        "GATE_EE_2017_S1_Q28_ELX"
+      ]
+    },
     "ELX-04": {
       "topic_id": "ELX-04",
       "topic_name": "Simple active filters, VCOs (566) and Timers (555 IC in Astable/Monostable)",
       "subject": "Analog and Digital Electronics",
-      "question_count": 2,
+      "question_count": 3,
       "sample_question_ids": [
         "GATE_Q-ELX-014",
-        "GATE_EE_2009_Q09"
+        "GATE_EE_2009_Q09",
+        "GATE_EE_2020_Q19_ELX"
       ]
     },
     "ELX-08": {
@@ -735,18 +815,6 @@
         "GATE_EE_2021_Q12",
         "GATE_EE_2013_Q12",
         "GATE_EE_2007_Q06"
-      ]
-    },
-    "PEL-01": {
-      "topic_id": "PEL-01",
-      "topic_name": "Power Semiconductor Diodes, BJT, Thyristors, TRIACs, GTOs, MOSFETs, IGBTs",
-      "subject": "Power Electronics and Drives",
-      "question_count": 4,
-      "sample_question_ids": [
-        "AAI_Q-PEL-001",
-        "UPSC_ESE_Q-PEL-006",
-        "GATE_Q-PEL-015",
-        "GATE_EE_2010_Q44"
       ]
     },
     "PEL-05": {
@@ -1025,41 +1093,6 @@
       "question_count": 0,
       "sample_question_ids": []
     },
-    "SPM-01": {
-      "topic_id": "SPM-01",
-      "topic_name": "Single-Phase Induction Motors: Double revolving field theory, types",
-      "subject": "Single Phase Induction Motors",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "SPM-02": {
-      "topic_id": "SPM-02",
-      "topic_name": "Starting methods & characteristics (Split-phase, capacitor-start, run)",
-      "subject": "Single Phase Induction Motors",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "SPM-03": {
-      "topic_id": "SPM-03",
-      "topic_name": "Shaded Pole Induction Motor (Construction, low starting torque, applications)",
-      "subject": "Single Phase Induction Motors",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-03": {
-      "topic_id": "TND-03",
-      "topic_name": "Mechanical Design: Sag-Tension calculations, ice & wind loading",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-04": {
-      "topic_id": "TND-04",
-      "topic_name": "Tuned Power Lines",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
     "TND-06": {
       "topic_id": "TND-06",
       "topic_name": "Methods of improving string efficiency (Guard ring, grading, long cross-arms)",
@@ -1134,13 +1167,6 @@
       "topic_id": "MPU-05",
       "topic_name": "Memory interfacing & I/O interfacing (Memory mapped vs I/O mapped)",
       "subject": "Microprocessors & Microcomputers",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "ELX-02": {
-      "topic_id": "ELX-02",
-      "topic_name": "Amplifiers: Frequency response, Oscillators, Feedback amplifiers",
-      "subject": "Analog and Digital Electronics",
       "question_count": 0,
       "sample_question_ids": []
     },
