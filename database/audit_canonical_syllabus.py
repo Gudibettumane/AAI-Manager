@@ -60,6 +60,12 @@ def map_questions_to_topics(topics):
             })
             continue
 
+        # Check for explicit canonical topic ID in topic, subtopic, concept, or question_id
+        raw_metadata = (q.get("subtopic", "") + " " + q.get("topic", "") + " " + q.get("concept", "") + " " + q.get("question_id", "")).upper()
+        m_id = re.search(r'\b([A-Z]{3}-\d{2})\b', raw_metadata)
+        if m_id and m_id.group(1) in topics:
+            matched = m_id.group(1)
+
         # 2. Power Electronics & Drives (Prioritized before general 'electronic')
         elif "power electronic" in subj or "drive" in subj:
             if any(k in text for k in ["scr", "thyristor", "triac", "gto", "mosfet", "igbt", "diode"]) and any(k in text for k in ["rating", "characteristic", "device", "construction"]):
@@ -416,9 +422,10 @@ def main():
         else:
             zero_topics[tid] = entry
 
+    total_questions = sum(len(v) for v in mapping.values()) + len(uncertain_relevance) + len(unmapped)
     report_data = {
         "total_canonical_topics": len(topics),
-        "total_questions_in_db": 500,
+        "total_questions_in_db": total_questions,
         "mapped_questions_count": sum(len(v) for v in mapping.values()),
         "uncertain_relevance_count": len(uncertain_relevance),
         "unmapped_questions_count": len(unmapped),

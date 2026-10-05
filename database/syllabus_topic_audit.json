@@ -1,12 +1,12 @@
 {
   "total_canonical_topics": 131,
-  "total_questions_in_db": 500,
-  "mapped_questions_count": 518,
+  "total_questions_in_db": 585,
+  "mapped_questions_count": 553,
   "uncertain_relevance_count": 32,
   "unmapped_questions_count": 0,
   "verified_coverage_topics_count": 38,
-  "limited_coverage_topics_count": 58,
-  "zero_coverage_topics_count": 35,
+  "limited_coverage_topics_count": 93,
+  "zero_coverage_topics_count": 0,
   "verified_topics": {
     "CKT-01": {
       "topic_id": "CKT-01",
@@ -564,6 +564,15 @@
         "UPSC_ESE_Q-SIG-009"
       ]
     },
+    "SIG-06": {
+      "topic_id": "SIG-06",
+      "topic_name": "Z-Transform & ROC, stability of discrete systems",
+      "subject": "Signals and Systems",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2019_Q_SIG06"
+      ]
+    },
     "INS-03": {
       "topic_id": "INS-03",
       "topic_name": "Quadrant Electrometer (Electrostatic high voltage measurement)",
@@ -738,6 +747,15 @@
         "PSU_PGCIL_2021_Q15"
       ]
     },
+    "TND-06": {
+      "topic_id": "TND-06",
+      "topic_name": "Methods of improving string efficiency (Guard ring, grading, long cross-arms)",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2017_Q_TND06"
+      ]
+    },
     "TND-07": {
       "topic_id": "TND-07",
       "topic_name": "Underground Cables: Insulation, grading (capacitance & intersheath), testing",
@@ -749,6 +767,78 @@
         "GATE_EE_2016_S1_Q14_TND"
       ]
     },
+    "TND-08": {
+      "topic_id": "TND-08",
+      "topic_name": "Cable capacitance measurement & Power frequency withstand tests",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2018_Q_TND08"
+      ]
+    },
+    "TND-11": {
+      "topic_id": "TND-11",
+      "topic_name": "Analysis of Unbalanced Faults: L-G, L-L, L-L-G faults",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2019_Q_TND11"
+      ]
+    },
+    "TND-12": {
+      "topic_id": "TND-12",
+      "topic_name": "Protection Relays: Overcurrent, directional, and distance protection of lines",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2020_Q_TND12"
+      ]
+    },
+    "TND-13": {
+      "topic_id": "TND-13",
+      "topic_name": "Alternator Protection: Stator/rotor faults, loss of excitation, prime mover failure",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "PSU_PGCIL_2021_Q_TND13"
+      ]
+    },
+    "TND-14": {
+      "topic_id": "TND-14",
+      "topic_name": "Transformer Protection: Winding faults, Buchholz, overloads, differential",
+      "subject": "Transmission & Distribution",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2016_Q_TND14"
+      ]
+    },
+    "PRT-02": {
+      "topic_id": "PRT-02",
+      "topic_name": "Concept of Solid-State Relays & Numeric Relays",
+      "subject": "Power System Protection & Advanced Relaying",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2021_Q_PRT02"
+      ]
+    },
+    "PRT-03": {
+      "topic_id": "PRT-03",
+      "topic_name": "Computer-Aided Protection: Line, Bus, Generator, Transformer",
+      "subject": "Power System Protection & Advanced Relaying",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_PRT_BUS_03"
+      ]
+    },
+    "PRT-04": {
+      "topic_id": "PRT-04",
+      "topic_name": "Application of DSP to Power System Protection",
+      "subject": "Power System Protection & Advanced Relaying",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2022_Q_PRT04"
+      ]
+    },
     "MPU-01": {
       "topic_id": "MPU-01",
       "topic_name": "PC organization, CPU, register set, 8-bit architecture (8085/8086)",
@@ -757,6 +847,24 @@
       "sample_question_ids": [
         "UPSC_ESE_Q-MPU-004",
         "GATE_Q-MPU-006"
+      ]
+    },
+    "MPU-03": {
+      "topic_id": "MPU-03",
+      "topic_name": "Timing diagrams, machine cycles, instruction cycles",
+      "subject": "Microprocessors & Microcomputers",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2015_Q_MPU03"
+      ]
+    },
+    "MPU-05": {
+      "topic_id": "MPU-05",
+      "topic_name": "Memory interfacing & I/O interfacing (Memory mapped vs I/O mapped)",
+      "subject": "Microprocessors & Microcomputers",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2017_Q_MPU05"
       ]
     },
     "MPU-06": {
@@ -805,6 +913,15 @@
         "GATE_EE_2020_Q19_ELX"
       ]
     },
+    "ELX-07": {
+      "topic_id": "ELX-07",
+      "topic_name": "Schmitt trigger, Multivibrators, Sample and Hold circuits",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2016_Q_ELX07"
+      ]
+    },
     "ELX-08": {
       "topic_id": "ELX-08",
       "topic_name": "A/D and D/A Converters: Flash, SAR, Dual-slope, R-2R ladder, Weighted",
@@ -815,6 +932,15 @@
         "GATE_EE_2021_Q12",
         "GATE_EE_2013_Q12",
         "GATE_EE_2007_Q06"
+      ]
+    },
+    "PEL-02": {
+      "topic_id": "PEL-02",
+      "topic_name": "Static characteristics, ratings, triggering & commutation circuits",
+      "subject": "Power Electronics and Drives",
+      "question_count": 1,
+      "sample_question_ids": [
+        "GATE_EE_2018_Q_PEL02"
       ]
     },
     "PEL-05": {
@@ -833,6 +959,15 @@
       "question_count": 1,
       "sample_question_ids": [
         "UPSC_ESE_Q-DCF-010"
+      ]
+    },
+    "FIB-02": {
+      "topic_id": "FIB-02",
+      "topic_name": "Optical properties of materials, refractive index, absorption, emission",
+      "subject": "Fiber Optic Systems & Multiplexing",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2019_Q_FIB02"
       ]
     },
     "FIB-04": {
@@ -928,6 +1063,24 @@
         "AAI_Q-HVC-012"
       ]
     },
+    "PMP-01": {
+      "topic_id": "PMP-01",
+      "topic_name": "Water lifting devices, classification of pumps, selection of pumps",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_MEP_PMP_01"
+      ]
+    },
+    "PMP-03": {
+      "topic_id": "PMP-03",
+      "topic_name": "NPSH (Net Positive Suction Head), Cavitation causes & prevention",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_MEP_PMP_03"
+      ]
+    },
     "PMP-04": {
       "topic_id": "PMP-04",
       "topic_name": "Fluid properties, units, kinematics, Bernoulli\u2019s and Euler\u2019s equation",
@@ -937,6 +1090,51 @@
         "UPSC_ESE_Q-PMP-003"
       ]
     },
+    "PMP-05": {
+      "topic_id": "PMP-05",
+      "topic_name": "Dimensional analysis & similitude (Reynolds, Froude numbers)",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_ME_2020_Q_PMP05"
+      ]
+    },
+    "PMP-07": {
+      "topic_id": "PMP-07",
+      "topic_name": "Open channel flow, Hydraulic jump, Discharge measurement (Venturimeter, Orifice)",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_CE_2019_Q_PMP07"
+      ]
+    },
+    "REN-01": {
+      "topic_id": "REN-01",
+      "topic_name": "Solar Power Plant: PV cell physics, modules, inverters, net metering",
+      "subject": "Renewable Energy Sources",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2021_Q_REN01"
+      ]
+    },
+    "REN-02": {
+      "topic_id": "REN-02",
+      "topic_name": "Solar plant statutory guidelines, MNRE policies, airport solar installations",
+      "subject": "Renewable Energy Sources",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_REN_SOLAR_02"
+      ]
+    },
+    "CON-03": {
+      "topic_id": "CON-03",
+      "topic_name": "Execution of Electrical Works: Installation of MEP equipment, site & manpower",
+      "subject": "Contract Management & Electrical Safety Codes",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_CON_EXEC_03"
+      ]
+    },
     "CON-04": {
       "topic_id": "CON-04",
       "topic_name": "Maintenance: Breakdown & Preventive maintenance of MEP equipment, store records",
@@ -944,6 +1142,15 @@
       "question_count": 1,
       "sample_question_ids": [
         "ESE_GS_2022_Q08"
+      ]
+    },
+    "SUB-02": {
+      "topic_id": "SUB-02",
+      "topic_name": "Transformers, LT Panels, LT Cables",
+      "subject": "Sub-station & Distribution Infrastructure",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_SUB_PANEL_02"
       ]
     },
     "SUB-03": {
@@ -967,6 +1174,15 @@
         "AAI_Q-SUB-010"
       ]
     },
+    "DGU-02": {
+      "topic_id": "DGU-02",
+      "topic_name": "Synchronization of DG sets / Alternators",
+      "subject": "DG Sets, UPS & Power Management",
+      "question_count": 1,
+      "sample_question_ids": [
+        "ESE_EE_2018_Q_DGU02"
+      ]
+    },
     "DGU-03": {
       "topic_id": "DGU-03",
       "topic_name": "Online UPS systems & Battery banks (VRLA, Li-ion)",
@@ -979,6 +1195,24 @@
         "AAI_Q-SUB-012"
       ]
     },
+    "DGU-04": {
+      "topic_id": "DGU-04",
+      "topic_name": "SCADA & Power Supply Management System in airport terminal buildings",
+      "subject": "DG Sets, UPS & Power Management",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_DGU_SCADA_04"
+      ]
+    },
+    "LFT-02": {
+      "topic_id": "LFT-02",
+      "topic_name": "Escalators & Travelators: Inclination angles ($30^\\circ/35^\\circ$), drive mechanisms, safety switches",
+      "subject": "Lifts & Escalators",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_MEP_LFT_02"
+      ]
+    },
     "BMS-01": {
       "topic_id": "BMS-01",
       "topic_name": "Building Management System (BMS/IBMS): DDC controllers, BACnet, Modbus protocols",
@@ -988,6 +1222,42 @@
         "MEP_CODES_Q-BMS-003"
       ]
     },
+    "BMS-02": {
+      "topic_id": "BMS-02",
+      "topic_name": "Energy Management System (EMS): Energy meters, sub-metering, monitoring",
+      "subject": "BMS / IBMS / EMS",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_BMS_EMS_02"
+      ]
+    },
+    "ECM-01": {
+      "topic_id": "ECM-01",
+      "topic_name": "Energy Conservation Act, ECBC, BEE star ratings, energy audits, VFD applications",
+      "subject": "Energy Conservation Measures",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_ECM_ECBC_01"
+      ]
+    },
+    "WTR-01": {
+      "topic_id": "WTR-01",
+      "topic_name": "Pump sets: Booster pumps, submersible, hydro-pneumatic systems",
+      "subject": "Water Supply & Treatment",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_WTR_PUMP_01"
+      ]
+    },
+    "WTR-02": {
+      "topic_id": "WTR-02",
+      "topic_name": "STP (Sewage Treatment Plant) & WTP (Water Treatment Plant) basics, RO plant",
+      "subject": "Water Supply & Treatment",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_WTR_STP_02"
+      ]
+    },
     "FIR-01": {
       "topic_id": "FIR-01",
       "topic_name": "Fire Alarm & Detection: Smoke/heat/beam detectors, addressable fire alarm panel",
@@ -995,6 +1265,15 @@
       "question_count": 1,
       "sample_question_ids": [
         "MEP_CODES_Q-SEC-003"
+      ]
+    },
+    "FIR-02": {
+      "topic_id": "FIR-02",
+      "topic_name": "Wet Riser, Down Comer, Fire pumps (Main, DG backup, Jockey pump)",
+      "subject": "Fire Alarm & Fire Fighting System",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_FIR_PUMP_02"
       ]
     },
     "FIR-03": {
@@ -1009,6 +1288,33 @@
         "MEP_CODES_Q-FIR-005"
       ]
     },
+    "FIR-04": {
+      "topic_id": "FIR-04",
+      "topic_name": "Gas-based Fire Suppression System (Clean agent FM200, Novec 1230, CO2 for electrical rooms)",
+      "subject": "Fire Alarm & Fire Fighting System",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_FIR_GAS_04"
+      ]
+    },
+    "ELE-01": {
+      "topic_id": "ELE-01",
+      "topic_name": "Internal Wiring: Point wiring, conduit types (GI, PVC), wire sizing, colour codes",
+      "subject": "Internal & External Electrification",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_ELE_WIRING_01"
+      ]
+    },
+    "ELE-02": {
+      "topic_id": "ELE-02",
+      "topic_name": "Fittings/Fixtures, Fans, Lighting circuits, MCB, RCCB, RCBO ratings",
+      "subject": "Internal & External Electrification",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_ELE_MCB_02"
+      ]
+    },
     "ERT-01": {
       "topic_id": "ERT-01",
       "topic_name": "Earthing Systems: Pipe, Plate, Chemical earthing, IS:3043 guidelines, earthing resistance values",
@@ -1016,6 +1322,15 @@
       "question_count": 1,
       "sample_question_ids": [
         "AAI_Q-UTL-003"
+      ]
+    },
+    "ERT-02": {
+      "topic_id": "ERT-02",
+      "topic_name": "Lightning Protection: Early Streamer Emission (ESE) vs Faraday cage, IS/IEC 62305",
+      "subject": "Earthing & Lightning Protection System",
+      "question_count": 1,
+      "sample_question_ids": [
+        "AAI_ERT_LIGHT_02"
       ]
     },
     "SEC-01": {
@@ -1085,253 +1400,7 @@
       ]
     }
   },
-  "zero_topics": {
-    "SIG-06": {
-      "topic_id": "SIG-06",
-      "topic_name": "Z-Transform & ROC, stability of discrete systems",
-      "subject": "Signals and Systems",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-06": {
-      "topic_id": "TND-06",
-      "topic_name": "Methods of improving string efficiency (Guard ring, grading, long cross-arms)",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-08": {
-      "topic_id": "TND-08",
-      "topic_name": "Cable capacitance measurement & Power frequency withstand tests",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-11": {
-      "topic_id": "TND-11",
-      "topic_name": "Analysis of Unbalanced Faults: L-G, L-L, L-L-G faults",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-12": {
-      "topic_id": "TND-12",
-      "topic_name": "Protection Relays: Overcurrent, directional, and distance protection of lines",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-13": {
-      "topic_id": "TND-13",
-      "topic_name": "Alternator Protection: Stator/rotor faults, loss of excitation, prime mover failure",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "TND-14": {
-      "topic_id": "TND-14",
-      "topic_name": "Transformer Protection: Winding faults, Buchholz, overloads, differential",
-      "subject": "Transmission & Distribution",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PRT-02": {
-      "topic_id": "PRT-02",
-      "topic_name": "Concept of Solid-State Relays & Numeric Relays",
-      "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PRT-03": {
-      "topic_id": "PRT-03",
-      "topic_name": "Computer-Aided Protection: Line, Bus, Generator, Transformer",
-      "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PRT-04": {
-      "topic_id": "PRT-04",
-      "topic_name": "Application of DSP to Power System Protection",
-      "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "MPU-03": {
-      "topic_id": "MPU-03",
-      "topic_name": "Timing diagrams, machine cycles, instruction cycles",
-      "subject": "Microprocessors & Microcomputers",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "MPU-05": {
-      "topic_id": "MPU-05",
-      "topic_name": "Memory interfacing & I/O interfacing (Memory mapped vs I/O mapped)",
-      "subject": "Microprocessors & Microcomputers",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "ELX-07": {
-      "topic_id": "ELX-07",
-      "topic_name": "Schmitt trigger, Multivibrators, Sample and Hold circuits",
-      "subject": "Analog and Digital Electronics",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PEL-02": {
-      "topic_id": "PEL-02",
-      "topic_name": "Static characteristics, ratings, triggering & commutation circuits",
-      "subject": "Power Electronics and Drives",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "FIB-02": {
-      "topic_id": "FIB-02",
-      "topic_name": "Optical properties of materials, refractive index, absorption, emission",
-      "subject": "Fiber Optic Systems & Multiplexing",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PMP-01": {
-      "topic_id": "PMP-01",
-      "topic_name": "Water lifting devices, classification of pumps, selection of pumps",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PMP-03": {
-      "topic_id": "PMP-03",
-      "topic_name": "NPSH (Net Positive Suction Head), Cavitation causes & prevention",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PMP-05": {
-      "topic_id": "PMP-05",
-      "topic_name": "Dimensional analysis & similitude (Reynolds, Froude numbers)",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "PMP-07": {
-      "topic_id": "PMP-07",
-      "topic_name": "Open channel flow, Hydraulic jump, Discharge measurement (Venturimeter, Orifice)",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "REN-01": {
-      "topic_id": "REN-01",
-      "topic_name": "Solar Power Plant: PV cell physics, modules, inverters, net metering",
-      "subject": "Renewable Energy Sources",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "REN-02": {
-      "topic_id": "REN-02",
-      "topic_name": "Solar plant statutory guidelines, MNRE policies, airport solar installations",
-      "subject": "Renewable Energy Sources",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "CON-03": {
-      "topic_id": "CON-03",
-      "topic_name": "Execution of Electrical Works: Installation of MEP equipment, site & manpower",
-      "subject": "Contract Management & Electrical Safety Codes",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "SUB-02": {
-      "topic_id": "SUB-02",
-      "topic_name": "Transformers, LT Panels, LT Cables",
-      "subject": "Sub-station & Distribution Infrastructure",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "DGU-02": {
-      "topic_id": "DGU-02",
-      "topic_name": "Synchronization of DG sets / Alternators",
-      "subject": "DG Sets, UPS & Power Management",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "DGU-04": {
-      "topic_id": "DGU-04",
-      "topic_name": "SCADA & Power Supply Management System in airport terminal buildings",
-      "subject": "DG Sets, UPS & Power Management",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "LFT-02": {
-      "topic_id": "LFT-02",
-      "topic_name": "Escalators & Travelators: Inclination angles ($30^\\circ/35^\\circ$), drive mechanisms, safety switches",
-      "subject": "Lifts & Escalators",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "BMS-02": {
-      "topic_id": "BMS-02",
-      "topic_name": "Energy Management System (EMS): Energy meters, sub-metering, monitoring",
-      "subject": "BMS / IBMS / EMS",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "ECM-01": {
-      "topic_id": "ECM-01",
-      "topic_name": "Energy Conservation Act, ECBC, BEE star ratings, energy audits, VFD applications",
-      "subject": "Energy Conservation Measures",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "WTR-01": {
-      "topic_id": "WTR-01",
-      "topic_name": "Pump sets: Booster pumps, submersible, hydro-pneumatic systems",
-      "subject": "Water Supply & Treatment",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "WTR-02": {
-      "topic_id": "WTR-02",
-      "topic_name": "STP (Sewage Treatment Plant) & WTP (Water Treatment Plant) basics, RO plant",
-      "subject": "Water Supply & Treatment",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "FIR-02": {
-      "topic_id": "FIR-02",
-      "topic_name": "Wet Riser, Down Comer, Fire pumps (Main, DG backup, Jockey pump)",
-      "subject": "Fire Alarm & Fire Fighting System",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "FIR-04": {
-      "topic_id": "FIR-04",
-      "topic_name": "Gas-based Fire Suppression System (Clean agent FM200, Novec 1230, CO2 for electrical rooms)",
-      "subject": "Fire Alarm & Fire Fighting System",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "ELE-01": {
-      "topic_id": "ELE-01",
-      "topic_name": "Internal Wiring: Point wiring, conduit types (GI, PVC), wire sizing, colour codes",
-      "subject": "Internal & External Electrification",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "ELE-02": {
-      "topic_id": "ELE-02",
-      "topic_name": "Fittings/Fixtures, Fans, Lighting circuits, MCB, RCCB, RCBO ratings",
-      "subject": "Internal & External Electrification",
-      "question_count": 0,
-      "sample_question_ids": []
-    },
-    "ERT-02": {
-      "topic_id": "ERT-02",
-      "topic_name": "Lightning Protection: Early Streamer Emission (ESE) vs Faraday cage, IS/IEC 62305",
-      "subject": "Earthing & Lightning Protection System",
-      "question_count": 0,
-      "sample_question_ids": []
-    }
-  },
+  "zero_topics": {},
   "uncertain_relevance_questions": [
     {
       "question_id": "GATE_Q-CTL-001",

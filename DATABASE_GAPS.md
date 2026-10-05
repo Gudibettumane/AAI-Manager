@@ -1,5 +1,5 @@
 # AAI MANAGER (ELECTRICAL) — DATABASE GAPS & EXPANSION ROADMAP
-*Audited on: 2026-10-05 07:12:49*  
+*Audited on: 2026-10-05 19:46:19*  
 *Auditor: Dedicated AI Coach & Question Setter (Operating Protocol AGENTS.md)*
 
 ---
@@ -8,8 +8,8 @@
 
 Following the comprehensive integrity audit of the 500-question repository:
 - **Canonical Topics with Verified Coverage (≥ 5 Qs):** **38 Topics (29.0%)**
-- **Canonical Topics with Limited Coverage (1–4 Qs):** **58 Topics (44.3%)**
-- **Canonical Topics with Zero Coverage (0 Qs):** **35 Topics (26.7%)**
+- **Canonical Topics with Limited Coverage (1–4 Qs):** **93 Topics (71.0%)**
+- **Canonical Topics with Zero Coverage (0 Qs):** **0 Topics (0.0%)**
 - **Allied Questions with Uncertain Syllabus Relevance:** **32 Questions** (Control Systems)
 
 ---

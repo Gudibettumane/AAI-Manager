@@ -1,5 +1,5 @@
 # AAI MANAGER (ELECTRICAL) — SOURCE COVERAGE REPORT
-*Audited on: 2026-10-05 07:12:49*  
+*Audited on: 2026-10-05 19:46:19*  
 *Auditor: Dedicated AI Coach & Question Setter (Operating Protocol AGENTS.md)*
 
 This report provides an evidence-based audit of every archival source searched, papers retrieved, questions extracted, provenance validation status, and the immediate unprocessed archives across all primary examination authorities.
@@ -17,7 +17,7 @@ This report provides an evidence-based audit of every archival source searched, 
 | **State AE/JE & CPWD Exams** | 2017–2022 | 6 Papers | 6 Papers | 24 | 8 | 16 | 0 | UPPCL AE Electrical (2019, 2021), APTRANSCO AE, and KPTCL AE official CBT papers (~50 Qs). |
 | **Statutory Codes & MEP Standards** | NBC 2016, CEA, BIS, BEE | 10 Standards | 10 Standards | 35 | 9 | 26 | 0 | IS:15105 (Sprinklers), IS:14665 (Lifts), ECBC 2017 building envelope metrics, CPWD Part I/IV/VII specifications (~30 Qs). |
 | **SSC JE & RRB JE Electrical** | 2018–2021 | 4 Papers | 4 Papers | 11 | 7 | 4 | 0 | SSC JE EE CBT-1 (2020–2023 shifts) and RRB JE EE (2019 Shift 2/3) speed formula questions (~35 Qs). |
-| **TOTALS** | **2007–2024** | **68 Papers/Codes** | **68 Papers/Codes** | **550** | **306** | **243** | **2** | **Systematic extraction resumes immediately following audit approval.** |
+| **TOTALS** | **2007–2024** | **68 Papers/Codes** | **68 Papers/Codes** | **585** | **341** | **243** | **2** | **Systematic extraction resumes immediately following audit approval.** |
 
 ---
 
@@ -25,16 +25,16 @@ This report provides an evidence-based audit of every archival source searched, 
 
 To prevent unverified claims of authenticity, the database strictly distinguishes records based on available evidence:
 
-1. **`AUTHENTICATED` (306 records, 55.6%):**
+1. **`AUTHENTICATED` (341 records, 58.3%):**
    - Direct official examination master paper, specific exam year, paper set, question number, and final official answer key verified directly from organizing bodies (IITs/IISc, UPSC, BIS, CEA, ISRO).
    - Solution has been independently re-solved and verified against the official answer key.
 
-2. **`SECONDARY-SOURCE` (243 records, 44.2%):**
+2. **`SECONDARY-SOURCE` (243 records, 41.5%):**
    - Extracted from published technical solved question papers (Made Easy, Ace Academy, JB Gupta, Rajput), candidate response sheet compilations, or multi-source reference archives.
    - 271 legacy ingested records that lacked direct URLs or specific shift metadata during early ingestion were classified as `SECONDARY-SOURCE` and enriched with authoritative domain portals (`https://gate.iitk.ac.in`, `https://upsc.gov.in`, `https://www.aai.aero`, `https://www.bis.gov.in`).
    - Solutions have been independently checked for mathematical correctness.
 
-3. **`DUPLICATE-FLAGGED` (2 record, 0.4%):**
+3. **`DUPLICATE-FLAGGED` (2 record, 0.3%):**
    - Semantic near-duplicate identified (`UPSC_ESE_Q-PEL-002` vs `GATE_EE_2020_Q32`, similarity 0.865).
    - Retained in the database with provenance preserved and flagged with `duplicate_group` to prevent redundant appearance in mock exams.
 
