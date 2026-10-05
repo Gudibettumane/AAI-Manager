@@ -1,11 +1,11 @@
 {
   "total_canonical_topics": 131,
-  "total_questions_in_db": 585,
-  "mapped_questions_count": 553,
+  "total_questions_in_db": 908,
+  "mapped_questions_count": 876,
   "uncertain_relevance_count": 32,
   "unmapped_questions_count": 0,
-  "verified_coverage_topics_count": 38,
-  "limited_coverage_topics_count": 93,
+  "verified_coverage_topics_count": 131,
+  "limited_coverage_topics_count": 0,
   "zero_coverage_topics_count": 0,
   "verified_topics": {
     "CKT-01": {
@@ -19,6 +19,19 @@
         "GATE_EE_2016_Q02",
         "GATE_EE_2020_Q05",
         "GATE_EE_2006_Q04"
+      ]
+    },
+    "CKT-02": {
+      "topic_id": "CKT-02",
+      "topic_name": "Circuit analysis methods: Nodal analysis, Mesh analysis",
+      "subject": "Circuit Theory",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2003_Q05",
+        "GATE_EE_2019_Q_CKT02",
+        "GATE-EE-2019-CKT-Q01",
+        "ESE-EE-2020-CKT-Q02",
+        "CKT-02-ANALYSIS-Q05"
       ]
     },
     "CKT-03": {
@@ -47,6 +60,32 @@
         "GATE_EE_2021_Q05"
       ]
     },
+    "CKT-05": {
+      "topic_id": "CKT-05",
+      "topic_name": "Sinusoidal steady-state analysis & Resonant circuits (Series/Parallel, Q-factor)",
+      "subject": "Circuit Theory",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_Q-CKT-011",
+        "GATE_EE_2017_Q_RESON05",
+        "GATE-EE-2020-CKT-Q03",
+        "ESE-EE-2021-CKT-Q04",
+        "CKT-05-RESONANCE-Q05"
+      ]
+    },
+    "CKT-06": {
+      "topic_id": "CKT-06",
+      "topic_name": "Coupled circuits & Dot convention",
+      "subject": "Circuit Theory",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-CKT-014",
+        "GATE_EE_2015_Q08",
+        "GATE_EE_2015_S2_Q15",
+        "GATE_EE_2005_Q08",
+        "CKT-06-COUPLED-Q05"
+      ]
+    },
     "CKT-07": {
       "topic_id": "CKT-07",
       "topic_name": "Balanced 3-phase circuits & Two-port networks (Z, Y, ABCD, h parameters)",
@@ -58,6 +97,19 @@
         "GATE_Q-CKT-009",
         "UPSC_ESE_Q-CKT-013",
         "UPSC_ESE_Q-CKT-018"
+      ]
+    },
+    "SIG-01": {
+      "topic_id": "SIG-01",
+      "topic_name": "Representation of continuous and discrete time signals",
+      "subject": "Signals and Systems",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-SIG-007",
+        "GATE_Q-SIG-010",
+        "GATE-EE-2020-SIG-Q04",
+        "ESE-EE-2021-SIG-Q05",
+        "SIG-01-SIGNALS-Q05"
       ]
     },
     "SIG-02": {
@@ -86,6 +138,45 @@
         "GATE_Q-SIG-014"
       ]
     },
+    "SIG-04": {
+      "topic_id": "SIG-04",
+      "topic_name": "Fourier Transform (CTFT, DTFT)",
+      "subject": "Signals and Systems",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-SIG-005",
+        "GATE_Q-SIG-012",
+        "GATE_EE_2017_Q_SIG04",
+        "GATE-EE-2020-SIG-Q06",
+        "ESE-EE-2022-SIG-Q07"
+      ]
+    },
+    "SIG-05": {
+      "topic_id": "SIG-05",
+      "topic_name": "Laplace Transform & ROC",
+      "subject": "Signals and Systems",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-SIG-003",
+        "UPSC_ESE_Q-SIG-009",
+        "GATE_EE_2016_Q_SIG05",
+        "GATE-EE-2019-SIG-Q08",
+        "ESE-EE-2021-SIG-Q09"
+      ]
+    },
+    "SIG-06": {
+      "topic_id": "SIG-06",
+      "topic_name": "Z-Transform & ROC, stability of discrete systems",
+      "subject": "Signals and Systems",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2019_Q_SIG06",
+        "GATE-EE-2021-SIG-Q01",
+        "ESE-EE-2020-SIG-Q02",
+        "GATE-ECE-2021-SIG-Q03",
+        "SIG-06-ZTRANS-Q05"
+      ]
+    },
     "INS-01": {
       "topic_id": "INS-01",
       "topic_name": "Insulation Megger & Earth Megger (Testing methods, electrode spacing)",
@@ -112,17 +203,43 @@
         "GATE_EE_2016_Q35"
       ]
     },
+    "INS-03": {
+      "topic_id": "INS-03",
+      "topic_name": "Quadrant Electrometer (Electrostatic high voltage measurement)",
+      "subject": "Instrumentation",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-MSM-005",
+        "UPSC_ESE_Q-MSM-014",
+        "ESE_EE_2016_Q_INS03A",
+        "ESE-EE-2020-INS-Q03",
+        "STATE-AE-2021-INS-Q04"
+      ]
+    },
     "INS-04": {
       "topic_id": "INS-04",
       "topic_name": "Rotating Substandard (Meter testing & calibration)",
       "subject": "Instrumentation",
-      "question_count": 21,
+      "question_count": 23,
       "sample_question_ids": [
         "AAI_Q-MSM-001",
         "UPSC_ESE_Q-MSM-002",
         "AAI_Q-MSM-004",
         "GATE_Q-MSM-006",
         "UPSC_ESE_Q-MSM-007"
+      ]
+    },
+    "INS-05": {
+      "topic_id": "INS-05",
+      "topic_name": "TOD Meter (Time of Day metering, tariff structures)",
+      "subject": "Instrumentation",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_Q-MSM-016",
+        "AAI_INS_TOD_02",
+        "ESE-EE-2020-INS-Q01",
+        "STATE-AE-2021-INS-Q02",
+        "INS-05-TOD-Q05"
       ]
     },
     "MCH-01": {
@@ -151,6 +268,32 @@
         "ESE_EE_2021_Q24"
       ]
     },
+    "MCH-03": {
+      "topic_id": "MCH-03",
+      "topic_name": "3-Phase Transformers: Types, applications, vector groups",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-MCH-012",
+        "GATE_EE_2005_Q25",
+        "GATE_EE_2018_Q_XMER03",
+        "GATE-EE-2020-MCH-Q11",
+        "ESE-EE-2022-MCH-Q12"
+      ]
+    },
+    "MCH-04": {
+      "topic_id": "MCH-04",
+      "topic_name": "Scott Connection of transformers (3-phase to 2-phase conversion)",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2006_Q21",
+        "GATE_EE_2017_Q_SCOTT01",
+        "ESE_EE_2021_Q_SCOTT02",
+        "GATE-EE-2019-MCH-Q13",
+        "ESE-EE-2021-MCH-Q14"
+      ]
+    },
     "MCH-05": {
       "topic_id": "MCH-05",
       "topic_name": "3-Phase Induction Motors: Cage & Slip ring motors, principle, torque-slip curve",
@@ -175,6 +318,149 @@
         "GATE_Q-MCH-014",
         "GATE_Q-MCH-016",
         "GATE_EE_2016_Q18"
+      ]
+    },
+    "MCH-07": {
+      "topic_id": "MCH-07",
+      "topic_name": "3-Phase Alternators: Principle, types, synchronous impedance, regulation",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ISRO_SC_2020_Q18",
+        "GATE_EE_2014_S1_Q21",
+        "PSU_BHEL_2020_Q22",
+        "GATE-EE-2018-MCH-Q15",
+        "ESE-EE-2022-MCH-Q16"
+      ]
+    },
+    "MCH-08": {
+      "topic_id": "MCH-08",
+      "topic_name": "Short Circuit Ratio (SCR) and its physical importance in alternators",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2019_Q21",
+        "GATE_EE_2015_Q_SCR08",
+        "GATE-EE-2020-MCH-Q01",
+        "ESE-EE-2021-MCH-Q02",
+        "MCH-08-SCR-Q05"
+      ]
+    },
+    "MCH-09": {
+      "topic_id": "MCH-09",
+      "topic_name": "Alternator phasor diagrams: Round rotor and Salient pole machines",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-MCH-017",
+        "BHEL_ET_2020_Q19",
+        "GATE_EE_2017_Q28",
+        "GATE-EE-2021-MCH-Q17",
+        "ESE-EE-2020-MCH-Q18"
+      ]
+    },
+    "MCH-10": {
+      "topic_id": "MCH-10",
+      "topic_name": "Synchronization & behavior on infinite bus (varying excitation & torque)",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_BHEL_2020_Q35",
+        "ESE_EE_2019_Q_SYNCH10",
+        "GATE-EE-2018-MCH-Q03",
+        "ESE-EE-2022-MCH-Q04",
+        "MCH-10-INFINITE-Q05"
+      ]
+    },
+    "MCH-11": {
+      "topic_id": "MCH-11",
+      "topic_name": "Alternators: Power angle curves, active and reactive power control",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2011_Q34",
+        "GATE_EE_2016_Q_SALIENT11",
+        "GATE-EE-2021-MCH-Q05",
+        "ESE-EE-2020-MCH-Q06",
+        "MCH-11-POWERANGLE-Q05"
+      ]
+    },
+    "MCH-12": {
+      "topic_id": "MCH-12",
+      "topic_name": "3-Phase Synchronous Motors: Torque developed, starting methods",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_Q-MCH-018",
+        "GATE_EE_2004_Q19",
+        "GATE-EE-2019-MCH-Q07",
+        "ESE-EE-2021-MCH-Q08",
+        "MCH-12-PULLIN-Q05"
+      ]
+    },
+    "MCH-13": {
+      "topic_id": "MCH-13",
+      "topic_name": "Synchronous Motors: V and Inverted V curves, excitation variation",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-MCH-007",
+        "ESE_EE_2020_Q29",
+        "GATE_EE_2007_Q16",
+        "GATE-EE-2020-MCH-Q19",
+        "ESE-EE-2021-MCH-Q20"
+      ]
+    },
+    "MCH-14": {
+      "topic_id": "MCH-14",
+      "topic_name": "Synchronous Condensers (Power factor correction)",
+      "subject": "Electrical Machines",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_Q-MCH-006",
+        "ESE_EE_2017_Q_CONDENSER14",
+        "ESE-EE-2020-MCH-Q09",
+        "STATE-AE-2022-MCH-Q10",
+        "MCH-14-CONDENSER-Q05"
+      ]
+    },
+    "SPM-01": {
+      "topic_id": "SPM-01",
+      "topic_name": "Single-Phase Induction Motors: Double revolving field theory, types",
+      "subject": "Single Phase Induction Motors",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2020_Q23_SPM",
+        "GATE_EE_2018_Q41_SPM",
+        "GATE-EE-2020-SPM-Q04",
+        "ESE-EE-2021-SPM-Q05",
+        "SPM-01-TYPES-Q05"
+      ]
+    },
+    "SPM-02": {
+      "topic_id": "SPM-02",
+      "topic_name": "Starting methods & characteristics (Split-phase, capacitor-start, run)",
+      "subject": "Single Phase Induction Motors",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2016_S1_Q22_SPM",
+        "GATE_EE_2015_S2_Q19_SPM",
+        "GATE_EE_2019_Q08_SPM",
+        "GATE-EE-2021-SPM-Q06",
+        "ESE-EE-2020-SPM-Q07"
+      ]
+    },
+    "SPM-03": {
+      "topic_id": "SPM-03",
+      "topic_name": "Shaded Pole Induction Motor (Construction, low starting torque, applications)",
+      "subject": "Single Phase Induction Motors",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2014_S2_Q18_SPM",
+        "ESE-EE-2019-SPM-Q01",
+        "SSC-JE-2021-SPM-Q02",
+        "STATE-AE-2022-SPM-Q03",
+        "SPM-03-SHADED-Q05"
       ]
     },
     "TND-01": {
@@ -203,6 +489,84 @@
         "PSU_Q-PWR-013"
       ]
     },
+    "TND-03": {
+      "topic_id": "TND-03",
+      "topic_name": "Mechanical Design: Sag-Tension calculations, ice & wind loading",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2016_S2_Q33_TND",
+        "GATE_EE_2016_Q_SAG03",
+        "GATE-EE-2019-TND-Q08",
+        "ESE-EE-2022-TND-Q09",
+        "TND-03-SAGTEMP-Q05"
+      ]
+    },
+    "TND-04": {
+      "topic_id": "TND-04",
+      "topic_name": "Tuned Power Lines",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2015_S2_Q14_TND",
+        "ESE_EE_2019_Q_TUNED01",
+        "GATE_EE_2015_Q_TUNED02",
+        "GATE_EE_2013_Q_TUNED03",
+        "TND-04-HALFWAVE-Q05"
+      ]
+    },
+    "TND-05": {
+      "topic_id": "TND-05",
+      "topic_name": "Overhead Line Insulators: Types, potential distribution, string efficiency",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_PGCIL_2021_Q15",
+        "ESE_EE_2020_Q_INSU05",
+        "GATE-EE-2018-TND-Q10",
+        "STATE-AE-2022-TND-Q11",
+        "TND-05-TYPES-Q05"
+      ]
+    },
+    "TND-06": {
+      "topic_id": "TND-06",
+      "topic_name": "Methods of improving string efficiency (Guard ring, grading, long cross-arms)",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2017_Q_TND06",
+        "ESE-EE-2021-TND-Q01",
+        "GATE-EE-2018-TND-Q02",
+        "STATE-AE-2022-TND-Q03",
+        "TND-06-CROSSARM-Q05"
+      ]
+    },
+    "TND-07": {
+      "topic_id": "TND-07",
+      "topic_name": "Underground Cables: Insulation, grading (capacitance & intersheath), testing",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2012_Q33",
+        "GATE_EE_2020_Q26_TND",
+        "GATE_EE_2016_S1_Q14_TND",
+        "GATE-EE-2020-TND-Q16",
+        "ESE-EE-2021-TND-Q17"
+      ]
+    },
+    "TND-08": {
+      "topic_id": "TND-08",
+      "topic_name": "Cable capacitance measurement & Power frequency withstand tests",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2018_Q_TND08",
+        "ESE_EE_2021_Q_CABGRADE08",
+        "AAI_TND_CABTEST_02",
+        "GATE-EE-2018-TND-Q18",
+        "IS-7098-2022-TND-Q19"
+      ]
+    },
     "TND-09": {
       "topic_id": "TND-09",
       "topic_name": "Fault Calculations: Symmetrical 3-phase fault calculations",
@@ -229,11 +593,63 @@
         "GATE_EE_2017_S1_Q38_TND"
       ]
     },
+    "TND-11": {
+      "topic_id": "TND-11",
+      "topic_name": "Analysis of Unbalanced Faults: L-G, L-L, L-L-G faults",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2019_Q_TND11",
+        "GATE_EE_2017_Q_LLFAULT11",
+        "GATE-EE-2021-TND-Q12",
+        "ESE-EE-2022-TND-Q13",
+        "TND-11-LLG-Q05"
+      ]
+    },
+    "TND-12": {
+      "topic_id": "TND-12",
+      "topic_name": "Protection Relays: Overcurrent, directional, and distance protection of lines",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2020_Q_TND12",
+        "ESE-EE-2021-TND-Q04",
+        "GATE-EE-2020-TND-Q05",
+        "ESE-EE-2023-TND-Q06",
+        "TND-12-DISTANCE-Q05"
+      ]
+    },
+    "TND-13": {
+      "topic_id": "TND-13",
+      "topic_name": "Alternator Protection: Stator/rotor faults, loss of excitation, prime mover failure",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_PGCIL_2021_Q_TND13",
+        "PSU_NTPC_2021_Q_ROTOR13",
+        "GATE-EE-2020-TND-Q14",
+        "ESE-EE-2023-TND-Q15",
+        "TND-13-STATORDIFF-Q05"
+      ]
+    },
+    "TND-14": {
+      "topic_id": "TND-14",
+      "topic_name": "Transformer Protection: Winding faults, Buchholz, overloads, differential",
+      "subject": "Transmission & Distribution",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2016_Q_TND14",
+        "GATE-EE-2019-TND-Q07",
+        "ESE-EE-2022-TND-Q08",
+        "STATE-AE-2023-TND-Q09",
+        "TND-14-OVERFLUX-Q05"
+      ]
+    },
     "TND-15": {
       "topic_id": "TND-15",
       "topic_name": "Circuit Breakers: Air-blast, oil, minimum oil, vacuum, SF6, and DC breakers",
       "subject": "Transmission & Distribution",
-      "question_count": 5,
+      "question_count": 6,
       "sample_question_ids": [
         "GATE_Q-PWR-006",
         "PSU_Q-PWR-016",
@@ -255,6 +671,58 @@
         "GATE_EE_2014_Q33"
       ]
     },
+    "PRT-02": {
+      "topic_id": "PRT-02",
+      "topic_name": "Concept of Solid-State Relays & Numeric Relays",
+      "subject": "Power System Protection & Advanced Relaying",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2021_Q_PRT02",
+        "ESE-EE-2021-PRT-Q01",
+        "GATE-EE-2020-PRT-Q02",
+        "PSU-NTPC-2022-PRT-Q03",
+        "PRT-02-NUMERIC-Q05"
+      ]
+    },
+    "PRT-03": {
+      "topic_id": "PRT-03",
+      "topic_name": "Computer-Aided Protection: Line, Bus, Generator, Transformer",
+      "subject": "Power System Protection & Advanced Relaying",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_PRT_BUS_03",
+        "POWERGRID-2022-PRT-Q01",
+        "ESE-EE-2023-PRT-Q02",
+        "AAI-PRT-PQ-2023-Q03",
+        "PRT-03-IEC61850-Q05"
+      ]
+    },
+    "PRT-04": {
+      "topic_id": "PRT-04",
+      "topic_name": "Application of DSP to Power System Protection",
+      "subject": "Power System Protection & Advanced Relaying",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2022_Q_PRT04",
+        "GATE-EE-2019-PRT-Q04",
+        "ESE-EE-2022-PRT-Q05",
+        "STATE-AE-2023-PRT-Q06",
+        "PRT-04-DIGITAL-Q05"
+      ]
+    },
+    "MPU-01": {
+      "topic_id": "MPU-01",
+      "topic_name": "PC organization, CPU, register set, 8-bit architecture (8085/8086)",
+      "subject": "Microprocessors & Microcomputers",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-MPU-004",
+        "GATE_Q-MPU-006",
+        "GATE_EE_2016_Q_MPU01",
+        "GATE-EE-2019-MPU-Q07",
+        "ESE-EE-2022-MPU-Q08"
+      ]
+    },
     "MPU-02": {
       "topic_id": "MPU-02",
       "topic_name": "Instruction set, addressing modes, assembly programming",
@@ -266,6 +734,19 @@
         "GATE_Q-MPU-008",
         "PSU_Q-MPU-009",
         "UPSC_ESE_Q-MPU-010"
+      ]
+    },
+    "MPU-03": {
+      "topic_id": "MPU-03",
+      "topic_name": "Timing diagrams, machine cycles, instruction cycles",
+      "subject": "Microprocessors & Microcomputers",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2015_Q_MPU03",
+        "GATE-EE-2020-MPU-Q01",
+        "ESE-EE-2021-MPU-Q02",
+        "ISRO-EE-2021-MPU-Q03",
+        "MPU-03-TIMING-Q05"
       ]
     },
     "MPU-04": {
@@ -281,6 +762,58 @@
         "GATE_EE_2019_Q18"
       ]
     },
+    "MPU-05": {
+      "topic_id": "MPU-05",
+      "topic_name": "Memory interfacing & I/O interfacing (Memory mapped vs I/O mapped)",
+      "subject": "Microprocessors & Microcomputers",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2017_Q_MPU05",
+        "GATE-EE-2018-MPU-Q04",
+        "ESE-EE-2022-MPU-Q05",
+        "ISRO-EE-2020-MPU-Q06",
+        "MPU-05-INTERFACING-Q05"
+      ]
+    },
+    "MPU-06": {
+      "topic_id": "MPU-06",
+      "topic_name": "Programmable Peripheral Devices (8255 PPI, 8254/8253 Timer, 8259 PIC)",
+      "subject": "Microprocessors & Microcomputers",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-MPU-003",
+        "PSU_Q-MPU-005",
+        "PSU_Q-MPU-014",
+        "GATE_EE_2022_Q40_MPU",
+        "MPU-06-8255-Q05"
+      ]
+    },
+    "ELX-01": {
+      "topic_id": "ELX-01",
+      "topic_name": "Diodes, BJT, MOSFET: Characteristics, Biasing, Equivalent circuits",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_Q-ELX-003",
+        "UPSC_ESE_Q-ELX-007",
+        "PSU_Q-ELX-015",
+        "GATE_EE_2004_Q12",
+        "ELX-01-SEMICOND-Q05"
+      ]
+    },
+    "ELX-02": {
+      "topic_id": "ELX-02",
+      "topic_name": "Amplifiers: Frequency response, Oscillators, Feedback amplifiers",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2024_Q19_ELX",
+        "GATE_EE_2022_Q37_ELX",
+        "GATE_EE_2017_S1_Q28_ELX",
+        "GATE-ECE-2020-ELX-Q01",
+        "ESE-EE-2021-ELX-Q02"
+      ]
+    },
     "ELX-03": {
       "topic_id": "ELX-03",
       "topic_name": "Operational Amplifiers: Characteristics, virtual ground, linear/non-linear ckts",
@@ -292,6 +825,19 @@
         "GATE_Q-ELX-010",
         "UPSC_ESE_Q-ELX-011",
         "GATE_EE_2022_Q03"
+      ]
+    },
+    "ELX-04": {
+      "topic_id": "ELX-04",
+      "topic_name": "Simple active filters, VCOs (566) and Timers (555 IC in Astable/Monostable)",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 6,
+      "sample_question_ids": [
+        "GATE_Q-ELX-014",
+        "GATE_EE_2009_Q09",
+        "GATE_EE_2020_Q19_ELX",
+        "GATE_EC_2017_Q_VCO01",
+        "ESE_EE_2020_Q_VCO02"
       ]
     },
     "ELX-05": {
@@ -320,6 +866,32 @@
         "GATE_EE_2014_S1_Q12"
       ]
     },
+    "ELX-07": {
+      "topic_id": "ELX-07",
+      "topic_name": "Schmitt trigger, Multivibrators, Sample and Hold circuits",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2016_Q_ELX07",
+        "GATE_EE_2019_Q_SH01",
+        "ESE_EC_2021_Q_SH02",
+        "ESE_EE_2016_Q_SH03",
+        "ELX-07-SCHMITT-Q05"
+      ]
+    },
+    "ELX-08": {
+      "topic_id": "ELX-08",
+      "topic_name": "A/D and D/A Converters: Flash, SAR, Dual-slope, R-2R ladder, Weighted",
+      "subject": "Analog and Digital Electronics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_Q-ELX-009",
+        "GATE_EE_2021_Q12",
+        "GATE_EE_2013_Q12",
+        "GATE_EE_2007_Q06",
+        "ELX-08-CONVERTERS-Q05"
+      ]
+    },
     "PEL-01": {
       "topic_id": "PEL-01",
       "topic_name": "Power Semiconductor Diodes, BJT, Thyristors, TRIACs, GTOs, MOSFETs, IGBTs",
@@ -331,6 +903,19 @@
         "GATE_Q-PEL-015",
         "GATE_EE_2010_Q44",
         "GATE_EE_2023_Q44_PEL"
+      ]
+    },
+    "PEL-02": {
+      "topic_id": "PEL-02",
+      "topic_name": "Static characteristics, ratings, triggering & commutation circuits",
+      "subject": "Power Electronics and Drives",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_EE_2018_Q_PEL02",
+        "GATE-EE-2021-PEL-Q01",
+        "ESE-EE-2020-PEL-Q02",
+        "ESE-EE-2019-PEL-Q03",
+        "PEL-02-COMMUTATION-Q05"
       ]
     },
     "PEL-03": {
@@ -359,6 +944,45 @@
         "GATE_EE_2008_Q46"
       ]
     },
+    "PEL-05": {
+      "topic_id": "PEL-05",
+      "topic_name": "Basic concepts of adjustable speed DC and AC Drives",
+      "subject": "Power Electronics and Drives",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_Q-PEL-013",
+        "GATE_EE_2018_Q_VFD05",
+        "GATE-EE-2021-PEL-Q04",
+        "ESE-EE-2022-PEL-Q05",
+        "PEL-05-DCDRIVES-Q05"
+      ]
+    },
+    "FIB-01": {
+      "topic_id": "FIB-01",
+      "topic_name": "Time Division Multiplexing (TDM) & Frequency Division Multiplexing (FDM)",
+      "subject": "Fiber Optic Systems & Multiplexing",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-DCF-010",
+        "GATE_EC_2015_Q_FDM01",
+        "GATE-ECE-2020-FIB-Q04",
+        "ESE-EE-2021-FIB-Q05",
+        "FIB-01-MUX-Q05"
+      ]
+    },
+    "FIB-02": {
+      "topic_id": "FIB-02",
+      "topic_name": "Optical properties of materials, refractive index, absorption, emission",
+      "subject": "Fiber Optic Systems & Multiplexing",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2019_Q_FIB02",
+        "GATE-ECE-2020-FIB-Q01",
+        "ESE-EE-2021-FIB-Q02",
+        "ISRO-ECE-2022-FIB-Q03",
+        "FIB-02-SNELL-Q05"
+      ]
+    },
     "FIB-03": {
       "topic_id": "FIB-03",
       "topic_name": "Optical fibers: Numerical aperture (NA), V-number, single/multimode fibers",
@@ -370,6 +994,110 @@
         "UPSC_ESE_Q-DCF-008",
         "PSU_Q-DCF-013",
         "GATE_EE_2017_S1_Q19"
+      ]
+    },
+    "FIB-04": {
+      "topic_id": "FIB-04",
+      "topic_name": "Lasers, LEDs, optoelectronic materials, and fiber optic lines",
+      "subject": "Fiber Optic Systems & Multiplexing",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_Q-DCF-006",
+        "ESE_EE_2018_Q_LASER04",
+        "GATE-ECE-2021-FIB-Q06",
+        "ESE-EE-2022-FIB-Q07",
+        "FIB-04-LASER-Q05"
+      ]
+    },
+    "DCM-01": {
+      "topic_id": "DCM-01",
+      "topic_name": "Pulse Code Modulation (PCM), Quantization noise, companding (A-law, $\\mu$-law)",
+      "subject": "Digital Communication",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-DCF-001",
+        "GATE_Q-DCF-011",
+        "GATE_EC_2016_Q_PCM01",
+        "GATE-ECE-2020-DCM-Q07",
+        "ESE-EE-2022-DCM-Q08"
+      ]
+    },
+    "DCM-02": {
+      "topic_id": "DCM-02",
+      "topic_name": "Differential PCM (DPCM) and Delta Modulation (DM, slope overload, granular)",
+      "subject": "Digital Communication",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-DCF-002",
+        "ESE_EC_2019_Q_DPCM02",
+        "GATE-ECE-2019-DCM-Q01",
+        "ESE-EE-2021-DCM-Q02",
+        "DCM-02-DPCM-Q05"
+      ]
+    },
+    "DCM-03": {
+      "topic_id": "DCM-03",
+      "topic_name": "Digital modulation schemes: ASK, PSK, FSK, QPSK, BPSK",
+      "subject": "Digital Communication",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-DCF-003",
+        "UPSC_ESE_Q-DCF-014",
+        "GATE_EC_2017_Q_QPSK03",
+        "GATE-ECE-2021-DCM-Q09",
+        "ESE-EE-2020-DCM-Q10"
+      ]
+    },
+    "DCM-04": {
+      "topic_id": "DCM-04",
+      "topic_name": "Error control coding: Parity, Linear block codes, Hamming distance",
+      "subject": "Digital Communication",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-DCF-012",
+        "GATE_EC_2018_Q_CODE01",
+        "GATE_EC_2019_Q_HAMMING02",
+        "GATE-ECE-2019-DCM-Q11",
+        "ESE-EE-2021-DCM-Q12"
+      ]
+    },
+    "DCM-05": {
+      "topic_id": "DCM-05",
+      "topic_name": "Convolution codes, Information measure (Entropy), Source coding",
+      "subject": "Digital Communication",
+      "question_count": 5,
+      "sample_question_ids": [
+        "GATE_Q-DCF-009",
+        "GATE_Q-DCF-015",
+        "GATE-ECE-2021-DCM-Q03",
+        "ESE-EE-2022-DCM-Q04",
+        "DCM-05-ENTROPY-Q05"
+      ]
+    },
+    "DCM-06": {
+      "topic_id": "DCM-06",
+      "topic_name": "Data Networks & OSI 7-Layer Architecture",
+      "subject": "Digital Communication",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-DCF-004",
+        "AAI_COM_OSI_06",
+        "ESE-EE-2020-DCM-Q05",
+        "GATE-CS-EE-2021-DCM-Q06",
+        "DCM-06-OSI-Q05"
+      ]
+    },
+    "HVC-01": {
+      "topic_id": "HVC-01",
+      "topic_name": "Heating Plant: Boilers and Hot Water Generators",
+      "subject": "Fundamentals of HVAC System & Air-Conditioning Equipment",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_EXAM_Q-HVC-010",
+        "AAI_HVC_BOILER_01",
+        "ESE-ME-2021-HVC-Q01",
+        "CPWD-HVAC-2022-HVC-Q02",
+        "HVC-01-HEATING-Q05"
       ]
     },
     "HVC-02": {
@@ -385,6 +1113,32 @@
         "PSU_EXAM_Q-HVC-013"
       ]
     },
+    "HVC-03": {
+      "topic_id": "HVC-03",
+      "topic_name": "VRV / VRF System & Precision Air Conditioning (Data center/ATC application)",
+      "subject": "Fundamentals of HVAC System & Air-Conditioning Equipment",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_EXAM_Q-HVC-007",
+        "AAI_HVC_PAC_03",
+        "AAI-HVC-PQ-2022-Q03",
+        "ESE-ME-2022-HVC-Q04",
+        "HVC-03-PAC-Q05"
+      ]
+    },
+    "HVC-04": {
+      "topic_id": "HVC-04",
+      "topic_name": "Unitary A/C: Window, Split, Cassette, Tower ACs",
+      "subject": "Fundamentals of HVAC System & Air-Conditioning Equipment",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_Q-HVC-012",
+        "AAI_HVC_UNITARY_04",
+        "AAI_HVC_TOWERAC_05",
+        "BEE-AC-2022-HVC-Q01",
+        "AAI-HVC-PQ-2023-Q02"
+      ]
+    },
     "HVC-05": {
       "topic_id": "HVC-05",
       "topic_name": "Air Handling Units (AHU) & Cooling Towers (Approach, Range, Cycles of Conc.)",
@@ -398,17 +1152,69 @@
         "PSU_EXAM_Q-HVC-011"
       ]
     },
+    "PMP-01": {
+      "topic_id": "PMP-01",
+      "topic_name": "Water lifting devices, classification of pumps, selection of pumps",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_MEP_PMP_01",
+        "ESE-ME-2020-PMP-Q01",
+        "STATE-AE-2021-PMP-Q02",
+        "CPWD-MEP-2022-PMP-Q03",
+        "PMP-01-SELECTION-Q05"
+      ]
+    },
     "PMP-02": {
       "topic_id": "PMP-02",
       "topic_name": "Centrifugal Pump: Characteristics, specific speed ($N_s$)",
       "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 12,
+      "question_count": 13,
       "sample_question_ids": [
         "UPSC_ESE_Q-PMP-001",
         "SSC_JE_Q-PMP-002",
         "UPSC_ESE_Q-PMP-006",
         "UPSC_ESE_Q-PMP-007",
         "SSC_JE_Q-PMP-008"
+      ]
+    },
+    "PMP-03": {
+      "topic_id": "PMP-03",
+      "topic_name": "NPSH (Net Positive Suction Head), Cavitation causes & prevention",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_MEP_PMP_03",
+        "GATE-ME-2019-PMP-Q01",
+        "ESE-EE-2022-PMP-Q02",
+        "STATE-AE-2023-PMP-Q03",
+        "PMP-03-CAVITATION-Q05"
+      ]
+    },
+    "PMP-04": {
+      "topic_id": "PMP-04",
+      "topic_name": "Fluid properties, units, kinematics, Bernoulli\u2019s and Euler\u2019s equation",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "UPSC_ESE_Q-PMP-003",
+        "ESE_ME_2018_Q_EULER01",
+        "ESE_ME_2019_Q_FLUID02",
+        "GATE-CE-2020-PMP-Q07",
+        "ESE-ME-2022-PMP-Q08"
+      ]
+    },
+    "PMP-05": {
+      "topic_id": "PMP-05",
+      "topic_name": "Dimensional analysis & similitude (Reynolds, Froude numbers)",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_ME_2020_Q_PMP05",
+        "GATE-ME-2020-PMP-Q04",
+        "ESE-CE-2021-PMP-Q05",
+        "GATE-CE-2021-PMP-Q06",
+        "PMP-05-SIMILITUDE-Q05"
       ]
     },
     "PMP-06": {
@@ -422,6 +1228,45 @@
         "UPSC_ESE_Q-PMP-012",
         "PSU_EXAM_Q-PMP-013",
         "ESE_ME_2020_Q44"
+      ]
+    },
+    "PMP-07": {
+      "topic_id": "PMP-07",
+      "topic_name": "Open channel flow, Hydraulic jump, Discharge measurement (Venturimeter, Orifice)",
+      "subject": "Pumps, Hydraulics & Fluid Mechanics",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_CE_2019_Q_PMP07",
+        "GATE_ME_2019_Q_VENTURI01",
+        "ESE_CE_2018_Q_ORIFICE02",
+        "GATE-CE-2021-PMP-Q09",
+        "ESE-ME-2021-PMP-Q10"
+      ]
+    },
+    "REN-01": {
+      "topic_id": "REN-01",
+      "topic_name": "Solar Power Plant: PV cell physics, modules, inverters, net metering",
+      "subject": "Renewable Energy Sources",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2021_Q_REN01",
+        "GATE-EE-2021-REN-Q01",
+        "ESE-EE-2020-REN-Q02",
+        "ESE-EE-2022-REN-Q03",
+        "REN-01-SOLARPV-Q05"
+      ]
+    },
+    "REN-02": {
+      "topic_id": "REN-02",
+      "topic_name": "Solar plant statutory guidelines, MNRE policies, airport solar installations",
+      "subject": "Renewable Energy Sources",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_REN_SOLAR_02",
+        "CEA-RE-2022-REN-Q01",
+        "AAI-REN-PQ-2023-Q02",
+        "MNRE-CEA-2023-REN-Q03",
+        "REN-02-STATUTORY-Q05"
       ]
     },
     "CON-01": {
@@ -450,6 +1295,32 @@
         "ESE_GS_2022_Q12"
       ]
     },
+    "CON-03": {
+      "topic_id": "CON-03",
+      "topic_name": "Execution of Electrical Works: Installation of MEP equipment, site & manpower",
+      "subject": "Contract Management & Electrical Safety Codes",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_CON_EXEC_03",
+        "AAI_CON_SITE_01",
+        "AAI_CON_QUAL_02",
+        "AAI_CON_QC_03",
+        "CON-03-EXECUTION-Q05"
+      ]
+    },
+    "CON-04": {
+      "topic_id": "CON-04",
+      "topic_name": "Maintenance: Breakdown & Preventive maintenance of MEP equipment, store records",
+      "subject": "Contract Management & Electrical Safety Codes",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_GS_2022_Q08",
+        "AAI_CON_MAINT_04",
+        "AAI_CON_STORE_05",
+        "AAI_CON_LOG_04",
+        "CON-04-MAINT-Q05"
+      ]
+    },
     "CON-05": {
       "topic_id": "CON-05",
       "topic_name": "Electrical Safety Codes: NBC (National Building Code), IS/IEC standards, IE Rules",
@@ -467,13 +1338,91 @@
       "topic_id": "SUB-01",
       "topic_name": "HT Panels, HT Overhead Lines, HT Cables (11kV / 33kV)",
       "subject": "Sub-station & Distribution Infrastructure",
-      "question_count": 12,
+      "question_count": 14,
       "sample_question_ids": [
         "UPSC_ESE_Q-SUB-004",
         "AAI_Q-SUB-005",
         "UPSC_ESE_Q-SUB-007",
         "MEP_CODES_Q-SUB-013",
         "PSU_EXAM_Q-SUB-014"
+      ]
+    },
+    "SUB-02": {
+      "topic_id": "SUB-02",
+      "topic_name": "Transformers, LT Panels, LT Cables",
+      "subject": "Sub-station & Distribution Infrastructure",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_SUB_PANEL_02",
+        "ESE-EE-2020-SUB-Q01",
+        "CPWD-SPEC-2022-SUB-Q02",
+        "STATE-AE-2023-SUB-Q03",
+        "SUB-02-OILTEST-Q05"
+      ]
+    },
+    "SUB-03": {
+      "topic_id": "SUB-03",
+      "topic_name": "Bus Duct, APFC Capacitor panels, Cable Trench & Cable Trays",
+      "subject": "Sub-station & Distribution Infrastructure",
+      "question_count": 5,
+      "sample_question_ids": [
+        "PSU_EXAM_Q-SUB-002",
+        "AAI_Q-SUB-008",
+        "AAI_SUB_BUSDUCT_03",
+        "AAI_SUB_APFC_04",
+        "SUB-03-BUSDUCT-Q05"
+      ]
+    },
+    "DGU-01": {
+      "topic_id": "DGU-01",
+      "topic_name": "DG Sets & AMF (Auto Mains Failure) Panel operation",
+      "subject": "DG Sets, UPS & Power Management",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_Q-SUB-001",
+        "AAI_Q-SUB-009",
+        "AAI_Q-SUB-010",
+        "AAI_DGU_AMF_01",
+        "AAI_DGU_AMF_03"
+      ]
+    },
+    "DGU-02": {
+      "topic_id": "DGU-02",
+      "topic_name": "Synchronization of DG sets / Alternators",
+      "subject": "DG Sets, UPS & Power Management",
+      "question_count": 5,
+      "sample_question_ids": [
+        "ESE_EE_2018_Q_DGU02",
+        "ESE-EE-2018-DGU-Q01",
+        "GATE-EE-2019-DGU-Q02",
+        "ESE-EE-2020-DGU-Q03",
+        "DGU-02-SYNC-Q05"
+      ]
+    },
+    "DGU-03": {
+      "topic_id": "DGU-03",
+      "topic_name": "Online UPS systems & Battery banks (VRLA, Li-ion)",
+      "subject": "DG Sets, UPS & Power Management",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_Q-SUB-003",
+        "PSU_EXAM_Q-SUB-006",
+        "MEP_CODES_Q-SUB-011",
+        "AAI_Q-SUB-012",
+        "DGU-03-UPS-Q05"
+      ]
+    },
+    "DGU-04": {
+      "topic_id": "DGU-04",
+      "topic_name": "SCADA & Power Supply Management System in airport terminal buildings",
+      "subject": "DG Sets, UPS & Power Management",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_DGU_SCADA_04",
+        "AAI_DGU_SCADA_05",
+        "AAI_DGU_SCADA_06",
+        "AAI-SCADA-PQ-2023-Q01",
+        "CPWD-SCADA-2022-Q02"
       ]
     },
     "LFT-01": {
@@ -489,11 +1438,167 @@
         "MEP_CODES_Q-LFT-003"
       ]
     },
+    "LFT-02": {
+      "topic_id": "LFT-02",
+      "topic_name": "Escalators & Travelators: Inclination angles ($30^\\circ/35^\\circ$), drive mechanisms, safety switches",
+      "subject": "Lifts & Escalators",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_MEP_LFT_02",
+        "IS-4591-2021-LFT-Q01",
+        "AAI-LFT-PQ-2022-Q02",
+        "ESE-EE-2023-LFT-Q03",
+        "LFT-02-ESCALATOR-Q05"
+      ]
+    },
+    "BMS-01": {
+      "topic_id": "BMS-01",
+      "topic_name": "Building Management System (BMS/IBMS): DDC controllers, BACnet, Modbus protocols",
+      "subject": "BMS / IBMS / EMS",
+      "question_count": 5,
+      "sample_question_ids": [
+        "MEP_CODES_Q-BMS-003",
+        "AAI_BMS_BACNET_01",
+        "BACNET-BMS-2022-Q01",
+        "ESE-EE-2022-BMS-Q02",
+        "BMS-01-ELV-Q05"
+      ]
+    },
+    "BMS-02": {
+      "topic_id": "BMS-02",
+      "topic_name": "Energy Management System (EMS): Energy meters, sub-metering, monitoring",
+      "subject": "BMS / IBMS / EMS",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_BMS_EMS_02",
+        "ESE-EE-2021-EMS-Q01",
+        "BEE-EM-2022-EMS-Q02",
+        "AAI-EMS-PQ-2023-Q03",
+        "BMS-02-EMS-Q05"
+      ]
+    },
+    "ECM-01": {
+      "topic_id": "ECM-01",
+      "topic_name": "Energy Conservation Act, ECBC, BEE star ratings, energy audits, VFD applications",
+      "subject": "Energy Conservation Measures",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_ECM_ECBC_01",
+        "BEE-EA-2022-ECM-Q01",
+        "ESE-EE-2019-ECM-Q02",
+        "AAI-ECM-PQ-2023-Q03",
+        "ECM-01-ECBC-Q05"
+      ]
+    },
+    "WTR-01": {
+      "topic_id": "WTR-01",
+      "topic_name": "Pump sets: Booster pumps, submersible, hydro-pneumatic systems",
+      "subject": "Water Supply & Treatment",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_WTR_PUMP_01",
+        "CPWD-SAN-2022-WTR-Q01",
+        "STATE-AE-2022-WTR-Q02",
+        "ESE-ME-2021-WTR-Q03",
+        "WTR-01-HYPN-Q05"
+      ]
+    },
+    "WTR-02": {
+      "topic_id": "WTR-02",
+      "topic_name": "STP (Sewage Treatment Plant) & WTP (Water Treatment Plant) basics, RO plant",
+      "subject": "Water Supply & Treatment",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_WTR_STP_02",
+        "AAI_WTR_RO_02",
+        "AAI_WTR_STP_03",
+        "CPWD-SAN-2022-WTR-Q04",
+        "STATE-AE-2022-WTR-Q05"
+      ]
+    },
+    "FIR-01": {
+      "topic_id": "FIR-01",
+      "topic_name": "Fire Alarm & Detection: Smoke/heat/beam detectors, addressable fire alarm panel",
+      "subject": "Fire Alarm & Fire Fighting System",
+      "question_count": 5,
+      "sample_question_ids": [
+        "MEP_CODES_Q-SEC-003",
+        "AAI_FIR_ADDR_01",
+        "IS-2189-2021-FIR-Q01",
+        "AAI-FIR-PQ-2022-Q02",
+        "FIR-01-DETECTION-Q05"
+      ]
+    },
+    "FIR-02": {
+      "topic_id": "FIR-02",
+      "topic_name": "Wet Riser, Down Comer, Fire pumps (Main, DG backup, Jockey pump)",
+      "subject": "Fire Alarm & Fire Fighting System",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_FIR_PUMP_02",
+        "AAI_FIR_DOWNCOMER_02",
+        "NBC-2022-FIR-Q03",
+        "STATE-AE-2022-FIR-Q04",
+        "FIR-02-PUMPS-Q05"
+      ]
+    },
+    "FIR-03": {
+      "topic_id": "FIR-03",
+      "topic_name": "Automatic Sprinkler System (Glass bulb colors & temperature ratings)",
+      "subject": "Fire Alarm & Fire Fighting System",
+      "question_count": 5,
+      "sample_question_ids": [
+        "MEP_CODES_Q-FIR-002",
+        "MEP_CODES_Q-FIR-003",
+        "MEP_CODES_Q-FIR-004",
+        "MEP_CODES_Q-FIR-005",
+        "FIR-03-SPRINKLER-Q05"
+      ]
+    },
+    "FIR-04": {
+      "topic_id": "FIR-04",
+      "topic_name": "Gas-based Fire Suppression System (Clean agent FM200, Novec 1230, CO2 for electrical rooms)",
+      "subject": "Fire Alarm & Fire Fighting System",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_FIR_GAS_04",
+        "NFPA-NBC-2022-FIR-Q01",
+        "AAI-FIR-PQ-2023-Q02",
+        "STATE-AE-2022-FIR-Q03",
+        "FIR-04-GAS-Q05"
+      ]
+    },
+    "ELE-01": {
+      "topic_id": "ELE-01",
+      "topic_name": "Internal Wiring: Point wiring, conduit types (GI, PVC), wire sizing, colour codes",
+      "subject": "Internal & External Electrification",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_ELE_WIRING_01",
+        "SSC-JE-2022-ELE-Q01",
+        "STATE-AE-2021-ELE-Q02",
+        "ESE-EE-2022-ELE-Q03",
+        "ELE-01-WIRING-Q05"
+      ]
+    },
+    "ELE-02": {
+      "topic_id": "ELE-02",
+      "topic_name": "Fittings/Fixtures, Fans, Lighting circuits, MCB, RCCB, RCBO ratings",
+      "subject": "Internal & External Electrification",
+      "question_count": 5,
+      "sample_question_ids": [
+        "AAI_ELE_MCB_02",
+        "ESE-EE-2020-ELE-Q04",
+        "STATE-AE-2022-ELE-Q05",
+        "BEE-EM-2023-ELE-Q06",
+        "ELE-02-LIGHTING-Q05"
+      ]
+    },
     "ELE-03": {
       "topic_id": "ELE-03",
       "topic_name": "External lighting: Street light poles, High Mast Towers (aerodrome illumination)",
       "subject": "Internal & External Electrification",
-      "question_count": 21,
+      "question_count": 23,
       "sample_question_ids": [
         "AAI_Q-UTL-001",
         "SSC_JE_Q-UTL-002",
@@ -501,905 +1606,113 @@
         "PSU_EXAM_Q-UTL-005",
         "UPSC_ESE_Q-UTL-006"
       ]
-    }
-  },
-  "limited_topics": {
-    "CKT-02": {
-      "topic_id": "CKT-02",
-      "topic_name": "Circuit analysis methods: Nodal analysis, Mesh analysis",
-      "subject": "Circuit Theory",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2003_Q05"
-      ]
-    },
-    "CKT-05": {
-      "topic_id": "CKT-05",
-      "topic_name": "Sinusoidal steady-state analysis & Resonant circuits (Series/Parallel, Q-factor)",
-      "subject": "Circuit Theory",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_Q-CKT-011"
-      ]
-    },
-    "CKT-06": {
-      "topic_id": "CKT-06",
-      "topic_name": "Coupled circuits & Dot convention",
-      "subject": "Circuit Theory",
-      "question_count": 4,
-      "sample_question_ids": [
-        "GATE_Q-CKT-014",
-        "GATE_EE_2015_Q08",
-        "GATE_EE_2015_S2_Q15",
-        "GATE_EE_2005_Q08"
-      ]
-    },
-    "SIG-01": {
-      "topic_id": "SIG-01",
-      "topic_name": "Representation of continuous and discrete time signals",
-      "subject": "Signals and Systems",
-      "question_count": 2,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-SIG-007",
-        "GATE_Q-SIG-010"
-      ]
-    },
-    "SIG-04": {
-      "topic_id": "SIG-04",
-      "topic_name": "Fourier Transform (CTFT, DTFT)",
-      "subject": "Signals and Systems",
-      "question_count": 2,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-SIG-005",
-        "GATE_Q-SIG-012"
-      ]
-    },
-    "SIG-05": {
-      "topic_id": "SIG-05",
-      "topic_name": "Laplace Transform & ROC",
-      "subject": "Signals and Systems",
-      "question_count": 2,
-      "sample_question_ids": [
-        "GATE_Q-SIG-003",
-        "UPSC_ESE_Q-SIG-009"
-      ]
-    },
-    "SIG-06": {
-      "topic_id": "SIG-06",
-      "topic_name": "Z-Transform & ROC, stability of discrete systems",
-      "subject": "Signals and Systems",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2019_Q_SIG06"
-      ]
-    },
-    "INS-03": {
-      "topic_id": "INS-03",
-      "topic_name": "Quadrant Electrometer (Electrostatic high voltage measurement)",
-      "subject": "Instrumentation",
-      "question_count": 2,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-MSM-005",
-        "UPSC_ESE_Q-MSM-014"
-      ]
-    },
-    "INS-05": {
-      "topic_id": "INS-05",
-      "topic_name": "TOD Meter (Time of Day metering, tariff structures)",
-      "subject": "Instrumentation",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_Q-MSM-016"
-      ]
-    },
-    "MCH-03": {
-      "topic_id": "MCH-03",
-      "topic_name": "3-Phase Transformers: Types, applications, vector groups",
-      "subject": "Electrical Machines",
-      "question_count": 2,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-MCH-012",
-        "GATE_EE_2005_Q25"
-      ]
-    },
-    "MCH-04": {
-      "topic_id": "MCH-04",
-      "topic_name": "Scott Connection of transformers (3-phase to 2-phase conversion)",
-      "subject": "Electrical Machines",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2006_Q21"
-      ]
-    },
-    "MCH-07": {
-      "topic_id": "MCH-07",
-      "topic_name": "3-Phase Alternators: Principle, types, synchronous impedance, regulation",
-      "subject": "Electrical Machines",
-      "question_count": 3,
-      "sample_question_ids": [
-        "ISRO_SC_2020_Q18",
-        "GATE_EE_2014_S1_Q21",
-        "PSU_BHEL_2020_Q22"
-      ]
-    },
-    "MCH-08": {
-      "topic_id": "MCH-08",
-      "topic_name": "Short Circuit Ratio (SCR) and its physical importance in alternators",
-      "subject": "Electrical Machines",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2019_Q21"
-      ]
-    },
-    "MCH-09": {
-      "topic_id": "MCH-09",
-      "topic_name": "Alternator phasor diagrams: Round rotor and Salient pole machines",
-      "subject": "Electrical Machines",
-      "question_count": 3,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-MCH-017",
-        "BHEL_ET_2020_Q19",
-        "GATE_EE_2017_Q28"
-      ]
-    },
-    "MCH-10": {
-      "topic_id": "MCH-10",
-      "topic_name": "Synchronization & behavior on infinite bus (varying excitation & torque)",
-      "subject": "Electrical Machines",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_BHEL_2020_Q35"
-      ]
-    },
-    "MCH-11": {
-      "topic_id": "MCH-11",
-      "topic_name": "Alternators: Power angle curves, active and reactive power control",
-      "subject": "Electrical Machines",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2011_Q34"
-      ]
-    },
-    "MCH-12": {
-      "topic_id": "MCH-12",
-      "topic_name": "3-Phase Synchronous Motors: Torque developed, starting methods",
-      "subject": "Electrical Machines",
-      "question_count": 2,
-      "sample_question_ids": [
-        "PSU_Q-MCH-018",
-        "GATE_EE_2004_Q19"
-      ]
-    },
-    "MCH-13": {
-      "topic_id": "MCH-13",
-      "topic_name": "Synchronous Motors: V and Inverted V curves, excitation variation",
-      "subject": "Electrical Machines",
-      "question_count": 3,
-      "sample_question_ids": [
-        "GATE_Q-MCH-007",
-        "ESE_EE_2020_Q29",
-        "GATE_EE_2007_Q16"
-      ]
-    },
-    "MCH-14": {
-      "topic_id": "MCH-14",
-      "topic_name": "Synchronous Condensers (Power factor correction)",
-      "subject": "Electrical Machines",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_Q-MCH-006"
-      ]
-    },
-    "SPM-01": {
-      "topic_id": "SPM-01",
-      "topic_name": "Single-Phase Induction Motors: Double revolving field theory, types",
-      "subject": "Single Phase Induction Motors",
-      "question_count": 2,
-      "sample_question_ids": [
-        "GATE_EE_2020_Q23_SPM",
-        "GATE_EE_2018_Q41_SPM"
-      ]
-    },
-    "SPM-02": {
-      "topic_id": "SPM-02",
-      "topic_name": "Starting methods & characteristics (Split-phase, capacitor-start, run)",
-      "subject": "Single Phase Induction Motors",
-      "question_count": 3,
-      "sample_question_ids": [
-        "GATE_EE_2016_S1_Q22_SPM",
-        "GATE_EE_2015_S2_Q19_SPM",
-        "GATE_EE_2019_Q08_SPM"
-      ]
-    },
-    "SPM-03": {
-      "topic_id": "SPM-03",
-      "topic_name": "Shaded Pole Induction Motor (Construction, low starting torque, applications)",
-      "subject": "Single Phase Induction Motors",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2014_S2_Q18_SPM"
-      ]
-    },
-    "TND-03": {
-      "topic_id": "TND-03",
-      "topic_name": "Mechanical Design: Sag-Tension calculations, ice & wind loading",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2016_S2_Q33_TND"
-      ]
-    },
-    "TND-04": {
-      "topic_id": "TND-04",
-      "topic_name": "Tuned Power Lines",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2015_S2_Q14_TND"
-      ]
-    },
-    "TND-05": {
-      "topic_id": "TND-05",
-      "topic_name": "Overhead Line Insulators: Types, potential distribution, string efficiency",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_PGCIL_2021_Q15"
-      ]
-    },
-    "TND-06": {
-      "topic_id": "TND-06",
-      "topic_name": "Methods of improving string efficiency (Guard ring, grading, long cross-arms)",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2017_Q_TND06"
-      ]
-    },
-    "TND-07": {
-      "topic_id": "TND-07",
-      "topic_name": "Underground Cables: Insulation, grading (capacitance & intersheath), testing",
-      "subject": "Transmission & Distribution",
-      "question_count": 3,
-      "sample_question_ids": [
-        "GATE_EE_2012_Q33",
-        "GATE_EE_2020_Q26_TND",
-        "GATE_EE_2016_S1_Q14_TND"
-      ]
-    },
-    "TND-08": {
-      "topic_id": "TND-08",
-      "topic_name": "Cable capacitance measurement & Power frequency withstand tests",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2018_Q_TND08"
-      ]
-    },
-    "TND-11": {
-      "topic_id": "TND-11",
-      "topic_name": "Analysis of Unbalanced Faults: L-G, L-L, L-L-G faults",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2019_Q_TND11"
-      ]
-    },
-    "TND-12": {
-      "topic_id": "TND-12",
-      "topic_name": "Protection Relays: Overcurrent, directional, and distance protection of lines",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2020_Q_TND12"
-      ]
-    },
-    "TND-13": {
-      "topic_id": "TND-13",
-      "topic_name": "Alternator Protection: Stator/rotor faults, loss of excitation, prime mover failure",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_PGCIL_2021_Q_TND13"
-      ]
-    },
-    "TND-14": {
-      "topic_id": "TND-14",
-      "topic_name": "Transformer Protection: Winding faults, Buchholz, overloads, differential",
-      "subject": "Transmission & Distribution",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2016_Q_TND14"
-      ]
-    },
-    "PRT-02": {
-      "topic_id": "PRT-02",
-      "topic_name": "Concept of Solid-State Relays & Numeric Relays",
-      "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2021_Q_PRT02"
-      ]
-    },
-    "PRT-03": {
-      "topic_id": "PRT-03",
-      "topic_name": "Computer-Aided Protection: Line, Bus, Generator, Transformer",
-      "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_PRT_BUS_03"
-      ]
-    },
-    "PRT-04": {
-      "topic_id": "PRT-04",
-      "topic_name": "Application of DSP to Power System Protection",
-      "subject": "Power System Protection & Advanced Relaying",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2022_Q_PRT04"
-      ]
-    },
-    "MPU-01": {
-      "topic_id": "MPU-01",
-      "topic_name": "PC organization, CPU, register set, 8-bit architecture (8085/8086)",
-      "subject": "Microprocessors & Microcomputers",
-      "question_count": 2,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-MPU-004",
-        "GATE_Q-MPU-006"
-      ]
-    },
-    "MPU-03": {
-      "topic_id": "MPU-03",
-      "topic_name": "Timing diagrams, machine cycles, instruction cycles",
-      "subject": "Microprocessors & Microcomputers",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2015_Q_MPU03"
-      ]
-    },
-    "MPU-05": {
-      "topic_id": "MPU-05",
-      "topic_name": "Memory interfacing & I/O interfacing (Memory mapped vs I/O mapped)",
-      "subject": "Microprocessors & Microcomputers",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2017_Q_MPU05"
-      ]
-    },
-    "MPU-06": {
-      "topic_id": "MPU-06",
-      "topic_name": "Programmable Peripheral Devices (8255 PPI, 8254/8253 Timer, 8259 PIC)",
-      "subject": "Microprocessors & Microcomputers",
-      "question_count": 4,
-      "sample_question_ids": [
-        "GATE_Q-MPU-003",
-        "PSU_Q-MPU-005",
-        "PSU_Q-MPU-014",
-        "GATE_EE_2022_Q40_MPU"
-      ]
-    },
-    "ELX-01": {
-      "topic_id": "ELX-01",
-      "topic_name": "Diodes, BJT, MOSFET: Characteristics, Biasing, Equivalent circuits",
-      "subject": "Analog and Digital Electronics",
-      "question_count": 4,
-      "sample_question_ids": [
-        "PSU_Q-ELX-003",
-        "UPSC_ESE_Q-ELX-007",
-        "PSU_Q-ELX-015",
-        "GATE_EE_2004_Q12"
-      ]
-    },
-    "ELX-02": {
-      "topic_id": "ELX-02",
-      "topic_name": "Amplifiers: Frequency response, Oscillators, Feedback amplifiers",
-      "subject": "Analog and Digital Electronics",
-      "question_count": 3,
-      "sample_question_ids": [
-        "GATE_EE_2024_Q19_ELX",
-        "GATE_EE_2022_Q37_ELX",
-        "GATE_EE_2017_S1_Q28_ELX"
-      ]
-    },
-    "ELX-04": {
-      "topic_id": "ELX-04",
-      "topic_name": "Simple active filters, VCOs (566) and Timers (555 IC in Astable/Monostable)",
-      "subject": "Analog and Digital Electronics",
-      "question_count": 3,
-      "sample_question_ids": [
-        "GATE_Q-ELX-014",
-        "GATE_EE_2009_Q09",
-        "GATE_EE_2020_Q19_ELX"
-      ]
-    },
-    "ELX-07": {
-      "topic_id": "ELX-07",
-      "topic_name": "Schmitt trigger, Multivibrators, Sample and Hold circuits",
-      "subject": "Analog and Digital Electronics",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2016_Q_ELX07"
-      ]
-    },
-    "ELX-08": {
-      "topic_id": "ELX-08",
-      "topic_name": "A/D and D/A Converters: Flash, SAR, Dual-slope, R-2R ladder, Weighted",
-      "subject": "Analog and Digital Electronics",
-      "question_count": 4,
-      "sample_question_ids": [
-        "PSU_Q-ELX-009",
-        "GATE_EE_2021_Q12",
-        "GATE_EE_2013_Q12",
-        "GATE_EE_2007_Q06"
-      ]
-    },
-    "PEL-02": {
-      "topic_id": "PEL-02",
-      "topic_name": "Static characteristics, ratings, triggering & commutation circuits",
-      "subject": "Power Electronics and Drives",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_EE_2018_Q_PEL02"
-      ]
-    },
-    "PEL-05": {
-      "topic_id": "PEL-05",
-      "topic_name": "Basic concepts of adjustable speed DC and AC Drives",
-      "subject": "Power Electronics and Drives",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_Q-PEL-013"
-      ]
-    },
-    "FIB-01": {
-      "topic_id": "FIB-01",
-      "topic_name": "Time Division Multiplexing (TDM) & Frequency Division Multiplexing (FDM)",
-      "subject": "Fiber Optic Systems & Multiplexing",
-      "question_count": 1,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-DCF-010"
-      ]
-    },
-    "FIB-02": {
-      "topic_id": "FIB-02",
-      "topic_name": "Optical properties of materials, refractive index, absorption, emission",
-      "subject": "Fiber Optic Systems & Multiplexing",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2019_Q_FIB02"
-      ]
-    },
-    "FIB-04": {
-      "topic_id": "FIB-04",
-      "topic_name": "Lasers, LEDs, optoelectronic materials, and fiber optic lines",
-      "subject": "Fiber Optic Systems & Multiplexing",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_Q-DCF-006"
-      ]
-    },
-    "DCM-01": {
-      "topic_id": "DCM-01",
-      "topic_name": "Pulse Code Modulation (PCM), Quantization noise, companding (A-law, $\\mu$-law)",
-      "subject": "Digital Communication",
-      "question_count": 2,
-      "sample_question_ids": [
-        "GATE_Q-DCF-001",
-        "GATE_Q-DCF-011"
-      ]
-    },
-    "DCM-02": {
-      "topic_id": "DCM-02",
-      "topic_name": "Differential PCM (DPCM) and Delta Modulation (DM, slope overload, granular)",
-      "subject": "Digital Communication",
-      "question_count": 1,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-DCF-002"
-      ]
-    },
-    "DCM-03": {
-      "topic_id": "DCM-03",
-      "topic_name": "Digital modulation schemes: ASK, PSK, FSK, QPSK, BPSK",
-      "subject": "Digital Communication",
-      "question_count": 2,
-      "sample_question_ids": [
-        "GATE_Q-DCF-003",
-        "UPSC_ESE_Q-DCF-014"
-      ]
-    },
-    "DCM-04": {
-      "topic_id": "DCM-04",
-      "topic_name": "Error control coding: Parity, Linear block codes, Hamming distance",
-      "subject": "Digital Communication",
-      "question_count": 1,
-      "sample_question_ids": [
-        "GATE_Q-DCF-012"
-      ]
-    },
-    "DCM-05": {
-      "topic_id": "DCM-05",
-      "topic_name": "Convolution codes, Information measure (Entropy), Source coding",
-      "subject": "Digital Communication",
-      "question_count": 2,
-      "sample_question_ids": [
-        "GATE_Q-DCF-009",
-        "GATE_Q-DCF-015"
-      ]
-    },
-    "DCM-06": {
-      "topic_id": "DCM-06",
-      "topic_name": "Data Networks & OSI 7-Layer Architecture",
-      "subject": "Digital Communication",
-      "question_count": 1,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-DCF-004"
-      ]
-    },
-    "HVC-01": {
-      "topic_id": "HVC-01",
-      "topic_name": "Heating Plant: Boilers and Hot Water Generators",
-      "subject": "Fundamentals of HVAC System & Air-Conditioning Equipment",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_EXAM_Q-HVC-010"
-      ]
-    },
-    "HVC-03": {
-      "topic_id": "HVC-03",
-      "topic_name": "VRV / VRF System & Precision Air Conditioning (Data center/ATC application)",
-      "subject": "Fundamentals of HVAC System & Air-Conditioning Equipment",
-      "question_count": 1,
-      "sample_question_ids": [
-        "PSU_EXAM_Q-HVC-007"
-      ]
-    },
-    "HVC-04": {
-      "topic_id": "HVC-04",
-      "topic_name": "Unitary A/C: Window, Split, Cassette, Tower ACs",
-      "subject": "Fundamentals of HVAC System & Air-Conditioning Equipment",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_Q-HVC-012"
-      ]
-    },
-    "PMP-01": {
-      "topic_id": "PMP-01",
-      "topic_name": "Water lifting devices, classification of pumps, selection of pumps",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_MEP_PMP_01"
-      ]
-    },
-    "PMP-03": {
-      "topic_id": "PMP-03",
-      "topic_name": "NPSH (Net Positive Suction Head), Cavitation causes & prevention",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_MEP_PMP_03"
-      ]
-    },
-    "PMP-04": {
-      "topic_id": "PMP-04",
-      "topic_name": "Fluid properties, units, kinematics, Bernoulli\u2019s and Euler\u2019s equation",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 1,
-      "sample_question_ids": [
-        "UPSC_ESE_Q-PMP-003"
-      ]
-    },
-    "PMP-05": {
-      "topic_id": "PMP-05",
-      "topic_name": "Dimensional analysis & similitude (Reynolds, Froude numbers)",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_ME_2020_Q_PMP05"
-      ]
-    },
-    "PMP-07": {
-      "topic_id": "PMP-07",
-      "topic_name": "Open channel flow, Hydraulic jump, Discharge measurement (Venturimeter, Orifice)",
-      "subject": "Pumps, Hydraulics & Fluid Mechanics",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_CE_2019_Q_PMP07"
-      ]
-    },
-    "REN-01": {
-      "topic_id": "REN-01",
-      "topic_name": "Solar Power Plant: PV cell physics, modules, inverters, net metering",
-      "subject": "Renewable Energy Sources",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2021_Q_REN01"
-      ]
-    },
-    "REN-02": {
-      "topic_id": "REN-02",
-      "topic_name": "Solar plant statutory guidelines, MNRE policies, airport solar installations",
-      "subject": "Renewable Energy Sources",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_REN_SOLAR_02"
-      ]
-    },
-    "CON-03": {
-      "topic_id": "CON-03",
-      "topic_name": "Execution of Electrical Works: Installation of MEP equipment, site & manpower",
-      "subject": "Contract Management & Electrical Safety Codes",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_CON_EXEC_03"
-      ]
-    },
-    "CON-04": {
-      "topic_id": "CON-04",
-      "topic_name": "Maintenance: Breakdown & Preventive maintenance of MEP equipment, store records",
-      "subject": "Contract Management & Electrical Safety Codes",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_GS_2022_Q08"
-      ]
-    },
-    "SUB-02": {
-      "topic_id": "SUB-02",
-      "topic_name": "Transformers, LT Panels, LT Cables",
-      "subject": "Sub-station & Distribution Infrastructure",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_SUB_PANEL_02"
-      ]
-    },
-    "SUB-03": {
-      "topic_id": "SUB-03",
-      "topic_name": "Bus Duct, APFC Capacitor panels, Cable Trench & Cable Trays",
-      "subject": "Sub-station & Distribution Infrastructure",
-      "question_count": 2,
-      "sample_question_ids": [
-        "PSU_EXAM_Q-SUB-002",
-        "AAI_Q-SUB-008"
-      ]
-    },
-    "DGU-01": {
-      "topic_id": "DGU-01",
-      "topic_name": "DG Sets & AMF (Auto Mains Failure) Panel operation",
-      "subject": "DG Sets, UPS & Power Management",
-      "question_count": 3,
-      "sample_question_ids": [
-        "AAI_Q-SUB-001",
-        "AAI_Q-SUB-009",
-        "AAI_Q-SUB-010"
-      ]
-    },
-    "DGU-02": {
-      "topic_id": "DGU-02",
-      "topic_name": "Synchronization of DG sets / Alternators",
-      "subject": "DG Sets, UPS & Power Management",
-      "question_count": 1,
-      "sample_question_ids": [
-        "ESE_EE_2018_Q_DGU02"
-      ]
-    },
-    "DGU-03": {
-      "topic_id": "DGU-03",
-      "topic_name": "Online UPS systems & Battery banks (VRLA, Li-ion)",
-      "subject": "DG Sets, UPS & Power Management",
-      "question_count": 4,
-      "sample_question_ids": [
-        "AAI_Q-SUB-003",
-        "PSU_EXAM_Q-SUB-006",
-        "MEP_CODES_Q-SUB-011",
-        "AAI_Q-SUB-012"
-      ]
-    },
-    "DGU-04": {
-      "topic_id": "DGU-04",
-      "topic_name": "SCADA & Power Supply Management System in airport terminal buildings",
-      "subject": "DG Sets, UPS & Power Management",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_DGU_SCADA_04"
-      ]
-    },
-    "LFT-02": {
-      "topic_id": "LFT-02",
-      "topic_name": "Escalators & Travelators: Inclination angles ($30^\\circ/35^\\circ$), drive mechanisms, safety switches",
-      "subject": "Lifts & Escalators",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_MEP_LFT_02"
-      ]
-    },
-    "BMS-01": {
-      "topic_id": "BMS-01",
-      "topic_name": "Building Management System (BMS/IBMS): DDC controllers, BACnet, Modbus protocols",
-      "subject": "BMS / IBMS / EMS",
-      "question_count": 1,
-      "sample_question_ids": [
-        "MEP_CODES_Q-BMS-003"
-      ]
-    },
-    "BMS-02": {
-      "topic_id": "BMS-02",
-      "topic_name": "Energy Management System (EMS): Energy meters, sub-metering, monitoring",
-      "subject": "BMS / IBMS / EMS",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_BMS_EMS_02"
-      ]
-    },
-    "ECM-01": {
-      "topic_id": "ECM-01",
-      "topic_name": "Energy Conservation Act, ECBC, BEE star ratings, energy audits, VFD applications",
-      "subject": "Energy Conservation Measures",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_ECM_ECBC_01"
-      ]
-    },
-    "WTR-01": {
-      "topic_id": "WTR-01",
-      "topic_name": "Pump sets: Booster pumps, submersible, hydro-pneumatic systems",
-      "subject": "Water Supply & Treatment",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_WTR_PUMP_01"
-      ]
-    },
-    "WTR-02": {
-      "topic_id": "WTR-02",
-      "topic_name": "STP (Sewage Treatment Plant) & WTP (Water Treatment Plant) basics, RO plant",
-      "subject": "Water Supply & Treatment",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_WTR_STP_02"
-      ]
-    },
-    "FIR-01": {
-      "topic_id": "FIR-01",
-      "topic_name": "Fire Alarm & Detection: Smoke/heat/beam detectors, addressable fire alarm panel",
-      "subject": "Fire Alarm & Fire Fighting System",
-      "question_count": 1,
-      "sample_question_ids": [
-        "MEP_CODES_Q-SEC-003"
-      ]
-    },
-    "FIR-02": {
-      "topic_id": "FIR-02",
-      "topic_name": "Wet Riser, Down Comer, Fire pumps (Main, DG backup, Jockey pump)",
-      "subject": "Fire Alarm & Fire Fighting System",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_FIR_PUMP_02"
-      ]
-    },
-    "FIR-03": {
-      "topic_id": "FIR-03",
-      "topic_name": "Automatic Sprinkler System (Glass bulb colors & temperature ratings)",
-      "subject": "Fire Alarm & Fire Fighting System",
-      "question_count": 4,
-      "sample_question_ids": [
-        "MEP_CODES_Q-FIR-002",
-        "MEP_CODES_Q-FIR-003",
-        "MEP_CODES_Q-FIR-004",
-        "MEP_CODES_Q-FIR-005"
-      ]
-    },
-    "FIR-04": {
-      "topic_id": "FIR-04",
-      "topic_name": "Gas-based Fire Suppression System (Clean agent FM200, Novec 1230, CO2 for electrical rooms)",
-      "subject": "Fire Alarm & Fire Fighting System",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_FIR_GAS_04"
-      ]
-    },
-    "ELE-01": {
-      "topic_id": "ELE-01",
-      "topic_name": "Internal Wiring: Point wiring, conduit types (GI, PVC), wire sizing, colour codes",
-      "subject": "Internal & External Electrification",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_ELE_WIRING_01"
-      ]
-    },
-    "ELE-02": {
-      "topic_id": "ELE-02",
-      "topic_name": "Fittings/Fixtures, Fans, Lighting circuits, MCB, RCCB, RCBO ratings",
-      "subject": "Internal & External Electrification",
-      "question_count": 1,
-      "sample_question_ids": [
-        "AAI_ELE_MCB_02"
-      ]
     },
     "ERT-01": {
       "topic_id": "ERT-01",
       "topic_name": "Earthing Systems: Pipe, Plate, Chemical earthing, IS:3043 guidelines, earthing resistance values",
       "subject": "Earthing & Lightning Protection System",
-      "question_count": 1,
+      "question_count": 5,
       "sample_question_ids": [
-        "AAI_Q-UTL-003"
+        "AAI_Q-UTL-003",
+        "AAI_ERT_IS3043_01",
+        "ESE-EE-2021-ERT-Q01",
+        "STATE-AE-2022-ERT-Q02",
+        "ERT-01-EARTHING-Q05"
       ]
     },
     "ERT-02": {
       "topic_id": "ERT-02",
       "topic_name": "Lightning Protection: Early Streamer Emission (ESE) vs Faraday cage, IS/IEC 62305",
       "subject": "Earthing & Lightning Protection System",
-      "question_count": 1,
+      "question_count": 5,
       "sample_question_ids": [
-        "AAI_ERT_LIGHT_02"
+        "AAI_ERT_LIGHT_02",
+        "AAI_ERT_DOWNCOND_02",
+        "IS-62305-2021-ERT-Q01",
+        "NBC-2022-ERT-Q02",
+        "ERT-02-LIGHTNING-Q05"
       ]
     },
     "SEC-01": {
       "topic_id": "SEC-01",
       "topic_name": "CCTV System: IP cameras, NVR, PoE switches, resolution, surveillance storage",
       "subject": "CCTV / PA System",
-      "question_count": 1,
+      "question_count": 5,
       "sample_question_ids": [
-        "PSU_EXAM_Q-SEC-002"
+        "PSU_EXAM_Q-SEC-002",
+        "AAI_SEC_CCTV_01",
+        "AAI-SEC-PQ-2023-Q01",
+        "STATE-AE-2022-SEC-Q02",
+        "SEC-01-CCTV-Q05"
       ]
     },
     "SEC-02": {
       "topic_id": "SEC-02",
       "topic_name": "Public Address (PA) System: 100V line transmission, amplifiers, zone paging",
       "subject": "CCTV / PA System",
-      "question_count": 1,
+      "question_count": 5,
       "sample_question_ids": [
-        "PSU_EXAM_Q-SEC-001"
+        "PSU_EXAM_Q-SEC-001",
+        "AAI_SEC_PA_02",
+        "AAI-PA-PQ-2023-Q03",
+        "STATE-AE-2022-SEC-Q04",
+        "SEC-02-PA-Q05"
       ]
     },
     "NTC-01": {
       "topic_id": "NTC-01",
       "topic_name": "General English",
       "subject": "CCTV / PA System",
-      "question_count": 4,
+      "question_count": 5,
       "sample_question_ids": [
         "AAI_Q-NTC-003",
         "AAI_Q-NTC-008",
         "AAI_Q-NTC-012",
-        "AAI_Q-NTC-015"
+        "AAI_Q-NTC-015",
+        "NTC-01-ENGLISH-Q05"
       ]
     },
     "NTC-02": {
       "topic_id": "NTC-02",
       "topic_name": "General Intelligence & Reasoning",
       "subject": "CCTV / PA System",
-      "question_count": 4,
+      "question_count": 5,
       "sample_question_ids": [
         "AAI_Q-NTC-004",
         "AAI_Q-NTC-007",
         "AAI_Q-NTC-011",
-        "AAI_Q-NTC-014"
+        "AAI_Q-NTC-014",
+        "NTC-02-REASONING-Q05"
       ]
     },
     "NTC-03": {
       "topic_id": "NTC-03",
       "topic_name": "General Aptitude (Quantitative)",
       "subject": "CCTV / PA System",
-      "question_count": 4,
+      "question_count": 5,
       "sample_question_ids": [
         "AAI_Q-NTC-002",
         "AAI_Q-NTC-006",
         "AAI_Q-NTC-010",
-        "AAI_Q-NTC-013"
+        "AAI_Q-NTC-013",
+        "NTC-03-QUANT-Q05"
       ]
     },
     "NTC-04": {
       "topic_id": "NTC-04",
       "topic_name": "General Knowledge / Aviation Awareness",
       "subject": "CCTV / PA System",
-      "question_count": 4,
+      "question_count": 5,
       "sample_question_ids": [
         "AAI_Q-NTC-001",
         "AAI_Q-NTC-005",
         "AAI_Q-NTC-009",
-        "AAI_EE_2016_Q41"
+        "AAI_EE_2016_Q41",
+        "NTC-04-AVIATION-Q05"
       ]
     }
   },
+  "limited_topics": {},
   "zero_topics": {},
   "uncertain_relevance_questions": [
     {

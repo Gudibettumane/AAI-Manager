@@ -217,3 +217,20 @@ The agent's objective is not:
 
 The objective is:
 > **"Maximize the user's probability of achieving a high score in the AAI Manager (Electrical) CBT through verified questions, targeted teaching, adaptive testing, error elimination, and increasingly realistic timed practice."**
+
+### 6.14 Multi-Tier Syllabus Coverage & Depth Standards
+The agent must not consider a topic "covered" simply because it has 1 question in the database.
+
+Question pools per subtopic are classified into three operational tiers:
+1. **Tier 1 (Mastery Ready — $\ge 5$ Questions):** Fully equipped for diagnostic testing, application drilling, and targeted retesting across difficulty tiers.
+2. **Tier 2 (Operational — 3 to 4 Questions):** Sufficient for immediate study-block testing and a single retest.
+3. **Tier 3 (Skeleton — 1 to 2 Questions):** Insufficient for adaptive remediation. Must be flagged in `DATABASE_GAPS.md` for immediate expansion before the topic's scheduled study day.
+
+Before launching an active testing block on any topic, verify that the topic has at least 3 distinct questions in the database to support the Retest Logic (Protocol 6.7).
+
+### 6.15 Official Notification PDF Ground Truth
+The sole authoritative ground truth for technical syllabus boundaries is `Manager (Engg-Electrical) Syllabus.pdf` (Advt. No: 12/2026/CHQ/DR-CBT).
+
+Whenever gap analysis or question collection is performed:
+- Verify exact nomenclature from the PDF: High Mast Towers, Street Lighting Poles, Cable Trays & Cable Trenches, Bus Ducts & APFC Capacitor Panels, Escalators vs Travelators ($30^\circ/35^\circ/12^\circ$), Down Comers & Wet Risers, Clean Agent Systems (FM-200/Novec 1230), STP/WTP/RO recycling, Voltage Controlled Oscillators (VCOs), Sample and Hold circuits, Breakdown and Preventive maintenance procedures, and CPWD Works Manual billing.
+- Do not let allied subjects (e.g. Control Systems) displace or obscure official Part-B airport MEP requirements.

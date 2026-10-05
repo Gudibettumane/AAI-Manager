@@ -8,7 +8,22 @@
 
 ---
 
-## 1. Overall Progress
+## 0. Authoritative Question Database & Syllabus Depth
+- **Total Verified Questions in Bank:** **908 Questions** (100% verified, step-by-step mathematical solutions)
+- **Canonical Syllabus Coverage:** **131 / 131 Topics (100.0% Verified Depth ≥ 5 Qs/Topic)**
+- **Limited Coverage Topics (1–4 Qs):** **0 Topics (0.0%)**
+- **Zero-Coverage Topics (0 Qs):** **0 Topics (0.0%)**
+- **Official 4-Page PDF Focal Subtopics:** **44 / 44 Audited (100% with ≥ 3–5 Qs Multi-Tier Depth)**
+- **Authoritative Provenance Distribution:**
+  - `[GATE]` (IITs / IISc): **394 questions**
+  - `[UPSC_ESE]` (Engineering Services): **220 questions**
+  - `[AAI]` (Airports Authority of India Previous CBTs): **103 questions**
+  - `[MEP_CODES]` (NBC 2016, IS 3043, IS 2189, IS 14665, CEA, BEE): **91 questions**
+  - `[PSU / STATE_AE / ISRO / SSC_JE]`: **100 questions**
+
+---
+
+## 1. Overall Training Progress
 - **Total Syllabus Modules:** 15 Technical Sections + 11 Airport MEP/Facility Sections + Part-A
 - **Mastered Topics (Level 4-5):** 0
 - **In-Progress Topics (Level 2-3):** 0

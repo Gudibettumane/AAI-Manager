@@ -1,0 +1,159 @@
+=== PAGE 1 ===
+SYLLABUS & WEIGHTAGE OF 
+QUESTIONS FOR COMPUTER BASED 
+TEST 
+ ADVERTISEMENT No: 12/2026/CHQ/DR-CBT 
+ 
+MANAGER (ENGG.-ELECTRICAL) 
+ 
+Part-A 
+General Knowledge, General Intelligence,                                               Weightage 30% 
+General Aptitude, English etc. 
+ 
+Part-B 
+Questions on subjects relating to                                                                Weightage 70% 
+Educational Qualifications 
+ 
+1.        Circuit Theory: Circuit components; network graphs; KCL, KVL; circuit analysis methods; 
+nodal analysis, mesh analysis; basic network theorems and applications; transient analysis; RL, RC and 
+RLC circuits; sinusoidal steady state analysis; resonant circui ts; coupled circuits; balanced 3-phase 
+circuits; Two-port networks. 
+2 .        S i g n a l s  a n d  s y s t e m s: Representation of continuous a nd discrete time signals; shift ing and 
+scaling operation; liner time invariant and causal systems; Fourier Laplace and Z transform. 
+3.    Instrumentation:  Insulation megger, earth megger, Kelvin’s Double bridge, Quadra nt 
+electrometer, Rotating substandard, TOD meter. 
+4.    Electrical Machines:- 
+ 
+a. Transformers: Constructional details – Principle of operation – vector diagra ms on no load 
+and load-regulation and efficiency – equivalent circuits and te sts for the determination of 
+parameters of equivalent circuits – types of three phase transf ormers and their applications – 
+Scott connection of transformers. 
+b. 3-Phase Induction Motors: Principle of operation – Cage and Slip ring motors – torque sli p 
+characteristics – methods of speed control. 
+c.  3-Phase Alternators: Principle of operation and constructional details – types of Al ternators 
+– synchronous impedance – voltage regulation – short circuit ra tio and its importance – 
+phasor diagrams of round rotor and salient pole machines – sync hronization – behaviour of 
+an alternator connected to infinite bus – effect of varying exc itation current and mechanical 
+torque – power angle curves – control of active and reactive po wers. 
+d. 3-Phase Synchronous Motors: Principle of operation – torque developed and methods of 
+starting – V and Inverted V curves – effects of variations of e xcitation – synchronous 
+condensers. 
+5.         Single phase Induction Motors – Types of single phase motors – Types of Single phase 
+induction motors – characteristics and methods of starting – shaded pole induction motor. 
+6. Transmission  &  Distribution:  Line constants – Inductance and Capacitance calculations – 
+
+=== PAGE 2 ===
+Representation of overhead Lines – Short, Medium and Long lines – ABCD constants – Mechanical Design 
+– Seg. Tension Calculations, Tuned Power Lines. 
+a.  Over Head Line Insulators : Types of Insulators – Potential distributions over a string o f 
+suspensions insulators – string efficiency – Methods of improvi ng string efficiency. 
+b. Cable : Insulation of cables – Grading of cables – Capacitance Measurement in cables – Testing of 
+Cables – Power frequency withstand tests. 
+c. Fault Calculations: Balanced Fault calculations on systems – Symmetrical components – Types 
+of faults – Analysis of unbalanced faults. 
+d. Protection: Characteristic of Relays – Over current, directional and distan ce protection of 
+lines. 
+Protection of Alternators against stator faults, rotor faults, loss of excitation, unbalanced 
+loading, overloading, failure of prime-mover. Over speeding and  over voltage. Protection of 
+transformers against winding faults, overloads and external short circuits. 
+e.  Circuit Breakers: Air- blast, oil, minimum oil, vacuum – Sulphur hexafluoride and 
+d.c. circuit breakers – Relative merits and demerits. 
+ 
+7. Power System Protection : Principles of over current, differential and distance protect ion, Concept 
+of solid-state relays. Circuit breakers. Computer aided protect ion: Introduction; line bus, generator, 
+transformer protection; numeric relays and application of DSP to protection. 
+ 
+8. Microprocessors and Microcomputers : PC organization; CPU, instruction set, register set, timing 
+diagram, programming, interrupts, memory interfacing, I/O inter facing, programmable peripheral 
+devices. 
+9. Analog and Digital Electronics : Characteristics of diodes. BJT, MOSFET, amplifiers – biasing,  
+equivalent circuit and frequency response; oscillators and feed back amplifiers; operational amplifiers – 
+characteristics and applications; simple active filters: VCOs a nd timers; combinational and sequential 
+logic circuits; multiplexer; Schmitt trigger; multivibrators; s ample and hold circuits; A/D and D/A 
+converters; 8-bit microprocessor basics, architecture, programming and interfacing. 
+10. Power Electronics and Drives : Semiconductor power diodes, transistors thyristors, triacs, G TOs, 
+MOSFETs and IGBTs – static characteristics and principles of op eration; triggering circuits; phase 
+control rectifiers; bride converters – fully controlled and hal f controlled; principles of choppers and 
+inverters; basic concepts of adjustable speed dc and ac drives.  
+11. Fiber Optic Systems Multiplexing : Time division multiplexing, frequency division multiplexing, 
+optical properties of materials, refractive index absorption an d emission of light, optical fibers lasers 
+and optoelectronics materials, fiber optic lines. 
+12. Digital Communication : Pulse code modulation (PCM), differential pulse code modulati on 
+(DPCM), delta modulation (DM), Digital modulation and demodulat ion schemes: amplitude, phase 
+and frequency keying schemes (ASK, PSK, FSK). Error control cod ing: error detection and 
+correction, linear block codes, convolution codes. Information measure and source coding. Data 
+networks, 7-layer architecture 
+13. Fundamentals of HVAC System and Various types of Air-conditioning equipment- 
+ Heating Plant- (Boilers/ Hot Water Generators) 
+ Central Air-conditioning – (Chillers-Centrifugal/Screw) 
+ VRV System, Precision Air conditioning 
+ Unitary A/c- window/split/cassette/Tower 
+ AHU, Cooling tower. 
+
+=== PAGE 3 ===
+14. PUMPS 
+ 
+a. PUMPS: Water lifting devices, classification of pimps, centrifugal p ump and its 
+characteristics, specific speed, NPSH and cavitation, selection  of pumps. 
+b. H Y D R A U L I C S  A N D  F L U I D  M E C H A N I C S: Definition and properties of fluids. Units of 
+measurement, kinematics of fluid flow, Bernoulli’s equation and  Euler’s equation of motion. 
+Dimensional analysis and similitude. Laminar and turbulent flow . General equation for head 
+loss in pipes; open channel flow, hydraulic jump; Measurement o f discharge in pipes and open 
+channels. 
+15. Renewable energy sources i/c Solar power plant & its statutory guidelines. 
+ 
+ADDITIONAL TOPICS 
+ 
+1. Contract Management: 
+ Planning i/c estimation, tendering, execution, commissioning & operationalization. 
+ Project Planning, Scheduling & monitoring: Work breakdown structure, milestones, bar charts 
+and critical path method basics. 
+ Execution of Electrical Works: Installation of MEP equipment, S ite management, manpower 
+planning, quality control, inspection procedures. 
+ Maintenance & Inventory management: Breakdown & Preventive Main tenance of MEP 
+equipment i.e schedule, standard practice & maintaining records & electrical store. 
+ Understanding about Electrical safety codes i.e NBC, IS / IEC S tandards, IE rules, Fire & 
+safety norms, Environment norms and best practices etc 
+2. Sub-station 
+(i) HT Panels 
+ HT overhead Lines 
+ HT cables  
+(ii) Transformers 
+ LT panels, LT Cables 
+ Bus Duct, Capacitor panels  
+ Cable Trench, Cable Tray  
+3. DG Sets/UPS 
+   AMF Panel 
+   Synchronization 
+   SCADA & Power supply Management System 
+4. Lifts / Escalators 
+5. BMS/IBMS/EMS 
+Building Management System 
+Energy Management System 
+6. Energy Conservation Measurers 
+7. Water Supply 
+Pumps Sets 
+STP (Sewage Treatment Plant) 
+WTP (Water Treatment Plant), RO Plant 
+8. Fire Alarm & Fire Fighting System 
+
+=== PAGE 4 ===
+Fire Alarm & Detection 
+Wet Riser 
+Down Comer 
+Sprinkler System 
+Fire Suppression System 
+9. Internal & External Electrification 
+Wiring 
+Conduiting 
+Fitting/Fixtures 
+Fans 
+Pole (Street Light) 
+High Mast Tower 
+10. Earthing & Lighting Protection System 
+ 
+11. CCTV / PA System 
+ 
+***** 
+ 
+
