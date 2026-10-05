@@ -13,4 +13,5 @@ __pycache__/
 *.tmp
 *.temp
 scratch/
-
+database/*_results.json
+database/audit_raw_results.json
